@@ -248,7 +248,7 @@ msgstr "配置公司规则，当您的公司向另一个公司销售/购买产�
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Contacts"
-msgstr "更多联系人"
+msgstr "联系人"
 
 #. module: base_setup
 #. openerp-web

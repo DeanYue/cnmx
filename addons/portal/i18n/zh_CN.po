@@ -387,7 +387,7 @@ msgstr "联系人细节"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "Contacts"
-msgstr "更多联系人"
+msgstr "联系人"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details

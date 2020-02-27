@@ -1394,7 +1394,7 @@ msgstr "联系人"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_partner_view_activity
 msgid "Contacts"
-msgstr "更多联系人"
+msgstr "联系人"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form

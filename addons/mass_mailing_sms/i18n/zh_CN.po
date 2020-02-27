@@ -159,7 +159,7 @@ msgstr "联系人列表"
 #: model:ir.ui.menu,name:mass_mailing_sms.mailing_contact_menu_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_contact_view_tree_sms
 msgid "Contacts"
-msgstr "更多联系人"
+msgstr "联系人"
 
 #. module: mass_mailing_sms
 #: model:ir.ui.menu,name:mass_mailing_sms.mailing_list_menu_sms
