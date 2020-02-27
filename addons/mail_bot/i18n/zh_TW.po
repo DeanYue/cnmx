@@ -35,7 +35,7 @@ msgid "Contact"
 msgstr "聯繫人"
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__disabled
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__cnmxbot_state__disabled
 msgid "Disabled"
 msgstr "停用"
 
@@ -119,7 +119,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__idle
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__cnmxbot_state__idle
 msgid "Idle"
 msgstr "閒置"
 
@@ -150,7 +150,7 @@ msgid ""
 msgstr "不完全是這樣。回到教學流程，請發送一個笑臉，<b>輸入「:)」</b>並按下輸入。"
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__not_initialized
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__cnmxbot_state__not_initialized
 msgid "Not initialized"
 msgstr "未初始化"
 
@@ -172,7 +172,7 @@ msgid ""
 msgstr "Odoo 沒有權限在該設備上發送本地通知。"
 
 #. module: mail_bot
-#: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
+#: model:ir.model.fields,field_description:mail_bot.field_res_users__cnmxbot_state
 msgid "OdooBot Status"
 msgstr "OdooBot 狀態"
 
@@ -184,22 +184,22 @@ msgid "OdooBot has a request"
 msgstr "OdooBot 有請求"
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_attachement
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__cnmxbot_state__onboarding_attachement
 msgid "Onboarding attachement"
 msgstr "Onboarding 附件"
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_command
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__cnmxbot_state__onboarding_command
 msgid "Onboarding command"
 msgstr "Onboarding 命令"
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_emoji
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__cnmxbot_state__onboarding_emoji
 msgid "Onboarding emoji"
 msgstr "Onboarding emoji"
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_ping
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__cnmxbot_state__onboarding_ping
 msgid "Onboarding ping"
 msgstr "Onboarding ping"
 
@@ -230,8 +230,8 @@ msgstr ""
 #, python-format
 msgid ""
 "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
-"Write \"@odoobot\" and select me."
-msgstr "抱歉, 我沒聽清你的問題. 可以給倫家多一點提示嘛~比如您可以這樣說, <b>呼叫</b>. 請輸入 \"@odoobot\" 選擇我."
+"Write \"@cnmxbot\" and select me."
+msgstr "抱歉, 我沒聽清你的問題. 可以給倫家多一點提示嘛~比如您可以這樣說, <b>呼叫</b>. 請輸入 \"@cnmxbot\" 選擇我."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0

@@ -38,7 +38,7 @@ msgid "Contact"
 msgstr "جهة الاتصال"
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__disabled
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__cnmxbot_state__disabled
 msgid "Disabled"
 msgstr "معطل"
 
@@ -123,7 +123,7 @@ msgid "ID"
 msgstr "المُعرف"
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__idle
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__cnmxbot_state__idle
 msgid "Idle"
 msgstr "خامل"
 
@@ -156,7 +156,7 @@ msgid ""
 msgstr "ليس بالضبط. لاستكمال الجولة، أرسل إيموجي, <b>type \":)\"</b> واضغط إدخال."
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__not_initialized
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__cnmxbot_state__not_initialized
 msgid "Not initialized"
 msgstr "لم تتم تهيئته"
 
@@ -180,7 +180,7 @@ msgid ""
 msgstr "غير مسموح لأودو بإرسال إشعارات إليك على هذا الجهاز."
 
 #. module: mail_bot
-#: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
+#: model:ir.model.fields,field_description:mail_bot.field_res_users__cnmxbot_state
 msgid "OdooBot Status"
 msgstr "حالة OdooBot"
 
@@ -192,22 +192,22 @@ msgid "OdooBot has a request"
 msgstr "OdooBot لديه طلب"
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_attachement
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__cnmxbot_state__onboarding_attachement
 msgid "Onboarding attachement"
 msgstr "مرفق الترحيب"
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_command
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__cnmxbot_state__onboarding_command
 msgid "Onboarding command"
 msgstr "أمر الترحيب"
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_emoji
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__cnmxbot_state__onboarding_emoji
 msgid "Onboarding emoji"
 msgstr "إيموجي الترحيب"
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_ping
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__cnmxbot_state__onboarding_ping
 msgid "Onboarding ping"
 msgstr "مناداة الترحيب"
 
@@ -239,7 +239,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
-"Write \"@odoobot\" and select me."
+"Write \"@cnmxbot\" and select me."
 msgstr ""
 "آسف، أنا لا أصغي لك. للفت انتباه أحدهم،<b>ناديه</b>. اكتب \"@odoobot\" "
 "واخترني."

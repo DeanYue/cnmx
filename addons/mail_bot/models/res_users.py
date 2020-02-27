@@ -5,7 +5,7 @@ from odoo import models, fields
 
 class Users(models.Model):
     _inherit = 'res.users'
-    odoobot_state = fields.Selection(
+    cnmxbot_state = fields.Selection(
         [
             ('not_initialized', 'Not initialized'),
             ('onboarding_emoji', 'Onboarding emoji'),
@@ -14,7 +14,7 @@ class Users(models.Model):
             ('onboarding_ping', 'Onboarding ping'),
             ('idle', 'Idle'),
             ('disabled', 'Disabled'),
-        ], string="OdooBot Status", readonly=True, required=True, default="not_initialized")  # keep track of the state: correspond to the code of the last message sent
+        ], string="CnmxBot Status", readonly=True, required=True, default="not_initialized")  # keep track of the state: correspond to the code of the last message sent
 
     def __init__(self, pool, cr):
         """ Override of __init__ to add access rights.
@@ -23,5 +23,5 @@ class Users(models.Model):
         """
         init_res = super(Users, self).__init__(pool, cr)
         # duplicate list to avoid modifying the original reference
-        type(self).SELF_READABLE_FIELDS = type(self).SELF_READABLE_FIELDS + ['odoobot_state']
+        type(self).SELF_READABLE_FIELDS = type(self).SELF_READABLE_FIELDS + ['cnmxbot_state']
         return init_res

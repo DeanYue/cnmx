@@ -13,16 +13,16 @@ class MailBot(models.AbstractModel):
 
     def _apply_logic(self, record, values, command=None):
         """ Apply bot logic to generate an answer (or not) for the user
-        The logic will only be applied if odoobot is in a chat with a user or
-        if someone pinged odoobot.
+        The logic will only be applied if cnmxbot is in a chat with a user or
+        if someone pinged cnmxbot.
 
          :param record: the mail_thread (or mail_channel) where the user
-            message was posted/odoobot will answer.
+            message was posted/cnmxbot will answer.
          :param values: msg_values of the message_post or other values needed by logic
          :param command: the name of the called command if the logic is not triggered by a message_post
         """
-        odoobot_id = self.env['ir.model.data'].xmlid_to_res_id("base.partner_root")
-        if len(record) != 1 or values.get("author_id") == odoobot_id:
+        cnmxbot_id = self.env['ir.model.data'].xmlid_to_res_id("base.partner_root")
+        if len(record) != 1 or values.get("author_id") == cnmxbot_id:
             return
         if self._is_bot_pinged(values) or self._is_bot_in_private_channel(record):
             body = values.get("body", "").replace(u'\xa0', u' ').strip().lower().strip(".?!")
@@ -30,45 +30,45 @@ class MailBot(models.AbstractModel):
             if answer:
                 message_type = values.get('message_type', 'comment')
                 subtype_id = values.get('subtype_id', self.env['ir.model.data'].xmlid_to_res_id('mail.mt_comment'))
-                record.with_context(mail_create_nosubscribe=True).sudo().message_post(body=answer, author_id=odoobot_id, message_type=message_type, subtype_id=subtype_id)
+                record.with_context(mail_create_nosubscribe=True).sudo().message_post(body=answer, author_id=cnmxbot_id, message_type=message_type, subtype_id=subtype_id)
 
     def _get_answer(self, record, body, values, command=False):
         # onboarding
-        odoobot_state = self.env.user.odoobot_state
+        cnmxbot_state = self.env.user.cnmxbot_state
         if self._is_bot_in_private_channel(record):
             # main flow
-            if odoobot_state == 'onboarding_emoji' and self._body_contains_emoji(body):
-                self.env.user.odoobot_state = "onboarding_attachement"
+            if cnmxbot_state == 'onboarding_emoji' and self._body_contains_emoji(body):
+                self.env.user.cnmxbot_state = "onboarding_attachement"
                 return _("Great! 👍<br/>Now, try to <b>send an attachment</b>, like a picture of your cute dog...")
-            elif odoobot_state == 'onboarding_attachement' and values.get("attachment_ids"):
-                self.env.user.odoobot_state = "onboarding_command"
+            elif cnmxbot_state == 'onboarding_attachement' and values.get("attachment_ids"):
+                self.env.user.cnmxbot_state = "onboarding_command"
                 return _("Not a cute dog, but you get it 😊<br/>To access special features, <b>start your sentence with '/'</b>. Try to get help.")
-            elif odoobot_state == 'onboarding_command' and command == 'help':
-                self.env.user.odoobot_state = "onboarding_ping"
+            elif cnmxbot_state == 'onboarding_command' and command == 'help':
+                self.env.user.cnmxbot_state = "onboarding_ping"
                 return _("Wow you are a natural!<br/>Ping someone to grab its attention with @nameoftheuser. <b>Try to ping me using @OdooBot</b> in a sentence.")
-            elif odoobot_state == 'onboarding_ping' and self._is_bot_pinged(values):
-                self.env.user.odoobot_state = "idle"
+            elif cnmxbot_state == 'onboarding_ping' and self._is_bot_pinged(values):
+                self.env.user.cnmxbot_state = "idle"
                 return _("Yep, I am here! 🎉 <br/>You finished the tour, you can <b>close this chat window</b>. Enjoy discovering Odoo.")
-            elif odoobot_state == "idle" and (_('start the tour') in body.lower()):
-                self.env.user.odoobot_state = "onboarding_emoji"
+            elif cnmxbot_state == "idle" and (_('start the tour') in body.lower()):
+                self.env.user.cnmxbot_state = "onboarding_emoji"
                 return _("To start, try to send me an emoji :)")
             # easter eggs
-            elif odoobot_state == "idle" and body in ['❤️', _('i love you'), _('love')]:
+            elif cnmxbot_state == "idle" and body in ['❤️', _('i love you'), _('love')]:
                 return _("Aaaaaw that's really cute but, you know, bots don't work that way. You're too human for me! Let's keep it professional ❤️")
-            elif odoobot_state == "idle" and (('help' in body) or _('help') in body):
+            elif cnmxbot_state == "idle" and (('help' in body) or _('help') in body):
                 return _("I'm just a bot... :( You can check <a href=\"https://www.odoo.com/page/docs\">our documentation</a>) for more information!")
             elif _('fuck') in body or "fuck" in body:
                 return _("That's not nice! I'm a bot but I have feelings... 💔")
             else:
                 #repeat question
-                if odoobot_state == 'onboarding_emoji':
+                if cnmxbot_state == 'onboarding_emoji':
                     return _("Not exactly. To continue the tour, send an emoji, <b>type \":)\"</b> and press enter.")
-                elif odoobot_state == 'onboarding_attachement':
+                elif cnmxbot_state == 'onboarding_attachement':
                     return _("To <b>send an attachment</b>, click the 📎 icon on the right, and select a file.")
-                elif odoobot_state == 'onboarding_command':
+                elif cnmxbot_state == 'onboarding_command':
                     return _("Not sure wat you are doing. Please press / and wait for the propositions. Select \"help\" and press enter")
-                elif odoobot_state == 'onboarding_ping':
-                    return _("Sorry, I am not listening. To get someone's attention, <b>ping him</b>. Write \"@odoobot\" and select me.")
+                elif cnmxbot_state == 'onboarding_ping':
+                    return _("Sorry, I am not listening. To get someone's attention, <b>ping him</b>. Write \"@cnmxbot\" and select me.")
                 return random.choice([
                     _("I'm not smart enough to answer your question.<br/>To follow my guide, ask") + ": <b>"+_('start the tour') + "</b>",
                     _("Hmmm..."),
@@ -213,11 +213,11 @@ class MailBot(models.AbstractModel):
         return False
 
     def _is_bot_pinged(self, values):
-        odoobot_id = self.env['ir.model.data'].xmlid_to_res_id("base.partner_root")
-        return odoobot_id in values.get('partner_ids', [])
+        cnmxbot_id = self.env['ir.model.data'].xmlid_to_res_id("base.partner_root")
+        return cnmxbot_id in values.get('partner_ids', [])
 
     def _is_bot_in_private_channel(self, record):
-        odoobot_id = self.env['ir.model.data'].xmlid_to_res_id("base.partner_root")
+        cnmxbot_id = self.env['ir.model.data'].xmlid_to_res_id("base.partner_root")
         if record._name == 'mail.channel' and record.channel_type == 'chat':
-            return odoobot_id in record.with_context(active_test=False).channel_partner_ids.ids
+            return cnmxbot_id in record.with_context(active_test=False).channel_partner_ids.ids
         return False

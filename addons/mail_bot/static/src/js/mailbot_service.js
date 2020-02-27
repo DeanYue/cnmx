@@ -13,7 +13,7 @@ var MailBotService =  AbstractService.extend({
      */
     start: function () {
         this._hasRequest = (window.Notification && window.Notification.permission === "default") || false;
-        if ('odoobot_initialized' in session && ! session.odoobot_initialized) {
+        if ('cnmxbot_initialized' in session && ! session.cnmxbot_initialized) {
             this._showOdoobotTimeout();
         }
     },
@@ -40,7 +40,7 @@ var MailBotService =  AbstractService.extend({
         }
         var previews = [{
             title: _t("OdooBot has a request"),
-            imageSRC: "/mail/static/src/img/odoobot.png",
+            imageSRC: "/mail/static/src/img/cnmxbot.png",
             status: 'bot',
             body:  _t("Enable desktop notifications to chat"),
             id: 'request_notification',
@@ -73,10 +73,10 @@ var MailBotService =  AbstractService.extend({
     _showOdoobotTimeout: function () {
         var self = this;
         setTimeout(function () {
-            session.odoobot_initialized = true;
+            session.cnmxbot_initialized = true;
             self._rpc({
                 model: 'mail.channel',
-                method: 'init_odoobot',
+                method: 'init_cnmxbot',
             });
         }, 2*60*1000);
     },
