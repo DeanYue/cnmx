@@ -67,8 +67,7 @@
                             By <field name="author" class="oe_inline" placeholder="Author Name"/>
                         </h3>
                         <div>
-                            <button name="button_immediate_install" string="Install" attrs="{'invisible': ['|', ('to_buy','=',True), ('state','!=', 'uninstalled')]}" type="object" class="btn btn-primary mr-1"/>
-                            <a href="https://odoo.com/pricing?utm_source=db&amp;utm_medium=module#hosting=on_premise" class="btn btn-primary mr-1" states="uninstalled,uninstallable" attrs="{'invisible': [('to_buy','=',False)]}" role="button">Upgrade</a>
+                            <button name="button_immediate_install" string="Install" attrs="{'invisible': [('state','!=', 'uninstalled')]}" type="object" class="btn btn-primary mr-1"/>
                             <button name="button_immediate_upgrade" states="installed" string="Upgrade" type="object" class="btn btn-primary mr-1"/>
                             <button name="button_uninstall_wizard" states="installed" string="Uninstall" type="object"  class="btn btn-secondary mr-1"/>
                             <button name="button_uninstall_cancel" states="to remove" string="Cancel Uninstall" type="object" class="btn btn-secondary mr-1"/>
@@ -84,7 +83,6 @@
                                     <field name="website" widget="url" attrs="{'invisible':[('website','=',False)]}"/>
                                     <field name="category_id" widget="selection"/>
                                     <field name="summary"/>
-                                    <field name="to_buy" invisible="1"/>
                                 </group>
                                 <group>
                                     <field name="name"/>
@@ -154,7 +152,6 @@
             <field name="arch" type="xml">
                 <kanban create="false" class="o_modules_kanban">
                   <field name="icon"/>
-                  <field name="to_buy"/>
                   <field name="name"/>
                   <field name="state"/>
                   <field name="summary"/>
@@ -187,8 +184,7 @@
                           <div class="oe_module_action">
                             <a t-att-href="record.website.raw_value" target="_blank" attrs="{'invisible':[('website', '=', '')]}" class="btn btn-sm btn-secondary float-right" role="button">Learn More</a>
                             <a type="edit" class="btn btn-secondary btn-sm float-right" role="button" attrs="{'invisible': [('website', '&lt;&gt;', '')]}">Module Info</a>
-                            <button type="object" class="btn btn-primary btn-sm" name="button_immediate_install" states="uninstalled" t-if="! record.to_buy.raw_value">Install</button>
-                            <a href="https://odoo.com/pricing?utm_source=db&amp;utm_medium=module#hosting=on_premise" class="btn btn-info btn-sm" states="uninstalled,uninstallable" t-if="record.to_buy.raw_value" role="button">Upgrade</a>
+                            <button type="object" class="btn btn-primary btn-sm" name="button_immediate_install" states="uninstalled">Install</button>
                             <div t-if="installed" class="text-muted float-left">Installed</div>
                             <button states="to remove" type="object" class="btn btn-sm btn-primary" name="button_uninstall_cancel">Cancel Uninstall</button>
                             <button states="to install" type="object" class="btn btn-sm btn-primary" name="button_install_cancel">Cancel Install</button>

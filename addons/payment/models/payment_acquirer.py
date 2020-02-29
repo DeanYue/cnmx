@@ -155,7 +155,6 @@ class PaymentAcquirer(models.Model):
     # TDE FIXME: remove that brol
     module_id = fields.Many2one('ir.module.module', string='Corresponding Module')
     module_state = fields.Selection(selection=ir_module.STATES, string='Installation State', related='module_id.state', store=True)
-    module_to_buy = fields.Boolean(string='Odoo Enterprise Module', related='module_id.to_buy', readonly=True, store=False)
 
     image_128 = fields.Image("Image", max_width=128, max_height=128)
 
