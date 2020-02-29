@@ -96,7 +96,7 @@ OPERATOR_MAPPING = {
 }
 
 #----------------------------------------------------------
-# Odoo Web helpers
+# Cnmx Web helpers
 #----------------------------------------------------------
 
 db_list = http.db_list
@@ -113,7 +113,7 @@ def serialize_exception(f):
             se = _serialize_exception(e)
             error = {
                 'code': 200,
-                'message': "Odoo Server Error",
+                'message': "Cnmx Server Error",
                 'data': se
             }
             return werkzeug.exceptions.InternalServerError(json.dumps(error))
@@ -352,7 +352,7 @@ def generate_views(action):
     action['views'] = [(view_id, view_modes[0])]
 
 def fix_view_modes(action):
-    """ For historical reasons, Odoo has weird dealings in relation to
+    """ For historical reasons, Cnmx has weird dealings in relation to
     view_mode and the view_type attribute (on window actions):
 
     * one of the view modes is ``tree``, which stands for both list views
@@ -820,7 +820,7 @@ class GroupExportXlsxWriter(ExportXlsxWriter):
 
 
 #----------------------------------------------------------
-# Odoo Web web Controllers
+# Cnmx Web web Controllers
 #----------------------------------------------------------
 class Home(http.Controller):
 
@@ -1809,7 +1809,7 @@ class ExportFormat(object):
         raise NotImplementedError()
 
     def from_data(self, fields, rows):
-        """ Conversion method from Odoo's export data to whatever the
+        """ Conversion method from Cnmx's export data to whatever the
         current export class outputs
 
         :params list fields: a list of fields to export
@@ -2045,7 +2045,7 @@ class ReportController(http.Controller):
             se = _serialize_exception(e)
             error = {
                 'code': 200,
-                'message': "Odoo Server Error",
+                'message': "Cnmx Server Error",
                 'data': se
             }
             return request.make_response(html_escape(json.dumps(error)))
