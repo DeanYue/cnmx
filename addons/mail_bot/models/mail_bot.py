@@ -45,7 +45,7 @@ class MailBot(models.AbstractModel):
                 return _("Not a cute dog, but you get it 😊<br/>To access special features, <b>start your sentence with '/'</b>. Try to get help.")
             elif cnmxbot_state == 'onboarding_command' and command == 'help':
                 self.env.user.cnmxbot_state = "onboarding_ping"
-                return _("Wow you are a natural!<br/>Ping someone to grab its attention with @nameoftheuser. <b>Try to ping me using @OdooBot</b> in a sentence.")
+                return _("Wow you are a natural!<br/>Ping someone to grab its attention with @nameoftheuser. <b>Try to ping me using @CnmxBot</b> in a sentence.")
             elif cnmxbot_state == 'onboarding_ping' and self._is_bot_pinged(values):
                 self.env.user.cnmxbot_state = "idle"
                 return _("Yep, I am here! 🎉 <br/>You finished the tour, you can <b>close this chat window</b>. Enjoy discovering Odoo.")
@@ -76,7 +76,7 @@ class MailBot(models.AbstractModel):
                     _("Sorry I'm sleepy. Or not! Maybe I'm just trying to hide my unawareness of human language...<br/>I can show you features if you write")+ ": '<b>"+_('start the tour')+"</b>'.",
                 ])
         elif self._is_bot_pinged(values):
-            return random.choice([_("Yep, OdooBot is in the place!"), _("Pong.")])
+            return random.choice([_("Yep, CnmxBot is in the place!"), _("Pong.")])
         return False
 
     def _body_contains_emoji(self, body):

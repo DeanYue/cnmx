@@ -23,8 +23,8 @@ var MailBotService =  AbstractService.extend({
     //--------------------------------------------------------------------------
 
     /**
-     * Get the previews related to the OdooBot (conversation not included).
-     * For instance, when there is no conversation with OdooBot and OdooBot has
+     * Get the previews related to the CnmxBot (conversation not included).
+     * For instance, when there is no conversation with CnmxBot and CnmxBot has
      * a request, it should display a preview in the systray messaging menu.
      *
      * @param {string|undefined} [filter]
@@ -39,7 +39,7 @@ var MailBotService =  AbstractService.extend({
             return [];
         }
         var previews = [{
-            title: _t("OdooBot has a request"),
+            title: _t("CnmxBot has a request"),
             imageSRC: "/mail/static/src/img/cnmxbot.png",
             status: 'bot',
             body:  _t("Enable desktop notifications to chat"),
@@ -49,7 +49,7 @@ var MailBotService =  AbstractService.extend({
         return previews;
     },
     /**
-     * Tell whether OdooBot is requesting to enable push notifications.
+     * Tell whether CnmxBot is requesting to enable push notifications.
      *
      * @returns {boolean}
      */

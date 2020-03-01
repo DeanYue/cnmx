@@ -29,7 +29,7 @@ return MessagingMenu.include({
     },
     /**
      * Override so that the mailbot previews are included in the systray
-     * messaging menu (e.g. 'OdooBot has a request')
+     * messaging menu (e.g. 'CnmxBot has a request')
      *
      * @override
      * @private
@@ -48,7 +48,7 @@ return MessagingMenu.include({
      *
      * Also refreshes the counter after a response from a push notification
      * request. This is useful because the counter contains a part for the
-     * OdooBot, and the OdooBot influences the counter by 1 when it requests
+     * CnmxBot, and the CnmxBot influences the counter by 1 when it requests
      * for notifications. This should no longer be the case when push
      * notifications are either granted or denied.
      *
@@ -82,7 +82,7 @@ return MessagingMenu.include({
     //--------------------------------------------------------------------------
 
     /**
-     * Override so that it handles preview related to OdooBot
+     * Override so that it handles preview related to CnmxBot
      *
      * @override
      * @private

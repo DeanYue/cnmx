@@ -169,19 +169,19 @@ msgstr "不確定您的動作。請按\"/\"等待。選擇「幫助」並點選�
 msgid ""
 "Odoo will not have the permission to send native notifications on this "
 "device."
-msgstr "Odoo 沒有權限在該設備上發送本地通知。"
+msgstr "明象沒有權限在該設備上發送本地通知。"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__cnmxbot_state
-msgid "OdooBot Status"
-msgstr "OdooBot 狀態"
+msgid "CnmxBot Status"
+msgstr "CnmxBot 狀態"
 
 #. module: mail_bot
 #. openerp-web
 #: code:addons/mail_bot/static/src/js/mailbot_service.js:0
 #, python-format
-msgid "OdooBot has a request"
-msgstr "OdooBot 有請求"
+msgid "CnmxBot has a request"
+msgstr "CnmxBot 有請求"
 
 #. module: mail_bot
 #: model:ir.model.fields.selection,name:mail_bot.selection__res_users__cnmxbot_state__onboarding_attachement
@@ -263,8 +263,8 @@ msgstr "使用者"
 #, python-format
 msgid ""
 "Wow you are a natural!<br/>Ping someone to grab its attention with "
-"@nameoftheuser. <b>Try to ping me using @OdooBot</b> in a sentence."
-msgstr "就是您了!<br/>使用@nameoftheuser來讓聯絡人可以醒目看到訊息. <b>試著用@OdooBot</b> 來呼叫我!"
+"@nameoftheuser. <b>Try to ping me using @CnmxBot</b> in a sentence."
+msgstr "就是您了!<br/>使用@nameoftheuser來讓聯絡人可以醒目看到訊息. <b>試著用@CnmxBot</b> 來呼叫我!"
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
@@ -277,8 +277,8 @@ msgstr "是的, 我在這!🎉完成預覽, 您可以 <b>關閉視窗</b>. 盡�
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
 #, python-format
-msgid "Yep, OdooBot is in the place!"
-msgstr "漂亮，OdooBot就在這裡等著您來感受！"
+msgid "Yep, CnmxBot is in the place!"
+msgstr "漂亮，CnmxBot就在這裡等著您來感受！"
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
