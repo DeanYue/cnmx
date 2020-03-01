@@ -23,8 +23,9 @@ Account Type/科目类型
 State Data/省份数据
 
     """,
-    'depends': ['base', 'account', 'l10n_multilang'],
+    'depends': ['base', 'account', 'l10n_multilang', 'base_city_address'],
     'data': [
         'data/account_tax_group_data.xml',
+        'data/res_city_data.xml',
     ],
 }
