@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* website_event_track
 # 
@@ -6,21 +6,21 @@
 # Eric Geens <ericgeens@yahoo.com>, 2019
 # Cas Vissers <casvissers@brahoo.nl>, 2019
 # Thijs van Oers <thijsvanoers@yahoo.com>, 2019
-# Maxim Vandenbroucke <mxv@odoo.com>, 2019
-# Charles Vervaecke <cvk@odoo.com>, 2019
+# Maxim Vandenbroucke <mxv>, 2019
+# Charles Vervaecke <cvk>, 2019
 # Martin Trigaux, 2019
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2019
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2019
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2019
+# Erwin van der Ploeg <erwin@experts.nl>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:34+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
-"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2019\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Erwin van der Ploeg <erwin@experts.nl>, 2019\n"
+"Language-Team: Dutch (https://www.transifex.com/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"

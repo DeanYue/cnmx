@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 {
     'name': "mrp_subcontracting",
     'version': '0.1',
     'summary': "Subcontract Productions",
     'description': "",
-    'website': 'https://www.odoo.com/page/manufacturing',
+    'website': 'https://www.cnmx.com/page/manufacturing',
     'category': 'Manufacturing/Manufacturing',
     'depends': ['mrp'],
     'data': [

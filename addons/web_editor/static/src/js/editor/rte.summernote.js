@@ -1027,7 +1027,7 @@ eventHandler.detach = function (oLayoutInfo, options) {
     $(document).off("keyup", reRangeSelectKey);
 };
 
-// Translation for odoo
+// Translation for cnmx
 $.summernote.lang.odoo = {
     font: {
       bold: _t('Bold'),

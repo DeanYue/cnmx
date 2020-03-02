@@ -102,7 +102,7 @@
                                         Display this website when users visit this domain
                                     </div>
                                     <div class="mt8">
-                                        <field name="website_domain" placeholder="www.odoo.com"/>
+                                        <field name="website_domain" placeholder="www.cnmx.com"/>
                                     </div>
                                     <div class="mt8 text-muted" title="You can have 2 websites with same domain AND a condition on country group to select wich website use.">
                                         Once the selection of available websites by domain is done, you can filter by country group.
@@ -174,7 +174,7 @@
                                     <label for="has_google_analytics_dashboard"/>
                                     <span class="fa fa-lg fa-globe" title="Values set here are website-specific." groups="website.group_multi_website"/>
                                     <div class="text-muted">
-                                        Follow your website traffic in Odoo.
+                                        Follow your website traffic in Cnmx.
                                     </div>
                                     <div class="content-group" attrs="{'invisible': [('has_google_analytics_dashboard', '=', False)]}">
                                         <div class="row mt16">

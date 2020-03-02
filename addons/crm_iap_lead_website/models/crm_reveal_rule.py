@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 import datetime
 import itertools
@@ -36,7 +36,7 @@ class CRMRevealRule(models.Model):
                                    'Rules with a lower sequence number will be processed first.')
 
     # Company Criteria Filter
-    industry_tag_ids = fields.Many2many('crm.iap.lead.industry', string='Industries', help='Leave empty to always match. Odoo will not create lead if no match')
+    industry_tag_ids = fields.Many2many('crm.iap.lead.industry', string='Industries', help='Leave empty to always match. Cnmx will not create lead if no match')
     filter_on_size = fields.Boolean(string="Filter on Size", default=True, help="Filter companies based on their size.")
     company_size_min = fields.Integer(string='Company Size', default=0)
     company_size_max = fields.Integer(default=1000)
@@ -364,7 +364,7 @@ class CRMRevealRule(models.Model):
         )
         return lead
 
-    # Methods responsible for format response data in to valid odoo lead data
+    # Methods responsible for format response data in to valid cnmx lead data
     def _lead_vals_from_response(self, result):
         self.ensure_one()
         company_data = result['reveal_data']

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* hr_recruitment
 # 
@@ -14,17 +14,17 @@
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # Jeanphy <hzh0292@qq.com>, 2019
 # ChinaMaker <liuct@chinamaker.net>, 2019
-# Felix Yuen <fyu@odoo.com>, 2019
+# Felix Yuen <fyu>, 2019
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:10+0000\n"
 "Last-Translator: Jeffery CHEN Fan <jeffery9@gmail.com>, 2020\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1546,16 +1546,16 @@ msgstr "未读消息数量"
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"Cnmx helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc."
-msgstr "Odoo帮助您在招聘过程中跟踪申请人及跟进所有操作：会议，采访等。"
+msgstr "明象帮助您在招聘过程中跟踪申请人及跟进所有操作：会议，采访等。"
 
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"Cnmx helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
-msgstr "Odoo帮助您在招聘过程中跟踪申请人及跟进所有操作：会议，采访等。"
+msgstr "明象帮助您在招聘过程中跟踪申请人及跟进所有操作：会议，采访等。"
 
 #. module: hr_recruitment
 #: model:res.groups,name:hr_recruitment.group_hr_recruitment_user

@@ -7,7 +7,7 @@
     'version': '1.0',
     'category': 'Localization',
     'description': """
-This is the latest basic South African localisation necessary to run Odoo in ZA:
+This is the latest basic South African localisation necessary to run Cnmx in ZA:
 ================================================================================
     - a generic chart of accounts
     - SARS VAT Ready Structure""",

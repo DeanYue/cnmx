@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* crm
 # 
@@ -12,23 +12,23 @@
 # Andreas Stauder <andreas.stauder@brain-tec.ch>, 2019
 # darenkster <inactive+darenkster@transifex.com>, 2019
 # Jan Meyer, 2019
-# Johannes Croe <jcr@odoo.com>, 2019
+# Johannes Croe <jcr>, 2019
 # Chris Egal <sodaswed@web.de>, 2019
 # Bettina Pfeifer <betzilla@web.de>, 2019
-# Sebastian <shu@odoo.com>, 2019
+# Sebastian <shu>, 2019
 # Martin Trigaux, 2019
 # Thorsten Vocks <thorsten.vocks@openbig.org>, 2019
-# Leon Grill <leg@odoo.com>, 2019
-# Patrick Heuel <patrick.heuel@odoo-bs.com>, 2019
+# Leon Grill <leg>, 2019
+# Patrick Heuel <patrick.heuel@-bs.com>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:09+0000\n"
-"Last-Translator: Patrick Heuel <patrick.heuel@odoo-bs.com>, 2019\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Patrick Heuel <patrick.heuel@-bs.com>, 2019\n"
+"Language-Team: German (https://www.transifex.com/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -44,8 +44,8 @@ msgstr "# Besprechungen"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
-msgid "% (Estimated by Odoo)"
-msgstr "% (Angenommen von Odoo)"
+msgid "% (Estimated by Cnmx)"
+msgstr "% (Angenommen von Cnmx)"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
@@ -1875,10 +1875,10 @@ msgstr "Anzahl ungelesener Nachrichten"
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
-"Odoo helps you keep track of your sales pipeline to follow\n"
+"Cnmx helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
-"Odoo hilft Ihre Verkaufspipeline abzuarbeiten, um mögliche Verkäufe \n"
+"Cnmx hilft Ihre Verkaufspipeline abzuarbeiten, um mögliche Verkäufe \n"
 "zu realisieren und zukünftige Erlöse zu prognostizieren. "
 
 #. module: crm
@@ -2924,8 +2924,8 @@ msgstr "z.B. Produktpreise"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
-msgid "e.g. https://www.odoo.com"
-msgstr "z.B. https://www.odoo.com"
+msgid "e.g. https://www.cnmx.com"
+msgstr "z.B. https://www.cnmx.com"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0

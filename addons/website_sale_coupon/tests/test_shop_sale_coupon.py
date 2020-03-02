@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 from odoo.tests import HttpCase, tagged
 from odoo.addons.sale.tests.test_sale_product_attribute_value_config import TestSaleProductAttributeValueSetup

@@ -1,21 +1,21 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # * hr_holidays
 # 
 # Translators:
 # Martin Trigaux, 2018
-# RGB Consulting <odoo@rgbconsulting.com>, 2018
+# RGB Consulting <@rgbconsulting.com>, 2018
 # Quim - eccit <quim@eccit.com>, 2018
 # Manel Fernandez <manelfera@outlook.com>, 2018
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: Cnmx Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-08 06:49+0000\n"
 "PO-Revision-Date: 2018-08-24 09:19+0000\n"
 "Last-Translator: Manel Fernandez <manelfera@outlook.com>, 2018\n"
-"Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
+"Language-Team: Catalan (https://www.transifex.com/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1856,10 +1856,10 @@ msgstr "Oficial"
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_type__categ_id
 msgid ""
-"Once a leave is validated, Odoo will create a corresponding meeting of this "
+"Once a leave is validated, Cnmx will create a corresponding meeting of this "
 "type in the calendar."
 msgstr ""
-"Un cop una absència és validada, Odoo crearà l'esdeveniment corresponent "
+"Un cop una absència és validada, Cnmx crearà l'esdeveniment corresponent "
 "d'aquest tipus al calendari."
 
 #. module: hr_holidays

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -30,23 +30,23 @@
 # Walid Baruni <baroni@osoul.ly>, 2019
 # Shaima Safar <shaima.safar@open-inside.com>, 2019
 # Firas Fraxnet <firas@fraxnet.com>, 2019
-# Yazeed Dandashi <lay@odoo.com>, 2019
-# Nisrine Tagri <nta@odoo.com>, 2019
+# Yazeed Dandashi <lay>, 2019
+# Nisrine Tagri <nta>, 2019
 # hoxhe Aits <hoxhe0@gmail.com>, 2019
 # Ali Alrehawi <alrehawi@hotmail.com>, 2019
 # Mustafa Rawi <mustafa@cubexco.com>, 2019
 # Osoul <baruni@osoul.ly>, 2019
 # ADADI REDOUANE <odadi332014@gmail.com>, 2019
-# Enjy Abu-Taleb <ema@odootec.com>, 2020
+# Enjy Abu-Taleb <ema@tec.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:06+0000\n"
-"Last-Translator: Enjy Abu-Taleb <ema@odootec.com>, 2020\n"
-"Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
+"Last-Translator: Enjy Abu-Taleb <ema@tec.com>, 2020\n"
+"Language-Team: Arabic (https://www.transifex.com/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -3966,7 +3966,7 @@ msgstr "تاريخ ترحيل القيد الافتتاحي لحساب هذه ا
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in Cnmx. It is the date of the "
 "opening entry."
 msgstr "تاريخ إدارة الحسابات في أودو. وهو تاريخ القيد الافتتاحي."
 
@@ -6889,9 +6889,9 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of Cnmx.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Cnmx,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
 "يدويًا: تتلقى أموالك نقدًا أو بشيكات أو بأي طريقة أخرى خارج أودو.\n"
 "إلكترونيًا: تتلقى أموالك تلقائيًا باستخدام معالج سداد من خلال طلب معاملة مالية على بطاقة مخزنة للعميل عند الشراء أو الاشتراك عبر الإنترنت (من خلال رمز السداد السري).\n"
@@ -6901,10 +6901,10 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_id
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of Cnmx.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Check: Pay bill by check and print it from Odoo.\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
+"Check: Pay bill by check and print it from Cnmx.\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Cnmx, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
 "يدويًا: تتلقى أموالك نقدًا أو بشيكات أو بأي طريقة أخرى خارج أودو.\n"
@@ -6916,8 +6916,8 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Odoo.\n"
-"Check:Pay bill by check and print it from Odoo.\n"
+"Manual:Pay bill by cash or any other method outside of Cnmx.\n"
+"Check:Pay bill by check and print it from Cnmx.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
 "يدويًا: تتلقى أموالك نقدًا أو بشيكات أو بأي طريقة أخرى خارج أودو.\n"
@@ -7491,13 +7491,13 @@ msgstr "أكتوبر"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__odoo
-msgid "Odoo"
+msgid "Cnmx"
 msgstr "أودو"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Cnmx allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoice(s)."
 msgstr ""
 "تسمح لك أودو بتسوية بند كشف الحساب مباشرة\n"
@@ -7506,7 +7506,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Cnmx allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoices."
 msgstr ""
 "تسمح لك أودو بتسوية بند كشف الحساب مباشرة\n"
@@ -7514,12 +7514,12 @@ msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Odoo helps you easily track all activities related to a customer."
+msgid "Cnmx helps you easily track all activities related to a customer."
 msgstr "تساعدك أودو على تتبع كل الأنشطة المتعلقة بعميل بسهولة."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Odoo helps you easily track all activities related to a supplier."
+msgid "Cnmx helps you easily track all activities related to a supplier."
 msgstr "أودو يساعدك على تتبع جميع الأنشطة المتعلقة بالمورد بسهولة."
 
 #. module: account
@@ -12291,7 +12291,7 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
+"is the Cnmx reference."
 msgstr "تستطيع اختيار نماذج مختلفة لكل مرجع. المرجع الإفتراضي هو مرجع أودو."
 
 #. module: account

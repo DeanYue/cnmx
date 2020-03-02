@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
 # 
@@ -15,12 +15,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: Cnmx Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 11:27+0000\n"
 "PO-Revision-Date: 2019-08-26 09:09+0000\n"
 "Last-Translator: JonathanStein <jstein@image.dk>, 2020\n"
-"Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
+"Language-Team: Danish (https://www.transifex.com/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -317,8 +317,8 @@ msgstr "Eksterne e-mailservere"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Odoo data from Google Spreadsheet"
-msgstr "Udtag og analyser Odoo data fra Google Regneark"
+msgid "Extract and analyze Cnmx data from Google Spreadsheet"
+msgstr "Udtag og analyser Cnmx data fra Google Regneark"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -494,15 +494,15 @@ msgstr "OAuth godkendelse"
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Cnmx"
+msgstr "Cnmx"
 
 #. module: base_setup
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "Cnmx S.A."
+msgstr "Cnmx S.A."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -627,8 +627,8 @@ msgstr "Brug eksterne godkendelses-udbydere (OAuth)"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Odoo Notes"
-msgstr "Brug eksterne pads i Odoo Notes"
+msgid "Use external pads in Cnmx Notes"
+msgstr "Brug eksterne pads i Cnmx Notes"
 
 #. module: base_setup
 #. openerp-web
@@ -642,11 +642,11 @@ msgstr "Brugere"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Odoo provides a list of matching "
+"When populating your address book, Cnmx provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"Når du udfylder din adressebog, giver Odoo en liste over matchende "
+"Når du udfylder din adressebog, giver Cnmx en liste over matchende "
 "virksomheder. Når du vælger et emne, er virksomhedens data og logo "
 "automatisk fyldt."
 

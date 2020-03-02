@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
@@ -13,17 +13,17 @@
 # Chinh Chinh <trinhttp@trobz.com>, 2019
 # Duy BQ <duybq86@gmail.com>, 2019
 # Dung Nguyen Thi <dungnt@trobz.com>, 2019
-# Phuc Tran Thanh <phuctran.odoo@gmail.com>, 2019
+# Phuc Tran Thanh <phuctran.@gmail.com>, 2019
 # Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:13+0000\n"
 "Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language-Team: Vietnamese (https://www.transifex.com/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -915,12 +915,12 @@ msgstr "Các Khách hàng xếp hạng"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid ""
-"Customers propose feedbacks by email; Odoo creates tasks automatically, and "
+"Customers propose feedbacks by email; Cnmx creates tasks automatically, and "
 "you can communicate on the task directly. Your managers decide which "
 "feedback is accepted %s and which feedback is moved to the \"Refused\" "
 "column."
 msgstr ""
-"Khách hàng đề xuất phản hồi qua email; Odoo tự động tạo các tác vụ vàbạn có "
+"Khách hàng đề xuất phản hồi qua email; Cnmx tự động tạo các tác vụ vàbạn có "
 "thể trao đổi trực tiếp trên nhiệm vụ. Người quản lý của bạn quyết định cái "
 "nàophản hồi được chấp nhận %s và phản hồi nào được chuyển đến cột \"Từ "
 "chối\". "
@@ -1935,10 +1935,10 @@ msgstr "Số tin chưa đọc"
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.action_view_task
 msgid ""
-"Odoo's project management allows you to manage the pipeline of your tasks efficiently.<br>\n"
+"Cnmx's project management allows you to manage the pipeline of your tasks efficiently.<br>\n"
 "                    You can track progress, discuss on tasks, attach documents, etc."
 msgstr ""
-"Quản lý dự án trong Odoo cho phép bạn quản lý các nhiệm vụ của mình một cách hiệu quả.<br>\n"
+"Quản lý dự án trong Cnmx cho phép bạn quản lý các nhiệm vụ của mình một cách hiệu quả.<br>\n"
 "                    Bạn có thể theo dõi tiến độ, thảo luận về các nhiệm vụ, đính kèm tài liệu, v.v."
 
 #. module: project
@@ -2849,12 +2849,12 @@ msgstr "Tests"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Cnmx Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Model (Kiểu Tài liệu Odoo) mà bí danh này ứng với nó. Bất kỳ thông điệp "
-"email mà không đáp lại (reply) một bản ghi có sẵn sẽ làm cho Odoo tự động "
+"Model (Kiểu Tài liệu Cnmx) mà bí danh này ứng với nó. Bất kỳ thông điệp "
+"email mà không đáp lại (reply) một bản ghi có sẵn sẽ làm cho Cnmx tự động "
 "tạo một bản ghi mới cho model này (vd: tạo mới một Nhiệm vụ Dự án nếu model "
 "là project.task)"
 
@@ -2862,10 +2862,10 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.cnmx.com>"
 msgstr ""
 "Tên của bí danh email, vd 'vieclam' nếu bạn muốn bắt thông điệp gửi đến địa "
-"chỉ email <vieclam@vidu.odoo.com>"
+"chỉ email <vieclam@vidu.cnmx.com>"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_user_id

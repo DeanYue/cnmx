@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # * web
 # 
@@ -7,18 +7,18 @@
 # Lluís Dalmau <lluis.dalmau@guifi.net>, 2018
 # Martin Trigaux, 2018
 # Marc Tormo i Bochaca <mtbochaca@gmail.com>, 2018
-# RGB Consulting <odoo@rgbconsulting.com>, 2018
+# RGB Consulting <@rgbconsulting.com>, 2018
 # Quim - eccit <quim@eccit.com>, 2018
 # Manel Fernandez <manelfera@outlook.com>, 2018
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: Cnmx Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-08 06:49+0000\n"
 "PO-Revision-Date: 2018-08-24 09:33+0000\n"
 "Last-Translator: Manel Fernandez <manelfera@outlook.com>, 2018\n"
-"Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
+"Language-Team: Catalan (https://www.transifex.com/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1590,8 +1590,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1565
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "Aconsegueixi aquesta característica i molt més amb Odoo Enterprise!"
+msgid "Get this feature and much more with Cnmx Enterprise!"
+msgstr "Aconsegueixi aquesta característica i molt més amb Cnmx Enterprise!"
 
 #. module: web
 #. openerp-web
@@ -2145,8 +2145,8 @@ msgstr "Moure amunt"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1550
 #, python-format
-msgid "My Odoo.com account"
-msgstr "El meu compte Odoo.com"
+msgid "My Cnmx.com account"
+msgstr "El meu compte Cnmx.com"
 
 #. module: web
 #. openerp-web
@@ -2285,15 +2285,15 @@ msgstr "Objecte:"
 #: code:addons/web/static/src/js/core/dialog.js:59
 #: code:addons/web/static/src/xml/menu.xml:100
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Cnmx"
+msgstr "Cnmx"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:148
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Odoo Apps estarà disponible aviat"
+msgid "Cnmx Apps will be available soon"
+msgstr "Cnmx Apps estarà disponible aviat"
 
 #. module: web
 #. openerp-web
@@ -2301,37 +2301,37 @@ msgstr "Odoo Apps estarà disponible aviat"
 #: code:addons/web/static/src/js/chrome/abstract_web_client.js:209
 #: code:addons/web/static/src/js/services/crash_manager.js:153
 #, python-format
-msgid "Odoo Client Error"
-msgstr "Error de client Odoo"
+msgid "Cnmx Client Error"
+msgstr "Error de client Cnmx"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:86
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo Enterprise"
+msgid "Cnmx Enterprise"
+msgstr "Cnmx Enterprise"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:115
 #, python-format
-msgid "Odoo Error"
-msgstr "Error d'Odoo"
+msgid "Cnmx Error"
+msgstr "Error d'Cnmx"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:212
 #, python-format
-msgid "Odoo Session Expired"
-msgstr "La sessió d'Odoo ha caducat"
+msgid "Cnmx Session Expired"
+msgstr "La sessió d'Cnmx ha caducat"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:105
 #: code:addons/web/static/src/js/services/crash_manager.js:194
 #, python-format
-msgid "Odoo Warning"
-msgstr "Alerta d'Odoo"
+msgid "Cnmx Warning"
+msgstr "Alerta d'Cnmx"
 
 #. module: web
 #. openerp-web
@@ -2591,8 +2591,8 @@ msgstr ""
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Recolzat per <span>Odoo</span> "
+msgid "Powered by <span>Cnmx</span>"
+msgstr "Recolzat per <span>Cnmx</span> "
 
 #. module: web
 #. openerp-web
@@ -3327,11 +3327,11 @@ msgstr ""
 #, python-format
 msgid ""
 "Timezone Mismatch : The timezone of your browser doesn't match the selected "
-"one. The time in Odoo is displayed according to the timezone set on your "
+"one. The time in Cnmx is displayed according to the timezone set on your "
 "user's preferences."
 msgstr ""
 "Zona horària no coincident: la zona horària del teu navegador no coincideix "
-"amb la seleccionada. A Odoo, les hores es mostren d'acord amb la zona "
+"amb la seleccionada. A Cnmx, les hores es mostren d'acord amb la zona "
 "horària seleccionada a les preferències d'usuari."
 
 #. module: web
@@ -3753,10 +3753,10 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:29
 #, python-format
 msgid ""
-"You need to start Odoo with at least two workers to print a pdf version of "
+"You need to start Cnmx with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
-"Necessites iniciar Odoo amb un mínim de dos workers per imprimir la versió "
+"Necessites iniciar Cnmx amb un mínim de dos workers per imprimir la versió "
 "pdf dels informes."
 
 #. module: web
@@ -3776,9 +3776,9 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:212
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
+msgid "Your Cnmx session expired. Please refresh the current web page."
 msgstr ""
-"La teva sessió d'Odoo ha expirat. Si us plau, refresca la pàgina web actual."
+"La teva sessió d'Cnmx ha expirat. Si us plau, refresca la pàgina web actual."
 
 #. module: web
 #. openerp-web

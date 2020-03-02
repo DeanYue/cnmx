@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 import base64
 import datetime
@@ -27,7 +27,7 @@ def VALIDATE_URL(url):
 
 class LinkTracker(models.Model):
     """ Link trackers allow users to wrap any URL into a short URL that can be
-    tracked by Odoo. Clicks are counter on each link. A tracker is linked to
+    tracked by Cnmx. Clicks are counter on each link. A tracker is linked to
     UTMs allowing to analyze marketing actions.
 
     This model is also used in mass_mailing where each link in html body is

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # * website
 # 
@@ -8,19 +8,19 @@
 # Marc Tormo i Bochaca <mtbochaca@gmail.com>, 2018
 # Carles Antoli <carlesantoli@hotmail.com>, 2018
 # Eric Antones <eantones@users.noreply.github.com>, 2018
-# RGB Consulting <odoo@rgbconsulting.com>, 2018
+# RGB Consulting <@rgbconsulting.com>, 2018
 # Quim - eccit <quim@eccit.com>, 2018
 # Sandra Franch <sandra.franch@upc.edu>, 2018
 # Manel Fernandez <manelfera@outlook.com>, 2018
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: Cnmx Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-08 06:48+0000\n"
 "PO-Revision-Date: 2018-08-24 09:33+0000\n"
 "Last-Translator: Manel Fernandez <manelfera@outlook.com>, 2018\n"
-"Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
+"Language-Team: Catalan (https://www.transifex.com/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -222,9 +222,9 @@ msgstr "75%"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
-msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
+msgid "<b>50,000+ companies</b> run Cnmx to grow their businesses."
 msgstr ""
-"<b>50,000+ empreses</b> executen Odoo per fer créixer els seus negocis."
+"<b>50,000+ empreses</b> executen Cnmx per fer créixer els seus negocis."
 
 #. module: website
 #. openerp-web
@@ -927,7 +927,7 @@ msgid ""
 "Analyze the efficiency of your marketing campaigns by using trackable UTM "
 "trackers (campaigns, medium, sources). Create trackers and follow clicks "
 "from the Promote menu of your website. Those trackers can be used in Google "
-"Analytics or in Odoo reports where you can see the opportunities and sales "
+"Analytics or in Cnmx reports where you can see the opportunities and sales "
 "revenue generated thanks to your links."
 msgstr ""
 
@@ -1923,8 +1923,8 @@ msgstr "Segueix tots els"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Follow your website traffic in Odoo."
-msgstr "Segueix el trànsit del teu lloc web a Odoo."
+msgid "Follow your website traffic in Cnmx."
+msgstr "Segueix el trànsit del teu lloc web a Cnmx."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.theme_customize
@@ -2456,7 +2456,7 @@ msgstr ""
 #, python-format
 msgid ""
 "It might be possible to edit the relevant items or fix the issue in <a "
-"href=\"%s\">the classic Odoo interface</a>"
+"href=\"%s\">the classic Cnmx interface</a>"
 msgstr ""
 
 #. module: website
@@ -2997,49 +2997,49 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.brand_promotion
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Cnmx"
+msgstr "Cnmx"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 1 for three columns"
-msgstr "Odoo - Prova 1 a tres columnes"
+msgid "Cnmx - Sample 1 for three columns"
+msgstr "Cnmx - Prova 1 a tres columnes"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 2 for three columns"
-msgstr "Odoo - Prova 2 a tres columnes"
+msgid "Cnmx - Sample 2 for three columns"
+msgstr "Cnmx - Prova 2 a tres columnes"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 3 for three columns"
-msgstr "Odoo - Prova 3 a tres columnes"
+msgid "Cnmx - Sample 3 for three columns"
+msgstr "Cnmx - Prova 3 a tres columnes"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Versió d'Odoo"
+msgid "Cnmx Version"
+msgstr "Versió d'Cnmx"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_quotes_carousel
 msgid ""
-"Odoo provides essential platform for our project management. Things are "
+"Cnmx provides essential platform for our project management. Things are "
 "better organized and more visible with it."
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_picture
-msgid "Odoo • A picture with a caption"
+msgid "Cnmx • A picture with a caption"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_image_text
-msgid "Odoo • Image and Text"
+msgid "Cnmx • Image and Text"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_text_image
-msgid "Odoo • Text and Image"
+msgid "Cnmx • Text and Image"
 msgstr ""
 
 #. module: website
@@ -4757,8 +4757,8 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "instancia d'Odoo, el"
+msgid "instance of Cnmx, the"
+msgstr "instancia d'Cnmx, el"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -4816,7 +4816,7 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "www.odoo.com"
+msgid "www.cnmx.com"
 msgstr ""
 
 #. module: website

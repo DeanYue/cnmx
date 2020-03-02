@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* mail_bot
 # 
@@ -9,12 +9,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: Cnmx Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:16+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
 "Last-Translator: Ivan Yelizariev <yelizariev@it-projects.info>, 2020\n"
-"Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
+"Language-Team: Russian (https://www.transifex.com/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -83,10 +83,10 @@ msgstr "Маршрутизация HTTP"
 #: code:addons/mail_bot/models/mail_channel.py:0
 #, python-format
 msgid ""
-"Hello,<br/>Odoo's chat helps employees collaborate efficiently. I'm here to "
+"Hello,<br/>Cnmx's chat helps employees collaborate efficiently. I'm here to "
 "help you discover its features.<br/><b>Try to send me an emoji :)</b>"
 msgstr ""
-"Привет, <br/> чат Odoo помогает сотрудникам эффективно сотрудничать. Я здесь"
+"Привет, <br/> чат Cnmx помогает сотрудникам эффективно сотрудничать. Я здесь"
 " для того, чтобы открыть вам эти функции. <br/> <b>Попробуйте прислать мне "
 "смайлик :)</b>"
 
@@ -184,23 +184,23 @@ msgstr ""
 #: code:addons/mail_bot/static/src/js/systray_messaging_menu.js:0
 #, python-format
 msgid ""
-"Odoo will not have the permission to send native notifications on this "
+"Cnmx will not have the permission to send native notifications on this "
 "device."
 msgstr ""
-"У Odoo не будет иметь разрешения на отправку собственных уведомлений на этом"
+"У Cnmx не будет иметь разрешения на отправку собственных уведомлений на этом"
 " устройстве."
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "статус OdooBot"
+msgid "CnmxBot Status"
+msgstr "статус CnmxBot"
 
 #. module: mail_bot
 #. openerp-web
 #: code:addons/mail_bot/static/src/js/mailbot_service.js:0
 #, python-format
-msgid "OdooBot has a request"
-msgstr "OdooBot имеет запрос"
+msgid "CnmxBot has a request"
+msgstr "CnmxBot имеет запрос"
 
 #. module: mail_bot
 #: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_attachement
@@ -250,10 +250,10 @@ msgstr ""
 #, python-format
 msgid ""
 "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
-"Write \"@odoobot\" and select me."
+"Write \"@bot\" and select me."
 msgstr ""
 "К сожалению, я не слушаю. Чтобы привлечь чье-то внимание, <b>свисните "
-"ему.</b> Напишите `@odoobot` и выберите меня."
+"ему.</b> Напишите `@bot` и выберите меня."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
@@ -287,26 +287,26 @@ msgstr "Пользователи"
 #, python-format
 msgid ""
 "Wow you are a natural!<br/>Ping someone to grab its attention with "
-"@nameoftheuser. <b>Try to ping me using @OdooBot</b> in a sentence."
+"@nameoftheuser. <b>Try to ping me using @Bot</b> in a sentence."
 msgstr ""
 "Вау, вы естественные! <br/> Привлеките чье-то внимание с @nameoftheuser. "
-"<b>Попробуйте позвать меня, используя @OdooBot</b> в предложении."
+"<b>Попробуйте позвать меня, используя @Bot</b> в предложении."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
 #, python-format
 msgid ""
 "Yep, I am here! 🎉 <br/>You finished the tour, you can <b>close this chat "
-"window</b>. Enjoy discovering Odoo."
+"window</b>. Enjoy discovering Cnmx."
 msgstr ""
 "Да я здесь! 🎉 <br/> Вы завершили тур, вы можете <b>закрыть это окно "
-"чата.</b> Наслаждайтесь Odoo."
+"чата.</b> Наслаждайтесь Cnmx."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
 #, python-format
-msgid "Yep, OdooBot is in the place!"
-msgstr "Так, OdooBot на месте!"
+msgid "Yep, CnmxBot is in the place!"
+msgstr "Так, CnmxBot на месте!"
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0

@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* l10n_latam_invoice_document
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0alpha1+e\n"
+"Project-Id-Version: Cnmx Server 13.0alpha1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-22 13:00+0000\n"
 "PO-Revision-Date: 2019-08-22 13:00+0000\n"
@@ -34,7 +34,7 @@ msgstr "Activo"
 #. module: l10n_latam_invoice_document
 #: model:ir.model.fields,help:l10n_latam_invoice_document.field_l10n_latam_document_type__internal_type
 msgid ""
-"Analog to odoo account.move.type but with more options allowing to identify "
+"Analog to cnmx account.move.type but with more options allowing to identify "
 "the kind of document we are working with. (not only related to account.move,"
 " could be for documents of other models like stock.picking)"
 msgstr ""

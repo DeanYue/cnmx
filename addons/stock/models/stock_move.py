@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 from collections import defaultdict
 from datetime import datetime
@@ -791,7 +791,7 @@ class StockMove(models.Model):
             warning_mess = {
                 'title': _('Quantity decreased!'),
                 'message' : _("By changing this quantity here, you accept the "
-                              "new quantity as complete: Odoo will not "
+                              "new quantity as complete: Cnmx will not "
                               "automatically generate a back order."),
             }
             return {'warning': warning_mess}

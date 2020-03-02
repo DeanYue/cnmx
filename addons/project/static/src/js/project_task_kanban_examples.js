@@ -55,7 +55,7 @@ kanbanExamplesRegistry.add('project', {
     }, {
         name: _lt('Customer Feedback'),
         columns: [_lt('New'), _lt('In development'), _lt('Done'), _lt('Refused')],
-        description: escFormat(_lt('Customers propose feedbacks by email; Odoo creates tasks ' +
+        description: escFormat(_lt('Customers propose feedbacks by email; Cnmx creates tasks ' +
             'automatically, and you can communicate on the task directly. Your managers decide which ' +
             'feedback is accepted %s and which feedback is moved to the "Refused" column.'), greenBullet),
         bullets: [greenBullet, redBullet],

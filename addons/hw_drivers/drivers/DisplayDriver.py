@@ -210,7 +210,7 @@ class DisplayController(http.Controller):
             display_identifier = DisplayDriver.get_default_display().device_identifier
 
         return pos_display_template.render({
-            'title': "Odoo -- Point of Sale",
+            'title': "Cnmx -- Point of Sale",
             'breadcrumb': 'POS Client display',
             'cust_js': cust_js,
             'display_ifaces': display_ifaces,

@@ -2,7 +2,7 @@ Google Calendar
 ---------------
 
 Get your meetings, your leaves... Get your calendar anywhere and never
-forget an event, fully synchronized with the Odoo <a href="https://www.odoo.com/page/crm">Open Source CRM</a>.
+forget an event, fully synchronized with the Cnmx <a href="https://www.cnmx.com/page/crm">Open Source CRM</a>.
 
 Keep an eye on your events
 --------------------------
@@ -42,11 +42,11 @@ also when this event is updated for some fields as date start, ...
 Be notified
 -----------
 
-You can ask to have a alarm of type 'notification' in your Odoo.  You will have
-a notification in you Odoo which ever the page you are.
+You can ask to have a alarm of type 'notification' in your Cnmx.  You will have
+a notification in you Cnmx which ever the page you are.
 
 Google Calendar
 ---------------
 
-With this plugin, you can synchronize your Odoo calendar with Google Calendar.
+With this plugin, you can synchronize your Cnmx calendar with Google Calendar.
 

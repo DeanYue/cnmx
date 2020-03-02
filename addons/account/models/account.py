@@ -718,7 +718,7 @@ class AccountJournal(models.Model):
         inverse='_inverse_refund_seq_number_next')
 
     invoice_reference_type = fields.Selection(string='Communication Type', required=True, selection=[('none', 'Free'), ('partner', 'Based on Customer'), ('invoice', 'Based on Invoice')], default='invoice', help='You can set here the default communication that will appear on customer invoices, once validated, to help the customer to refer to that particular invoice when making the payment.')
-    invoice_reference_model = fields.Selection(string='Communication Standard', required=True, selection=[('odoo', 'Odoo'),('euro', 'European')], default='odoo', help="You can choose different models for each type of reference. The default one is the Odoo reference.")
+    invoice_reference_model = fields.Selection(string='Communication Standard', required=True, selection=[('odoo', 'Odoo'),('euro', 'European')], default='odoo', help="You can choose different models for each type of reference. The default one is the Cnmx reference.")
 
     #groups_id = fields.Many2many('res.groups', 'account_journal_group_rel', 'journal_id', 'group_id', string='Groups')
     currency_id = fields.Many2one('res.currency', help='The currency used to enter statement', string="Currency")
@@ -729,13 +729,13 @@ class AccountJournal(models.Model):
 
     inbound_payment_method_ids = fields.Many2many('account.payment.method', 'account_journal_inbound_payment_method_rel', 'journal_id', 'inbound_payment_method',
         domain=[('payment_type', '=', 'inbound')], string='For Incoming Payments', default=lambda self: self._default_inbound_payment_methods(),
-        help="Manual: Get paid by cash, check or any other method outside of Odoo.\n"\
+        help="Manual: Get paid by cash, check or any other method outside of Cnmx.\n"\
              "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"\
-             "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings.")
+             "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Cnmx,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings.")
     outbound_payment_method_ids = fields.Many2many('account.payment.method', 'account_journal_outbound_payment_method_rel', 'journal_id', 'outbound_payment_method',
         domain=[('payment_type', '=', 'outbound')], string='For Outgoing Payments', default=lambda self: self._default_outbound_payment_methods(),
-        help="Manual:Pay bill by cash or any other method outside of Odoo.\n"\
-             "Check:Pay bill by check and print it from Odoo.\n"\
+        help="Manual:Pay bill by cash or any other method outside of Cnmx.\n"\
+             "Check:Pay bill by check and print it from Cnmx.\n"\
              "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings.")
     at_least_one_inbound = fields.Boolean(compute='_methods_compute', store=True)
     at_least_one_outbound = fields.Boolean(compute='_methods_compute', store=True)

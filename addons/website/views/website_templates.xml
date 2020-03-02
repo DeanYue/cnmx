@@ -679,13 +679,13 @@
 </template>
 
 <!-- Error and special pages -->
-<template id="website_info" name="Odoo Information">
+<template id="website_info" name="Cnmx Information">
     <t t-call="website.layout">
         <div id="wrap"/>
     </t>
 </template>
 
-<template id="show_website_info" inherit_id="website.website_info" customize_show="True" name="Show Odoo Information">
+<template id="show_website_info" inherit_id="website.website_info" customize_show="True" name="Show Cnmx Information">
     <xpath expr="//div[@id='wrap']" position="inside">
         <div class="oe_structure">
             <section class="container">
@@ -694,10 +694,10 @@
               </t>
               <t t-if="version">
                 <h1><t t-esc="res_company.name"/>
-                    <small>Odoo Version <t t-raw="version.get('server_version')"/></small>
+                    <small>Cnmx Version <t t-raw="version.get('server_version')"/></small>
                 </h1>
                 <p>
-                    Information about the <t t-esc="res_company.name"/> instance of Odoo, the <a target="_blank" href="https://www.odoo.com">Open Source ERP</a>.
+                    Information about the <t t-esc="res_company.name"/> instance of Cnmx, the <a target="_blank" href="https://www.cnmx.com">Open Source ERP</a>.
                 </p>
 
                 <div class="alert alert-warning alert-dismissable mt16" groups="website.group_website_publisher" role="status">

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
@@ -17,24 +17,24 @@
 # Giovanni Perteghella <giovanni@perteghella.org>, 2019
 # Luigi Di Naro <gigidn@gmail.com>, 2019
 # Paolo Valier, 2019
-# Cécile Collart <cco@odoo.com>, 2019
+# Cécile Collart <cco>, 2019
 # mymage <stefano.consolaro@mymage.it>, 2019
-# Luigia Cimmino Caserta <lcc@odoo.com>, 2019
-# Davide Speranza <dsp@odoo.com>, 2019
+# Luigia Cimmino Caserta <lcc>, 2019
+# Davide Speranza <dsp>, 2019
 # Martin Trigaux, 2019
-# Léonie Bouchat <lbo@odoo.com>, 2019
+# Léonie Bouchat <lbo>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # Simone Sanfilippo <s.sanfilippo@hinge16.eu>, 2019
 # Mario Riva <mario.riva@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:13+0000\n"
 "Last-Translator: Mario Riva <mario.riva@gmail.com>, 2020\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language-Team: Italian (https://www.transifex.com/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -986,13 +986,13 @@ msgstr "Valutazioni cliente"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid ""
-"Customers propose feedbacks by email; Odoo creates tasks automatically, and "
+"Customers propose feedbacks by email; Cnmx creates tasks automatically, and "
 "you can communicate on the task directly. Your managers decide which "
 "feedback is accepted %s and which feedback is moved to the \"Refused\" "
 "column."
 msgstr ""
 "I clienti inviano opinioni tramite e-mail; è possibile comunicare agendo "
-"direttamente sul lavori che Odoo crea in automatico. I supervisori decidono "
+"direttamente sul lavori che Cnmx crea in automatico. I supervisori decidono "
 "quali opinioni accettare %s e quali spostare nella colonna con stato "
 "«Rifiutato»."
 
@@ -2012,10 +2012,10 @@ msgstr "Numero di messaggi non letti"
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.action_view_task
 msgid ""
-"Odoo's project management allows you to manage the pipeline of your tasks efficiently.<br>\n"
+"Cnmx's project management allows you to manage the pipeline of your tasks efficiently.<br>\n"
 "                    You can track progress, discuss on tasks, attach documents, etc."
 msgstr ""
-"La gestione progetti di Odoo permette di gestire in modo efficiente il flusso dei lavori.<br>\n"
+"La gestione progetti di Cnmx permette di gestire in modo efficiente il flusso dei lavori.<br>\n"
 "                    È possibile seguire gli avanzamenti, discutere dei lavori, allegare documenti ecc."
 
 #. module: project
@@ -2924,11 +2924,11 @@ msgstr "Prove"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Cnmx Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Il modello (tipo di documento Odoo) a cui corrisponde questo alias. Le "
+"Il modello (tipo di documento Cnmx) a cui corrisponde questo alias. Le "
 "e-mail in ingresso che non rispondono a un record esistente attiveranno la "
 "creazione di un nuovo record per questo modello (es. lavoro di un progetto)"
 
@@ -2936,10 +2936,10 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.cnmx.com>"
 msgstr ""
 "Il nome dell’alias e-mail, es. “jobs” per intercettare le e-mail "
-"<jobs@example.odoo.com>"
+"<jobs@example.cnmx.com>"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_user_id

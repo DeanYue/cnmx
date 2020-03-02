@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* analytic
 # 
@@ -16,12 +16,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: Cnmx Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-09 12:17+0000\n"
 "PO-Revision-Date: 2019-08-26 09:08+0000\n"
 "Last-Translator: ChinaMaker <liuct@chinamaker.net>, 2019\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -357,11 +357,11 @@ msgstr "如果活动字段配置为False，您将可以隐藏它而不在科目�
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
-"In Odoo, sales orders and projects are implemented using\n"
+"In Cnmx, sales orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
-"在 Odoo 中，使用\n"
+"在 明象 中，使用\n"
 " 分析账户实施销售订单和项目。您可以跟踪成本和收入，轻松分析\n"
 " 您的利润"
 

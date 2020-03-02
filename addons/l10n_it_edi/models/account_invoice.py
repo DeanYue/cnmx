@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 import base64
 import zipfile
@@ -65,7 +65,7 @@ class AccountMove(models.Model):
             invoice.invoice_generate_xml()
             if len(invoice.commercial_partner_id.l10n_it_pa_index or '') == 6:
                 invoice.message_post(
-                    body=(_("Invoices for PA are not managed by Odoo, you can download the document and send it on your own."))
+                    body=(_("Invoices for PA are not managed by Cnmx, you can download the document and send it on your own."))
                 )
                 invoices_other += invoice
             else:

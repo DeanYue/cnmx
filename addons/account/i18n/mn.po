@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -20,12 +20,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:06+0000\n"
 "Last-Translator: Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2020\n"
-"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"Language-Team: Mongolian (https://www.transifex.com/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1179,7 +1179,7 @@ msgid ""
 "Account holder name, in case it is different than the name of the Account "
 "Holder"
 msgstr ""
-"Данс эзэмшигчийн нэр, Данс эзэмшигчийн бүртгэлтэй нэр нь Odoo дээрх нэрээс "
+"Данс эзэмшигчийн нэр, Данс эзэмшигчийн бүртгэлтэй нэр нь Cnmx дээрх нэрээс "
 "өөр байх тохиолдолд энэ талбарыг ашиглана"
 
 #. module: account
@@ -3949,10 +3949,10 @@ msgstr "Энэ компаны нээлтийн ажил гүйлгээний б�
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in Cnmx. It is the date of the "
 "opening entry."
 msgstr ""
-"Odoo-д санхүү бүртгэлээ хөтлөж эхэлсэн огноо. Энэ бол нээлтийн ажил "
+"Cnmx-д санхүү бүртгэлээ хөтлөж эхэлсэн огноо. Энэ бол нээлтийн ажил "
 "гүйлгээний огноо юм."
 
 #. module: account
@@ -6899,39 +6899,39 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of Cnmx.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Cnmx,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Гараар: Бэлэн мөнгөөр төлөгдөх эсвэл Odoo системээс гадуур ямар нэг төлбөрийн хэрэгслээр төлөгдөх.\n"
+"Гараар: Бэлэн мөнгөөр төлөгдөх эсвэл Cnmx системээс гадуур ямар нэг төлбөрийн хэрэгслээр төлөгдөх.\n"
 "Электрон: Ямар нэг онлайн төлбөрийн хэрэгсэлээр төлөлт хийх үед автоматаар захиалагчийн гүйлгээ бүртгэгдэх (төлбөрийн token).\n"
-"Багц төлбөр: Захиалагч хэд хэдэн төлөлтийг нэгтгэн банкнаар нэг төлбөр шилжүүлэх тохиолдол. Odoo-д банкны гүйлгээ хөтлөгдөх үед танд холбогдох нэхэмжлэлүүдийг сонгож тулгах боломж олгогдоно. Энэ боломжыг тохиргооноос идэвхижүүлээрэй."
+"Багц төлбөр: Захиалагч хэд хэдэн төлөлтийг нэгтгэн банкнаар нэг төлбөр шилжүүлэх тохиолдол. Cnmx-д банкны гүйлгээ хөтлөгдөх үед танд холбогдох нэхэмжлэлүүдийг сонгож тулгах боломж олгогдоно. Энэ боломжыг тохиргооноос идэвхижүүлээрэй."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_id
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of Cnmx.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Check: Pay bill by check and print it from Odoo.\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
+"Check: Pay bill by check and print it from Cnmx.\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Cnmx, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
-"Гараар: Бэлэн мөнгөөр төлөгдөх эсвэл Odoo системээс гадуур ямар нэг төлбөрийн хэрэгслээр төлөгдөх.\n"
+"Гараар: Бэлэн мөнгөөр төлөгдөх эсвэл Cnmx системээс гадуур ямар нэг төлбөрийн хэрэгслээр төлөгдөх.\n"
 "Электрон: Ямар нэг онлайн төлбөрийн хэрэгсэлээр төлөлт хийх үед автоматаар захиалагчийн гүйлгээ бүртгэгдэх (төлбөрийн token).\n"
-"Чек: Нэхэмжлэлийг чекээр төлж төлбөрийн баримтыг Odoo-с хэвлэх.\n"
-"Багц төлбөр: Захиалагч хэд хэдэн төлөлтийг нэгтгэн банкнаар нэг төлбөр шилжүүлэх тохиолдол. Odoo-д банкны гүйлгээ хөтлөгдөх үед танд холбогдох нэхэмжлэлүүдийг сонгож тулгах боломж олгогдоно. Багц төлөлт бүртгэх боломжыг идэвхижүүлэхийн тулд account_batch_payment модуль суулгах шаардлагатай.\n"
+"Чек: Нэхэмжлэлийг чекээр төлж төлбөрийн баримтыг Cnmx-с хэвлэх.\n"
+"Багц төлбөр: Захиалагч хэд хэдэн төлөлтийг нэгтгэн банкнаар нэг төлбөр шилжүүлэх тохиолдол. Cnmx-д банкны гүйлгээ хөтлөгдөх үед танд холбогдох нэхэмжлэлүүдийг сонгож тулгах боломж олгогдоно. Багц төлөлт бүртгэх боломжыг идэвхижүүлэхийн тулд account_batch_payment модуль суулгах шаардлагатай.\n"
 "SEPA Credit Transfer: SEPA Credit Transfer систем ашиглан нэхэмжлэлийн төлбөрийг банк руу дамжуулах. Үүний тулд account_sepa модуль суулгах шаардлагатай. "
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Odoo.\n"
-"Check:Pay bill by check and print it from Odoo.\n"
+"Manual:Pay bill by cash or any other method outside of Cnmx.\n"
+"Check:Pay bill by check and print it from Cnmx.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"Гараар: Бэлэн мөнгөөр төлөгдөх эсвэл Odoo системээс гадуур ямар нэг төлбөрийн хэрэгслээр төлөгдөх.\n"
-"Чек: Нэхэмжлэлийг чекээр төлж төлбөрийн баримтыг Odoo-с хэвлэх.\n"
+"Гараар: Бэлэн мөнгөөр төлөгдөх эсвэл Cnmx системээс гадуур ямар нэг төлбөрийн хэрэгслээр төлөгдөх.\n"
+"Чек: Нэхэмжлэлийг чекээр төлж төлбөрийн баримтыг Cnmx-с хэвлэх.\n"
 "SEPA Credit Transfer: SEPA Credit Transfer систем ашиглан нэхэмжлэлийн төлбөрийг банк руу дамжуулах. Үүний тулд account_sepa модуль суулгах шаардлагатай. "
 
 #. module: account
@@ -7503,35 +7503,35 @@ msgstr "10-р сар"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__odoo
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Cnmx"
+msgstr "Cnmx"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Cnmx allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoice(s)."
 msgstr ""
-"Odoo нь хуулгын мөрийг холбогдох борлуулалт, худалдан авалтын\n"
+"Cnmx нь хуулгын мөрийг холбогдох борлуулалт, худалдан авалтын\n"
 "                нэхэмжлэлтэй шууд холбогдоно."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Cnmx allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoices."
 msgstr ""
-"Odoo нь хуулгын мөрийг холбогдох борлуулалт, худалдан авалтын\n"
+"Cnmx нь хуулгын мөрийг холбогдох борлуулалт, худалдан авалтын\n"
 "                нэхэмжлэлтэй шууд холбогдоно."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Odoo helps you easily track all activities related to a customer."
+msgid "Cnmx helps you easily track all activities related to a customer."
 msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Odoo helps you easily track all activities related to a supplier."
+msgid "Cnmx helps you easily track all activities related to a supplier."
 msgstr ""
 
 #. module: account
@@ -12367,7 +12367,7 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
+"is the Cnmx reference."
 msgstr ""
 
 #. module: account

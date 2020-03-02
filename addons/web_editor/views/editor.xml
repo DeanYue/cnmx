@@ -22,7 +22,7 @@
     <script type="text/javascript" src="/web_editor/static/lib/jQuery.transfo.js"/>
     <script type="text/javascript" src="/web_editor/static/lib/nearest/jquery.nearest.js"/>
 
-    <!-- odoo utils -->
+    <!-- cnmx utils -->
 
     <t t-call="web._assets_helpers">
         <link rel="stylesheet" type="text/scss" href="/web_editor/static/src/scss/bootstrap_overridden.scss"/>
@@ -164,7 +164,7 @@
     </xpath>
 </template>
 
-<template id="assets_frontend" inherit_id="web.assets_frontend" name="Web Editor Frontend Assets (used in public odoo)" priority="15">
+<template id="assets_frontend" inherit_id="web.assets_frontend" name="Web Editor Frontend Assets (used in public cnmx)" priority="15">
     <xpath expr="//link[last()]" position="after">
         <link rel="stylesheet" type="text/scss" href="/web_editor/static/src/scss/web_editor.common.scss"/> <!-- not in common because compiled differently with context -->
         <link rel="stylesheet" type ="text/scss" href="/web_editor/static/src/scss/web_editor.frontend.scss"/>

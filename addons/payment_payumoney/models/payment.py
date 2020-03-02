@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 import hashlib
 
@@ -31,8 +31,8 @@ class PaymentAcquirerPayumoney(models.Model):
     def _payumoney_generate_sign(self, inout, values):
         """ Generate the shasign for incoming or outgoing communications.
         :param self: the self browse record. It should have a shakey in shakey out
-        :param string inout: 'in' (odoo contacting payumoney) or 'out' (payumoney
-                             contacting odoo).
+        :param string inout: 'in' (cnmx contacting payumoney) or 'out' (payumoney
+                             contacting cnmx).
         :param dict values: transaction values
 
         :return string: shasign

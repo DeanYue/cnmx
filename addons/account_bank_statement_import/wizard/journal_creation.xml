@@ -7,7 +7,7 @@
             <field name="model">account.bank.statement.import.journal.creation</field>
             <field name="arch" type="xml">
                 <form string="Journal Creation">
-                    <p>The account of the statement you are uploading is not yet recorded in Odoo. In order to proceed with the upload, you need to create a bank journal for this account.</p>
+                    <p>The account of the statement you are uploading is not yet recorded in Cnmx. In order to proceed with the upload, you need to create a bank journal for this account.</p>
                     <p>Just click OK to create the account/journal and finish the upload. If this was a mistake, hit cancel to abort the upload.</p>
                     <group>
                         <group>

@@ -55,10 +55,10 @@ class account_payment(models.Model):
     state = fields.Selection([('draft', 'Draft'), ('posted', 'Validated'), ('sent', 'Sent'), ('reconciled', 'Reconciled'), ('cancelled', 'Cancelled')], readonly=True, default='draft', copy=False, string="Status")
     payment_type = fields.Selection([('outbound', 'Send Money'), ('inbound', 'Receive Money'), ('transfer', 'Internal Transfer')], string='Payment Type', required=True, readonly=True, states={'draft': [('readonly', False)]})
     payment_method_id = fields.Many2one('account.payment.method', string='Payment Method', required=True, readonly=True, states={'draft': [('readonly', False)]},
-        help="Manual: Get paid by cash, check or any other method outside of Odoo.\n"\
+        help="Manual: Get paid by cash, check or any other method outside of Cnmx.\n"\
         "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"\
-        "Check: Pay bill by check and print it from Odoo.\n"\
-        "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"\
+        "Check: Pay bill by check and print it from Cnmx.\n"\
+        "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Cnmx, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"\
         "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed ")
     payment_method_code = fields.Char(related='payment_method_id.code',
         help="Technical field used to adapt the interface to the payment type selected.", readonly=True)
@@ -731,10 +731,10 @@ class payment_register(models.TransientModel):
     payment_date = fields.Date(required=True, default=fields.Date.context_today)
     journal_id = fields.Many2one('account.journal', required=True, domain=[('type', 'in', ('bank', 'cash'))])
     payment_method_id = fields.Many2one('account.payment.method', string='Payment Method Type', required=True,
-                                        help="Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+                                        help="Manual: Get paid by cash, check or any other method outside of Cnmx.\n"
                                         "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-                                        "Check: Pay bill by check and print it from Odoo.\n"
-                                        "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
+                                        "Check: Pay bill by check and print it from Cnmx.\n"
+                                        "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Cnmx, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
                                         "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed ")
     invoice_ids = fields.Many2many('account.move', 'account_invoice_payment_rel_transient', 'payment_id', 'invoice_id', string="Invoices", copy=False, readonly=True)
     group_payment = fields.Boolean(help="Only one payment will be created by partner (bank)/ currency.")

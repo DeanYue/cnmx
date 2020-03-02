@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* pos_epson_printer
 # 
 # Translators:
 # Martin Trigaux, 2019
-# Felix Yuen <fyu@odoo.com>, 2019
-# Manga Tsang <mts@odoo.com>, 2019
+# Felix Yuen <fyu>, 2019
+# Manga Tsang <mts>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: Cnmx Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:15+0000\n"
 "PO-Revision-Date: 2019-08-26 09:13+0000\n"
-"Last-Translator: Manga Tsang <mts@odoo.com>, 2019\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Last-Translator: Manga Tsang <mts>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"

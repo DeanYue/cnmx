@@ -882,7 +882,7 @@ var ViewEditor = Widget.extend({
     },
     /**
      * Called when the reset button is clicked -> resets the resources to its
-     * original standard odoo state.
+     * original standard cnmx state.
      *
      * @private
      */

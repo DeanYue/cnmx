@@ -1,11 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* website
 # 
 # Translators:
 # 방상우 <mrroom@gmail.com>, 2019
 # heejun lee <tkm01b@gmail.com>, 2019
-# nle_odoo, 2019
 # Jongkwan, Yeom <jongkwanyeom@gmail.com>, 2019
 # 종현 엄 <whd5367@naver.com>, 2019
 # Martin Trigaux, 2019
@@ -16,12 +15,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-18 09:46+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
 "Last-Translator: JH CHOI <hwangtog@gmail.com>, 2020\n"
-"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"Language-Team: Korean (https://www.transifex.com/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -224,8 +223,8 @@ msgstr "75%"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
-msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
-msgstr "<b>50,000개 이상의 회사들</b>이 그들의 사업을 성장시키는데 Odoo를 사용합니다."
+msgid "<b>50,000+ companies</b> run Cnmx to grow their businesses."
+msgstr "<b>50,000개 이상의 회사들</b>이 그들의 사업을 성장시키는데 Cnmx를 사용합니다."
 
 #. module: website
 #. openerp-web
@@ -1133,11 +1132,11 @@ msgid ""
 "Analyze the efficiency of your marketing campaigns by using trackable UTM "
 "trackers (campaigns, medium, sources). Create trackers and follow clicks "
 "from the Promote menu of your website. Those trackers can be used in Google "
-"Analytics or in Odoo reports where you can see the opportunities and sales "
+"Analytics or in Cnmx reports where you can see the opportunities and sales "
 "revenue generated thanks to your links."
 msgstr ""
 "추적 가능한 UTM 추적기 (캠페인, 매체, 소스)를 사용하여 마케팅 캠페인의 효율성을 분석하십시오. 웹 사이트의 프로모션 메뉴에서 "
-"트래커를 만들고 클릭 수를 추적하십시오. 이러한 추적기는 Google 웹 로그 분석 또는 Odoo 보고서에서 링크를 통해 생성된 기회 및"
+"트래커를 만들고 클릭 수를 추적하십시오. 이러한 추적기는 Google 웹 로그 분석 또는 Cnmx 보고서에서 링크를 통해 생성된 기회 및"
 " 판매 수익을 확인할 수 있습니다."
 
 #. module: website
@@ -2299,7 +2298,7 @@ msgstr "전체 팔로우"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Follow your website traffic in Odoo."
+msgid "Follow your website traffic in Cnmx."
 msgstr "오두에서 웹 사이트 트래픽을 팔로우하세요."
 
 #. module: website
@@ -2964,8 +2963,8 @@ msgstr "파일이 다음에서 호출된 것 같습니다."
 #, python-format
 msgid ""
 "It might be possible to edit the relevant items or fix the issue in <a "
-"href=\"%s\">the classic Odoo interface</a>"
-msgstr "<a href=\"%s\">고전적인 Odoo 인터페이스</a>에서 관련 항목을 편집하거나 문제를 해결할 수 있습니다."
+"href=\"%s\">the classic Cnmx interface</a>"
+msgstr "<a href=\"%s\">고전적인 Cnmx 인터페이스</a>에서 관련 항목을 편집하거나 문제를 해결할 수 있습니다."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -3664,45 +3663,45 @@ msgstr "방문자 수"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 1 for three columns"
-msgstr "Odoo - 3열에 대한 예제 1"
+msgid "Cnmx - Sample 1 for three columns"
+msgstr "Cnmx - 3열에 대한 예제 1"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 2 for three columns"
-msgstr "Odoo - 3열에 대한 예제 2"
+msgid "Cnmx - Sample 2 for three columns"
+msgstr "Cnmx - 3열에 대한 예제 2"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 3 for three columns"
-msgstr "Odoo - 3열에 대한 예제 3"
+msgid "Cnmx - Sample 3 for three columns"
+msgstr "Cnmx - 3열에 대한 예제 3"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Odoo 버전"
+msgid "Cnmx Version"
+msgstr "Cnmx 버전"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_quotes_carousel
 msgid ""
-"Odoo provides essential platform for our project management. Things are "
+"Cnmx provides essential platform for our project management. Things are "
 "better organized and more visible with it."
-msgstr "Odoo는 프로젝트 관리를위한 필수 플랫폼을 제공합니다. 상황이 더 잘 정리되고 더 잘 보입니다."
+msgstr "Cnmx는 프로젝트 관리를위한 필수 플랫폼을 제공합니다. 상황이 더 잘 정리되고 더 잘 보입니다."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_picture
-msgid "Odoo • A picture with a caption"
-msgstr "Odoo • 캡션이 있는 사진"
+msgid "Cnmx • A picture with a caption"
+msgstr "Cnmx • 캡션이 있는 사진"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_image_text
-msgid "Odoo • Image and Text"
-msgstr "Odoo • 이미지 및 텍스트"
+msgid "Cnmx • Image and Text"
+msgstr "Cnmx • 이미지 및 텍스트"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_text_image
-msgid "Odoo • Text and Image"
-msgstr "Odoo • 문자 및 이미지"
+msgid "Cnmx • Text and Image"
+msgstr "Cnmx • 문자 및 이미지"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_visitor_view_kanban
@@ -5918,8 +5917,8 @@ msgstr "무료 웹사이트"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "Odoo의 경우, "
+msgid "instance of Cnmx, the"
+msgstr "Cnmx의 경우, "
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -5973,8 +5972,8 @@ msgstr "웹사이트"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "www.odoo.com"
-msgstr "www.odoo.com"
+msgid "www.cnmx.com"
+msgstr "www.cnmx.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.qweb_500

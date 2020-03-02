@@ -1,10 +1,10 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Peru - Accounting',
     "version": "2.0",
     'summary': "PCGE Simplified",
     'category': 'Localization',
-    'author': 'Vauxoo, Odoo',
+    'author': 'Vauxoo, Cnmx',
     'license': 'LGPL-3',
     'depends': [
         'base_vat',

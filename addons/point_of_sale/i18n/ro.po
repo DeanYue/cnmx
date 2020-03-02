@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -10,12 +10,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:12+0000\n"
 "Last-Translator: Dorin Hongu <dhongu@gmail.com>, 2019\n"
-"Language-Team: Romanian (https://www.transifex.com/odoo/teams/41243/ro/)\n"
+"Language-Team: Romanian (https://www.transifex.com/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1907,8 +1907,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/popups.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr "IMPORTANT: Raportare eroare din Punct de Vânzare Odoo"
+msgid "IMPORTANT: Bug Report From Cnmx Point Of Sale"
+msgstr "IMPORTANT: Raportare eroare din Punct de Vânzare Cnmx"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
@@ -2555,8 +2555,8 @@ msgstr "Număr de mesaje necitite"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model_terms:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Odoo Logo"
-msgstr "Odoo Logo"
+msgid "Cnmx Logo"
+msgstr "Cnmx Logo"
 
 #. module: point_of_sale
 #. openerp-web
@@ -4672,17 +4672,17 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Cnmx but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Cnmx but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Această secvență este creată automat de Odoo dar o puteți schimba pentru a "
+"Această secvență este creată automat de Cnmx dar o puteți schimba pentru a "
 "personaliza numerele de referință ale comenzilor."
 
 #. module: point_of_sale

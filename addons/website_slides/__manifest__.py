@@ -4,7 +4,7 @@
     'version': '2.0',
     'sequence': 145,
     'summary': 'Manage and publish an eLearning platform',
-    'website': 'https://www.odoo.com/page/slides',
+    'website': 'https://www.cnmx.com/page/slides',
     'category': 'Website/Website',
     'description': """
 Create Online Courses

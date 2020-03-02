@@ -5,7 +5,7 @@ var TourManager = require('web_tour.TourManager');
 
 TourManager.include({
     /**
-     * Disables tours if Odoo installed with demo data.
+     * Disables tours if Cnmx installed with demo data.
      *
      * @override
      */

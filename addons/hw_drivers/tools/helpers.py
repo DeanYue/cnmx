@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 import netifaces
 from pathlib import Path
@@ -53,7 +53,7 @@ def check_certificate():
 
 def check_git_branch():
     """
-    Check if the local branch is the same than the connected Odoo DB and
+    Check if the local branch is the same than the connected Cnmx DB and
     checkout to match it if needed.
     """
     server = get_odoo_server_url()
@@ -160,7 +160,7 @@ def get_wifi_essid():
 
 def load_certificate():
     """
-    Send a request to Odoo with customer db_uuid and enterprise_code to get a true certificate
+    Send a request to Cnmx with customer db_uuid and enterprise_code to get a true certificate
     """
     db_uuid = read_file_first_line('odoo-db-uuid.conf')
     enterprise_code = read_file_first_line('odoo-enterprise-code.conf')
@@ -196,7 +196,7 @@ def load_certificate():
 
 def download_drivers(auto=True):
     """
-    Get the drivers from the configured Odoo server
+    Get the drivers from the configured Cnmx server
     """
     server = get_odoo_server_url()
     if server:

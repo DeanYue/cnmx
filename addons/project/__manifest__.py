@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Project',
     'version': '1.1',
-    'website': 'https://www.odoo.com/page/project-management',
+    'website': 'https://www.cnmx.com/page/project-management',
     'category': 'Operations/Project',
     'sequence': 10,
     'summary': 'Organize and schedule your projects ',

@@ -22,7 +22,7 @@ if records:
                     <div class='row mt16 o_settings_container iap_portal'>
                         <div class="col-12 col-lg-6 o_setting_box">
                             <div class='o_setting_right_pane'>
-                                <div class="o_form_label">Odoo IAP</div>
+                                <div class="o_form_label">Cnmx IAP</div>
                                 <div class="text-muted">
                                     View your IAP Services and recharge your credits
                                 </div>

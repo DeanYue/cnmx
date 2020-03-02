@@ -1,27 +1,27 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
 # Translators:
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2019
 # Cas Vissers <c.vissers@brahoo.nl>, 2019
-# Wynand Tastenhoye <wta@odoo.com>, 2019
+# Wynand Tastenhoye <wta>, 2019
 # Thijs van Oers <thijsvanoers@yahoo.com>, 2019
-# Maxim Vandenbroucke <mxv@odoo.com>, 2019
-# Charles Vervaecke <cvk@odoo.com>, 2019
+# Maxim Vandenbroucke <mxv>, 2019
+# Charles Vervaecke <cvk>, 2019
 # Martin Trigaux, 2019
-# Cécile Collart <cco@odoo.com>, 2019
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2019
+# Cécile Collart <cco>, 2019
+# Erwin van der Ploeg <erwin@experts.nl>, 2019
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:13+0000\n"
 "Last-Translator: Yenthe Van Ginneken <yenthespam@gmail.com>, 2019\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language-Team: Dutch (https://www.transifex.com/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -979,12 +979,12 @@ msgstr "Klant(en) beoordelingen"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid ""
-"Customers propose feedbacks by email; Odoo creates tasks automatically, and "
+"Customers propose feedbacks by email; Cnmx creates tasks automatically, and "
 "you can communicate on the task directly. Your managers decide which "
 "feedback is accepted %s and which feedback is moved to the \"Refused\" "
 "column."
 msgstr ""
-"Klanten stellen feedback per e-mail voor; Odoo maakt taken automatisch aan "
+"Klanten stellen feedback per e-mail voor; Cnmx maakt taken automatisch aan "
 "en u kunt rechtstreeks communiceren over de taak. Uw managers bepalen welke "
 "feedback wordt geaccepteerd %s en welke feedback wordt verplaatst naar de "
 "kolom 'Afgewezen'."
@@ -2006,10 +2006,10 @@ msgstr "Aantal ongelezen berichten"
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.action_view_task
 msgid ""
-"Odoo's project management allows you to manage the pipeline of your tasks efficiently.<br>\n"
+"Cnmx's project management allows you to manage the pipeline of your tasks efficiently.<br>\n"
 "                    You can track progress, discuss on tasks, attach documents, etc."
 msgstr ""
-"Met Odoo's projectbeheer kunt u de pijplijn van uw taken efficiënt beheren. <br>\n"
+"Met Cnmx's projectbeheer kunt u de pijplijn van uw taken efficiënt beheren. <br>\n"
 "U kunt de voortgang bijhouden, discussiëren over taken, documenten toevoegen, enz."
 
 #. module: project
@@ -2919,7 +2919,7 @@ msgstr "Testen"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Cnmx Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
@@ -2931,7 +2931,7 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.cnmx.com>"
 msgstr ""
 "De naam van de e-mail alias, bijvoorbeeld: 'vacature' indien u alle e-mails "
 "van vacature@uwbedrijf.nl wilt afvangen."

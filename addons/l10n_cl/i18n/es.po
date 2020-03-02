@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* l10n_cl
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0alpha1+e\n"
+"Project-Id-Version: Cnmx Server 13.0alpha1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-11 18:27+0000\n"
 "PO-Revision-Date: 2019-08-11 18:27+0000\n"
@@ -54,11 +54,11 @@ msgstr "Mon sin impuestos"
 #: model:ir.model.fields,help:l10n_cl.field_account_move__l10n_latam_internal_type
 #: model:ir.model.fields,help:l10n_cl.field_l10n_latam_document_type__internal_type
 msgid ""
-"Analog to odoo account.move.type but with more options allowing to identify "
+"Analog to cnmx account.move.type but with more options allowing to identify "
 "the kind of document we are working with. (not only related to account.move,"
 " could be for documents of other models like stock.picking)"
 msgstr ""
-"Análogo a account.move.type de Odoo pero con más opciones, permitiendo "
+"Análogo a account.move.type de Cnmx pero con más opciones, permitiendo "
 "identificar el tipo de documento sobre el que estamos trabajando. (no "
 "solamente relativo a account.move, podría ser relativo a otros modelos, como "
 "por ejemplo stock.picking)"

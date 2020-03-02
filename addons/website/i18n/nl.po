@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* website
 # 
@@ -7,17 +7,17 @@
 # Eric Geens <ericgeens@yahoo.com>, 2019
 # Martin Trigaux, 2019
 # Cas Vissers <casvissers@brahoo.nl>, 2019
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2019
+# Erwin van der Ploeg <erwin@experts.nl>, 2019
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-18 09:46+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
 "Last-Translator: Yenthe Van Ginneken <yenthespam@gmail.com>, 2019\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language-Team: Dutch (https://www.transifex.com/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -220,9 +220,9 @@ msgstr "75%"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
-msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
+msgid "<b>50,000+ companies</b> run Cnmx to grow their businesses."
 msgstr ""
-"<b>50,000+ bedrijven</b>gebruiken Odoo om hun bedrijf te doen groeien."
+"<b>50,000+ bedrijven</b>gebruiken Cnmx om hun bedrijf te doen groeien."
 
 #. module: website
 #. openerp-web
@@ -1165,13 +1165,13 @@ msgid ""
 "Analyze the efficiency of your marketing campaigns by using trackable UTM "
 "trackers (campaigns, medium, sources). Create trackers and follow clicks "
 "from the Promote menu of your website. Those trackers can be used in Google "
-"Analytics or in Odoo reports where you can see the opportunities and sales "
+"Analytics or in Cnmx reports where you can see the opportunities and sales "
 "revenue generated thanks to your links."
 msgstr ""
 "Analyseer de efficiëntie van uw marketingcampagnes met behulp van "
 "traceerbare UTM-trackers (campagnes, medium, bronnen). Maak trackers en volg"
 " klikken vanuit het promoot-menu van uw website. Deze trackers kunnen worden"
-" gebruikt in Google Analytics of in Odoo-rapporten, waar u de verkoopkansen "
+" gebruikt in Google Analytics of in Cnmx-rapporten, waar u de verkoopkansen "
 "en verkopen kunt zien die dankzij uw links zijn gegenereerd."
 
 #. module: website
@@ -2347,8 +2347,8 @@ msgstr "Volg al de"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Follow your website traffic in Odoo."
-msgstr "Volg uw website verkeer in Odoo."
+msgid "Follow your website traffic in Cnmx."
+msgstr "Volg uw website verkeer in Cnmx."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.theme_customize
@@ -3026,10 +3026,10 @@ msgstr "Het lijkt erop dat uw bestand wordt opgeroepen door"
 #, python-format
 msgid ""
 "It might be possible to edit the relevant items or fix the issue in <a "
-"href=\"%s\">the classic Odoo interface</a>"
+"href=\"%s\">the classic Cnmx interface</a>"
 msgstr ""
 "Het is wellicht mogelijk om de relevante items te bewerken of het probleem "
-"te verhelpen in <a href=\"%s\">de klassiek Odoo interface</a>"
+"te verhelpen in <a href=\"%s\">de klassiek Cnmx interface</a>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -3730,47 +3730,47 @@ msgstr "Aantal bezoeken"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 1 for three columns"
-msgstr "Odoo - Voorbeeld 1 voor drie kolommen"
+msgid "Cnmx - Sample 1 for three columns"
+msgstr "Cnmx - Voorbeeld 1 voor drie kolommen"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 2 for three columns"
-msgstr "Odoo - Voorbeeld 2 voor drie kolommen"
+msgid "Cnmx - Sample 2 for three columns"
+msgstr "Cnmx - Voorbeeld 2 voor drie kolommen"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 3 for three columns"
-msgstr "Odoo - Voorbeeld 3 voor drie kolommen"
+msgid "Cnmx - Sample 3 for three columns"
+msgstr "Cnmx - Voorbeeld 3 voor drie kolommen"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Odoo versie"
+msgid "Cnmx Version"
+msgstr "Cnmx versie"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_quotes_carousel
 msgid ""
-"Odoo provides essential platform for our project management. Things are "
+"Cnmx provides essential platform for our project management. Things are "
 "better organized and more visible with it."
 msgstr ""
-"Odoo biedt een essentiëel platform voor ons projectbeheer. Dingen zijn beter"
+"Cnmx biedt een essentiëel platform voor ons projectbeheer. Dingen zijn beter"
 " georganiseerd en beter zichtbaar."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_picture
-msgid "Odoo • A picture with a caption"
-msgstr "Odoo • Een foto met een geweldig onderschrift"
+msgid "Cnmx • A picture with a caption"
+msgstr "Cnmx • Een foto met een geweldig onderschrift"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_image_text
-msgid "Odoo • Image and Text"
-msgstr "Odoo + afbeelding en tekst"
+msgid "Cnmx • Image and Text"
+msgstr "Cnmx + afbeelding en tekst"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_text_image
-msgid "Odoo • Text and Image"
-msgstr "Odoo • Tekst en afbeelding"
+msgid "Cnmx • Text and Image"
+msgstr "Cnmx • Tekst en afbeelding"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_visitor_view_kanban
@@ -6027,8 +6027,8 @@ msgstr "gratis website"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "instantie van Odoo, de"
+msgid "instance of Cnmx, the"
+msgstr "instantie van Cnmx, de"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -6082,8 +6082,8 @@ msgstr "website"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "www.odoo.com"
-msgstr "www.odoo.com"
+msgid "www.cnmx.com"
+msgstr "www.cnmx.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.qweb_500

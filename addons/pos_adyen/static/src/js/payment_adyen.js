@@ -37,7 +37,7 @@ var PaymentAdyen = PaymentInterface.extend({
         if (line) {
             line.set_payment_status('retry');
         }
-        this._show_error(_('Could not connect to the Odoo server, please check your internet connection and try again.'));
+        this._show_error(_('Could not connect to the Cnmx server, please check your internet connection and try again.'));
 
         return Promise.reject(data); // prevent subsequent onFullFilled's from being called
     },
@@ -51,7 +51,7 @@ var PaymentAdyen = PaymentInterface.extend({
         }, {
             // When a payment terminal is disconnected it takes Adyen
             // a while to return an error (~6s). So wait 10 seconds
-            // before concluding Odoo is unreachable.
+            // before concluding Cnmx is unreachable.
             timeout: 10000,
             shadow: true,
         }).catch(this._handle_odoo_connection_failure.bind(this));

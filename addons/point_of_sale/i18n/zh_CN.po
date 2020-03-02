@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -18,8 +18,8 @@
 # Jeanphy <hzh0292@qq.com>, 2019
 # Gary Wei <Gary.wei@elico-corp.com>, 2019
 # ChinaMaker <liuct@chinamaker.net>, 2019
-# Felix Yuen <fyu@odoo.com>, 2019
-# Manga Tsang <mts@odoo.com>, 2019
+# Felix Yuen <fyu>, 2019
+# Manga Tsang <mts>, 2019
 # Martin Trigaux, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
@@ -30,12 +30,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:12+0000\n"
 "Last-Translator: Jeffery CHEN Fan <jeffery9@gmail.com>, 2020\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1896,8 +1896,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/popups.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr "重要：来自Odoo POS的Bug报告"
+msgid "IMPORTANT: Bug Report From Cnmx Point Of Sale"
+msgstr "重要：来自明象 POS的Bug报告"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
@@ -2542,8 +2542,8 @@ msgstr "未读消息数量"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model_terms:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Odoo Logo"
-msgstr "Odoo 徽标"
+msgid "Cnmx Logo"
+msgstr "明象 徽标"
 
 #. module: point_of_sale
 #. openerp-web
@@ -4637,16 +4637,16 @@ msgstr "本产品用于客户收据的参考。"
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Cnmx but you can change it to "
 "customize the reference numbers of your orders lines."
-msgstr "此序列由 Odoo 自动创建，但您可以进行更改以自定义订单详情的参考号。"
+msgstr "此序列由 明象 自动创建，但您可以进行更改以自定义订单详情的参考号。"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Cnmx but you can change it to "
 "customize the reference numbers of your orders."
-msgstr "此序列由 Odoo 自动创建，但您可以进行更改以自定义订单详情的参考号。"
+msgstr "此序列由 明象 自动创建，但您可以进行更改以自定义订单详情的参考号。"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form

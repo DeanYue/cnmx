@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -37,12 +37,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:06+0000\n"
 "Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2020\n"
-"Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
+"Language-Team: Finnish (https://www.transifex.com/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -3932,10 +3932,10 @@ msgstr "Päivämäärä, jona tämän yhtiön kirjanpidon avausviesti on lähete
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in Cnmx. It is the date of the "
 "opening entry."
 msgstr ""
-"Päivämäärä, josta alkaen kirjanpitoa hallinnoidaan Odoossa. Se on "
+"Päivämäärä, josta alkaen kirjanpitoa hallinnoidaan Cnmxssa. Se on "
 "avausviestin päivämäärä."
 
 #. module: account
@@ -6876,39 +6876,39 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of Cnmx.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Cnmx,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Ohje: Saat maksun käteisellä, sekillä tai muulla Odoon ulkopuolella olevalla menetelmällä.\n"
+"Ohje: Saat maksun käteisellä, sekillä tai muulla Cnmxn ulkopuolella olevalla menetelmällä.\n"
 "Sähköinen: Saa maksut automaattisesti maksun saajan kautta pyytämällä tapahtumaa asiakkaan tallentamalle kortille ostettaessa tai tilattaessa verkossa (maksutunnus).\n"
-"Erän talletus:  useita asiakastarkastuksia kerralla luomalla erä-talletus, joka lähetetään pankkiisi. Kun luot Odoo-pankkilaskun, sinun kannattaa sovittaa kauppa erän talletukseen. Ota tämä asetus käyttöön asetuksista. "
+"Erän talletus:  useita asiakastarkastuksia kerralla luomalla erä-talletus, joka lähetetään pankkiisi. Kun luot Cnmx-pankkilaskun, sinun kannattaa sovittaa kauppa erän talletukseen. Ota tämä asetus käyttöön asetuksista. "
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_id
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of Cnmx.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Check: Pay bill by check and print it from Odoo.\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
+"Check: Pay bill by check and print it from Cnmx.\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Cnmx, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
-"Ohje: Saat maksun käteisellä, sekillä tai muulla Odoon ulkopuolella olevalla menetelmällä.\n"
+"Ohje: Saat maksun käteisellä, sekillä tai muulla Cnmxn ulkopuolella olevalla menetelmällä.\n"
 "Sähköinen: Saa maksut automaattisesti maksun saajan kautta pyytämällä tapahtumaa asiakkaan tallentamalle kortille ostettaessa tai tilattaessa verkossa (maksutunnus).\n"
-"Sekki: Maksaa lasku shekillä ja tulosta se Odoosta.\n"
-"Erän talletus: useita asiakastarkastuksia kerralla luomalla erä-talletus, joka lähetetään pankkiisi. Kun luot Odoo-pankkilaskua, sinulle ehdotetaan, että tapahtuma sovitetaan erän talletuksen kanssa. Jos haluat ottaa erän talletuksen käyttöön, moduulin_maksu_maksu on asennettava.\n"
+"Sekki: Maksaa lasku shekillä ja tulosta se Cnmxsta.\n"
+"Erän talletus: useita asiakastarkastuksia kerralla luomalla erä-talletus, joka lähetetään pankkiisi. Kun luot Cnmx-pankkilaskua, sinulle ehdotetaan, että tapahtuma sovitetaan erän talletuksen kanssa. Jos haluat ottaa erän talletuksen käyttöön, moduulin_maksu_maksu on asennettava.\n"
 "SEPA-tilisiirto: Pay-lasku SEPA-tilisiirtotiedostosta, jonka lähetät pankkiisi. Erillisen tilisiirron käyttöönottamiseksi moduuli account_sepa on asennettava "
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Odoo.\n"
-"Check:Pay bill by check and print it from Odoo.\n"
+"Manual:Pay bill by cash or any other method outside of Cnmx.\n"
+"Check:Pay bill by check and print it from Cnmx.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"Ohje: Maksaa käteisellä tai muulla Odoon ulkopuolella olevalla tavalla.\n"
-"Sekki: Maksaa lasku sekillä ja tulosta se Odoosta.\n"
+"Ohje: Maksaa käteisellä tai muulla Cnmxn ulkopuolella olevalla tavalla.\n"
+"Sekki: Maksaa lasku sekillä ja tulosta se Cnmxsta.\n"
 "SEPA-tilisiirto: Pay-lasku SEPA-tilisiirtotiedostosta, jonka lähetät pankkiisi. Ota tämä asetus käyttöön asetuksista. "
 
 #. module: account
@@ -7479,34 +7479,34 @@ msgstr "Lokakuu"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__odoo
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Cnmx"
+msgstr "Cnmx"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Cnmx allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoice(s)."
 msgstr ""
-"Odoo sallii sinun täsmäyttää tositerivin suoraan myynti- tai ostolaskuihin."
+"Cnmx sallii sinun täsmäyttää tositerivin suoraan myynti- tai ostolaskuihin."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Cnmx allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoices."
 msgstr ""
-"Odoo sallii sinun täsmäyttää tositerivin suoraan myynti- tai ostolaskuihin."
+"Cnmx sallii sinun täsmäyttää tositerivin suoraan myynti- tai ostolaskuihin."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Odoo helps you easily track all activities related to a customer."
+msgid "Cnmx helps you easily track all activities related to a customer."
 msgstr ""
-"Odoo auttaa sinua helposti seuraamaan kaikkia asiakkaaseen liittyviä toimia."
+"Cnmx auttaa sinua helposti seuraamaan kaikkia asiakkaaseen liittyviä toimia."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Odoo helps you easily track all activities related to a supplier."
+msgid "Cnmx helps you easily track all activities related to a supplier."
 msgstr ""
 
 #. module: account
@@ -12302,7 +12302,7 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
+"is the Cnmx reference."
 msgstr ""
 
 #. module: account

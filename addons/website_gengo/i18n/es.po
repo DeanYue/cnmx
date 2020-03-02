@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # * website_gengo
 # 
@@ -8,16 +8,16 @@
 # Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2019
 # 966ff43e6966712895a590e7320ca288, 2019
 # Nicolás Broggi <rnbroggi@gmail.com>, 2019
-# Jon Perez <jop@odoo.com>, 2019
+# Jon Perez <jop>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.2\n"
+"Project-Id-Version: Cnmx Server saas~12.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-20 13:50+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
-"Last-Translator: Jon Perez <jop@odoo.com>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Last-Translator: Jon Perez <jop>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"

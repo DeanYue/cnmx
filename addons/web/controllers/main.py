@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 import babel.messages.pofile
 import base64
@@ -96,7 +96,7 @@ OPERATOR_MAPPING = {
 }
 
 #----------------------------------------------------------
-# Odoo Web helpers
+# Cnmx Web helpers
 #----------------------------------------------------------
 
 db_list = http.db_list
@@ -113,7 +113,7 @@ def serialize_exception(f):
             se = _serialize_exception(e)
             error = {
                 'code': 200,
-                'message': "Odoo Server Error",
+                'message': "Cnmx Server Error",
                 'data': se
             }
             return werkzeug.exceptions.InternalServerError(json.dumps(error))
@@ -820,7 +820,7 @@ class GroupExportXlsxWriter(ExportXlsxWriter):
 
 
 #----------------------------------------------------------
-# Odoo Web web Controllers
+# Cnmx Web web Controllers
 #----------------------------------------------------------
 class Home(http.Controller):
 
@@ -1809,7 +1809,7 @@ class ExportFormat(object):
         raise NotImplementedError()
 
     def from_data(self, fields, rows):
-        """ Conversion method from Odoo's export data to whatever the
+        """ Conversion method from Cnmx's export data to whatever the
         current export class outputs
 
         :params list fields: a list of fields to export
@@ -2045,7 +2045,7 @@ class ReportController(http.Controller):
             se = _serialize_exception(e)
             error = {
                 'code': 200,
-                'message': "Odoo Server Error",
+                'message': "Cnmx Server Error",
                 'data': se
             }
             return request.make_response(html_escape(json.dumps(error)))

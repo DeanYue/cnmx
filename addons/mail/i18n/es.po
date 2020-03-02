@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* mail
 # 
@@ -12,33 +12,33 @@
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
 # Antonio Trueba, 2019
 # José Vicente <txusev@gmail.com>, 2019
-# Carolina Gonzalez <cgo@odoo.com>, 2019
+# Carolina Gonzalez <cgo>, 2019
 # Carlos Lopez <celm1990@hotmail.com>, 2019
 # JOSE ALEJANDRO ECHEVERRI VALENCIA <josealejandroeche@gmail.com>, 2019
-# Vivian Montana <vmo@odoo.com>, 2019
+# Vivian Montana <vmo>, 2019
 # Luis González <lgonzalez@vauxoo.com>, 2019
 # Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2019
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2019
 # Inigo Zuluaga <inigo_zuluaga@yahoo.es>, 2019
-# Cristopher Cravioto <ccr@odoo.com>, 2019
-# Jerome Vanhaudenard <jev@odoo.com>, 2019
-# Mariana Santos Romo <msn@odoo.com>, 2019
-# Efrem Jimenez <efj@odoo.com>, 2019
+# Cristopher Cravioto <ccr>, 2019
+# Jerome Vanhaudenard <jev>, 2019
+# Mariana Santos Romo <msn>, 2019
+# Efrem Jimenez <efj>, 2019
 # Martin Trigaux, 2019
-# Jesse Garza <jga@odoo.com>, 2019
-# Jon Perez <jop@odoo.com>, 2019
-# John Guardado <jgu@odoo.com>, 2019
-# RGB Consulting <odoo@rgbconsulting.com>, 2019
+# Jesse Garza <jga>, 2019
+# Jon Perez <jop>, 2019
+# John Guardado <jgu>, 2019
+# RGB Consulting <@rgbconsulting.com>, 2019
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:33+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
 "Last-Translator: Pedro M. Baeza <pedro.baeza@gmail.com>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2538,8 +2538,8 @@ msgstr "Manejar por emails"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
-msgid "Handle in Odoo"
-msgstr "Manejo en Odoo"
+msgid "Handle in Cnmx"
+msgstr "Manejo en Cnmx"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_message__has_cancel
@@ -2767,11 +2767,11 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the Cnmx Server, "
 "enter the domain name here."
 msgstr ""
 "Si tiene un dominio de correo electrónico general redireccionado a un "
-"servidor de Odoo, ponga el nombre del dominio aquí."
+"servidor de Cnmx, ponga el nombre del dominio aquí."
 
 #. module: mail
 #. openerp-web
@@ -4172,8 +4172,8 @@ msgstr "Número de mensajes no leidos"
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
 #: model_terms:ir.ui.view,arch_db:mail.message_notification_email
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Cnmx"
+msgstr "Cnmx"
 
 #. module: mail
 #. openerp-web
@@ -4609,11 +4609,11 @@ msgstr "Por favor, espere mientras sube el archivo."
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Handle by Emails: notifications are sent to your email address\n"
-"- Handle in Odoo: notifications appear in your Odoo Inbox"
+"- Handle in Cnmx: notifications appear in your Cnmx Inbox"
 msgstr ""
 "Política de gestión de notificaciones de los comentarios:\n"
 "- Emails: las notificaciones son enviadas a su email\n"
-"- Odoo: las notificaciones aparecen en su bandeja de Odoo"
+"- Cnmx: las notificaciones aparecen en su bandeja de Cnmx"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_contact
@@ -5601,11 +5601,11 @@ msgstr "El usuario interno a cargo de este contacto."
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin__alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Cnmx Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"El modelo (Tipo de documento de Odoo) al que corresponde este seudónimo. "
+"El modelo (Tipo de documento de Cnmx) al que corresponde este seudónimo. "
 "Cualquier correo entrante que no sea respuesta a un registro existente, "
 "causará la creación de un nuevo registro de este modelo (por ejemplo, una "
 "tarea de proyecto)."
@@ -5616,11 +5616,11 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.cnmx.com>"
 msgstr ""
 "El nombre de este seudónimo de correo electrónico. Por ejemplo, "
 "\"trabajos\",  si lo que quiere es obtener los correos para "
-"<trabajos@example.odoo.com>."
+"<trabajos@example.cnmx.com>."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_user_id
@@ -6132,12 +6132,12 @@ msgstr "Usuarios en este canal: %s %s y usted."
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.odoo.com)."
+"email server (@mycompany.cnmx.com)."
 msgstr ""
 "El uso de un servidor propio de correo electrónico es necesario para "
 "enviar/recibir correos en las versiones Community y Enterprise. Los usuarios"
 " de la versión Online si tienen disponible un servidor de correo listo para "
-"usar (@mycompany.odoo.com)."
+"usar (@mycompany.cnmx.com)."
 
 #. module: mail
 #. openerp-web
@@ -6666,8 +6666,8 @@ msgstr "mas"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.odoo.com"
-msgstr "mycompany.odoo.com"
+msgid "mycompany.cnmx.com"
+msgstr "mycompany.cnmx.com"
 
 #. module: mail
 #. openerp-web

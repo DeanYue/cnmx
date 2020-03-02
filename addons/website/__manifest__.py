@@ -1,12 +1,12 @@
 # -*- encoding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Website',
     'category': 'Website/Website',
     'sequence': 7,
     'summary': 'Enterprise website builder',
-    'website': 'https://www.odoo.com/page/website-builder',
+    'website': 'https://www.cnmx.com/page/website-builder',
     'version': '1.0',
     'description': "",
     'depends': [

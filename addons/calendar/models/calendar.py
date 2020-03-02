@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 import base64
 
 import babel.dates
@@ -1023,7 +1023,8 @@ class Meeting(models.Model):
                     elif interval == 'minutes':
                         delta = timedelta(minutes=duration)
                     trigger.value = delta
-                    valarm.add('DESCRIPTION').value = alarm.name or u'Odoo'
+                    # valarm.add('DESCRIPTION').value = alarm.name or u'Odoo'
+                    valarm.add('DESCRIPTION').value = alarm.name or u'Cnmx'
             for attendee in meeting.attendee_ids:
                 attendee_add = event.add('attendee')
                 attendee_add.value = u'MAILTO:' + (attendee.email or u'')
@@ -1324,7 +1325,7 @@ class Meeting(models.Model):
             data['month_by'] = 'date'
             data['rrule_type'] = 'monthly'
 
-        #repeat yearly but for odoo it's monthly, take same information as monthly but interval is 12 times
+        #repeat yearly but for cnmx it's monthly, take same information as monthly but interval is 12 times
         if rule._bymonth:
             data['interval'] = data['interval'] * 12
 

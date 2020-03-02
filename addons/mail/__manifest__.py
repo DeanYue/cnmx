@@ -6,7 +6,7 @@
     'category': 'Discuss',
     'summary': 'Chat, mail gateway and private channels',
     'description': "",
-    'website': 'https://www.odoo.com/page/discuss',
+    'website': 'https://www.cnmx.com/page/discuss',
     'depends': ['base', 'base_setup', 'bus', 'web_tour'],
     'data': [
         'wizard/invite_view.xml',

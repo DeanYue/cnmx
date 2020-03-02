@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* google_calendar
 # 
@@ -13,12 +13,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: Cnmx Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:16+0000\n"
 "PO-Revision-Date: 2019-08-26 09:10+0000\n"
 "Last-Translator: Tamás Németh <ntomasz81@gmail.com>, 2019\n"
-"Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
+"Language-Team: Hungarian (https://www.transifex.com/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -203,10 +203,10 @@ msgstr ""
 #: model:ir.model.fields,help:google_calendar.field_res_users__google_calendar_cal_id
 msgid ""
 "Last Calendar ID who has been synchronized. If it is changed, we remove all "
-"links between GoogleID and Odoo Google Internal ID"
+"links between GoogleID and Cnmx Google Internal ID"
 msgstr ""
 "Utolsó szinkronizált naptár azonosító ID. Ha változott, leválasztjuk az "
-"összes GoogleID és Odoo Google belső azonosító ID kapcsolatokat"
+"összes GoogleID és Cnmx Google belső azonosító ID kapcsolatokat"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar____last_update
@@ -220,13 +220,13 @@ msgstr "Utolsó szinkronizáció dátuma"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_attendee__oe_synchro_date
-msgid "Odoo Synchro Date"
-msgstr "Odoo rendszer szinkronizáció dátuma"
+msgid "Cnmx Synchro Date"
+msgstr "Cnmx rendszer szinkronizáció dátuma"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_event__oe_update_date
-msgid "Odoo Update Date"
-msgstr "Odoo rendszer frissítés dátuma"
+msgid "Cnmx Update Date"
+msgstr "Cnmx rendszer frissítés dátuma"
 
 #. module: google_calendar
 #. openerp-web

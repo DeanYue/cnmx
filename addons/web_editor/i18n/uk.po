@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* web_editor
 # 
@@ -12,12 +12,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-07 07:13+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
 "Last-Translator: Alina Lisnenko <alinasemeniuk1@gmail.com>, 2019\n"
-"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"Language-Team: Ukrainian (https://www.transifex.com/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -793,11 +793,11 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/ace.xml:0
 #, python-format
 msgid ""
-"If you edit and save this file, you will never receive updates from Odoo "
+"If you edit and save this file, you will never receive updates from Cnmx "
 "anymore unless you reset your customizations."
 msgstr ""
 "Якщо ви відредагуєте та збережете цей файл, ви більше ніколи не отримаєте "
-"оновлення від Odoo, хіба що скинете налаштування."
+"оновлення від Cnmx, хіба що скинете налаштування."
 
 #. module: web_editor
 #. openerp-web
@@ -816,10 +816,10 @@ msgstr ""
 #, python-format
 msgid ""
 "If you want to crop it, please first download it from the original source "
-"and upload it in Odoo."
+"and upload it in Cnmx."
 msgstr ""
 "Якщо ви бажаєте обрізати зображення, спочатку завантажте його з "
-"оригінального джерела та завантажте в Odoo."
+"оригінального джерела та завантажте в Cnmx."
 
 #. module: web_editor
 #. openerp-web
@@ -2022,15 +2022,15 @@ msgstr "автоматично"
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
-msgid "https://www.odoo.com/logo.png"
-msgstr "https://www.odoo.com/logo.png"
+msgid "https://www.cnmx.com/logo.png"
+msgstr "https://www.cnmx.com/logo.png"
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
-msgid "https://www.odoo.com/mydocument"
-msgstr "https://www.odoo.com/mydocument"
+msgid "https://www.cnmx.com/mydocument"
+msgstr "https://www.cnmx.com/mydocument"
 
 #. module: web_editor
 #. openerp-web

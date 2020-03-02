@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* mail
 # 
@@ -11,7 +11,6 @@
 # SHIMIZU Taku <shimizu.taku@gmail.com>, 2019
 # Martin Trigaux, 2019
 # Manami Hashi <manami@roomsfor.hk>, 2019
-# nle_odoo, 2019
 # Norimichi Sugimoto <norimichi.sugimoto@tls-ltd.co.jp>, 2019
 # NANIWA Masahiro <naniwa.masahiro@gmail.com>, 2019
 # Tim Siu Lai <tl@roomsfor.hk>, 2019
@@ -21,12 +20,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:33+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
 "Last-Translator: Yoshi Tashiro <tashiro@roomsfor.hk>, 2020\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Language-Team: Japanese (https://www.transifex.com/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2438,8 +2437,8 @@ msgstr "メール送信"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
-msgid "Handle in Odoo"
-msgstr "Odoo内にとどめる"
+msgid "Handle in Cnmx"
+msgstr "Cnmx内にとどめる"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_message__has_cancel
@@ -2653,9 +2652,9 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the Cnmx Server, "
 "enter the domain name here."
-msgstr "Odooサーバーにリダイレクトされるキャッチオール電子メールドメインをセットアップした場合は、ここにドメイン名を入力します。"
+msgstr "Cnmxサーバーにリダイレクトされるキャッチオール電子メールドメインをセットアップした場合は、ここにドメイン名を入力します。"
 
 #. module: mail
 #. openerp-web
@@ -4019,8 +4018,8 @@ msgstr "未読メッセージ件数"
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
 #: model_terms:ir.ui.view,arch_db:mail.message_notification_email
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Cnmx"
+msgstr "Cnmx"
 
 #. module: mail
 #. openerp-web
@@ -4437,7 +4436,7 @@ msgstr "ファイルがアップロードされている間お待ちください
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Handle by Emails: notifications are sent to your email address\n"
-"- Handle in Odoo: notifications appear in your Odoo Inbox"
+"- Handle in Cnmx: notifications appear in your Cnmx Inbox"
 msgstr ""
 
 #. module: mail
@@ -5402,11 +5401,11 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin__alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Cnmx Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"このエイリアスに対応した(Odooドキュメント種別)モデル。既存のレコードに返信しない任意の受信メールは、このモデルの新しいレコード(例えば、プロジェクトタスク)の作成を引き起こします"
+"このエイリアスに対応した(Cnmxドキュメント種別)モデル。既存のレコードに返信しない任意の受信メールは、このモデルの新しいレコード(例えば、プロジェクトタスク)の作成を引き起こします"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_name
@@ -5414,8 +5413,8 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
-msgstr "eメールのエイリアス.例えば<jobs@example.odoo.com>のメールを受け取りたい場合'jobs’を選択"
+"<jobs@example.cnmx.com>"
+msgstr "eメールのエイリアス.例えば<jobs@example.cnmx.com>のメールを受け取りたい場合'jobs’を選択"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_user_id
@@ -5899,7 +5898,7 @@ msgstr "このチャンネルのユーザ %s %s と、あなた。"
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.odoo.com)."
+"email server (@mycompany.cnmx.com)."
 msgstr ""
 
 #. module: mail
@@ -6408,8 +6407,8 @@ msgstr "さらに"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.odoo.com"
-msgstr "mycompany.odoo.com"
+msgid "mycompany.cnmx.com"
+msgstr "mycompany.cnmx.com"
 
 #. module: mail
 #. openerp-web

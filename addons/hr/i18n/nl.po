@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* hr
 # 
@@ -6,20 +6,20 @@
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2019
 # Eric Geens <ericgeens@yahoo.com>, 2019
 # Cas Vissers <c.vissers@brahoo.nl>, 2019
-# Maxim Vandenbroucke <mxv@odoo.com>, 2019
-# Charles Vervaecke <cvk@odoo.com>, 2019
+# Maxim Vandenbroucke <mxv>, 2019
+# Charles Vervaecke <cvk>, 2019
 # Martin Trigaux, 2019
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2019
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2020
+# Erwin van der Ploeg <erwin@experts.nl>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:10+0000\n"
-"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2020\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Erwin van der Ploeg <erwin@experts.nl>, 2020\n"
+"Language-Team: Dutch (https://www.transifex.com/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -258,7 +258,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Odoo</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Cnmx</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -286,7 +286,7 @@ msgstr ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Verzonden door<a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Odoo</a>\n"
+"        Verzonden door<a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Cnmx</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -1832,11 +1832,11 @@ msgstr "Aantal ongelezen berichten"
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_module_tree_department
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"Cnmx's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves, recruitments, etc."
 msgstr ""
-"Odoo's afdelingen structuur is gebruikt om alle documenten te beheren\n"
+"Cnmx's afdelingen structuur is gebruikt om alle documenten te beheren\n"
 "die gerelateerd zijn aan werknemers per afdeling: declaraties, urenstaten,\n"
 "verloven, vacatures, etc.."
 
@@ -2077,7 +2077,7 @@ msgstr "Winstgevend"
 msgid ""
 "Programming Languages: Python &amp; JavaScript<br>Database: postgresql (with object relational\n"
 "                    mapping)<br>Collaboration platform: GitHub<br>Development model: open with external\n"
-"                    community<br>Framework: Odoo (ORM, Workflows, Report Engine, BI)"
+"                    community<br>Framework: Cnmx (ORM, Workflows, Report Engine, BI)"
 msgstr ""
 
 #. module: hr
@@ -2472,8 +2472,8 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_hrm
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
-msgid "The Odoo culture"
-msgstr "De Odoo cultuur"
+msgid "The Cnmx culture"
+msgstr "De Cnmx cultuur"
 
 #. module: hr
 #: code:addons/hr/models/hr_employee.py:0
@@ -2694,18 +2694,18 @@ msgstr "Weduwe/Weduwnaar"
 #: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the Cnmx employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Met slechts een snelle blik op het Odoo werknemer scherm kan u\n"
+"Met slechts een snelle blik op het Cnmx werknemer scherm kan u\n"
 "gemakkelijk alle informatie vinden die u nodig heeft voor elke persoon;\n"
 "contact data, functie, beschikbaarheid, enz."
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the Cnmx employee screen, you\n"
 "               can easily find all the information you need for each person;\n"
 "               contact data, job position, availability, etc."
 msgstr ""

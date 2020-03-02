@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* account_bank_statement_import
 # 
@@ -7,18 +7,17 @@
 # Linda Stockelova <stockeloval@btlnet.com>, 2019
 # Link Up링크업 <linkup.way@gmail.com>, 2019
 # Seongseok Shin <shinss61@hotmail.com>, 2019
-# Mark Lee <odoos@soti.33mail.com>, 2019
 # Linkup <link-up@naver.com>, 2019
 # JH CHOI <hwangtog@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: Cnmx Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-27 09:10+0000\n"
 "PO-Revision-Date: 2019-08-26 09:08+0000\n"
 "Last-Translator: JH CHOI <hwangtog@gmail.com>, 2020\n"
-"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"Language-Team: Korean (https://www.transifex.com/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -494,23 +493,23 @@ msgstr "주요 첨부 파일"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of Cnmx.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Cnmx,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"수동 : Odoo 외에서 현금, 수표 또는 기타 다른 방식으로 지급받습니다.\n"
+"수동 : Cnmx 외에서 현금, 수표 또는 기타 다른 방식으로 지급받습니다.\n"
 "자동 : 온라인에서 매입/구독할 때 고객이 저장한 카드에 대해 거래를 요청한 후 결제를 통해 자동으로 지급받습니다(결제 토큰).\n"
-"일괄 예금 : 은행에 예치할 일괄 예금을 생성하여 여러 고객의 전표를 한 번에 묶습니다. Odoo에서 예금거래 명세서를 인코딩할 때는 일괄 예금으로 거래를 조정하는 것이 좋습니다. 이 옵션은 설정에서 활성화합니다."
+"일괄 예금 : 은행에 예치할 일괄 예금을 생성하여 여러 고객의 전표를 한 번에 묶습니다. Cnmx에서 예금거래 명세서를 인코딩할 때는 일괄 예금으로 거래를 조정하는 것이 좋습니다. 이 옵션은 설정에서 활성화합니다."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Odoo.\n"
-"Check:Pay bill by check and print it from Odoo.\n"
+"Manual:Pay bill by cash or any other method outside of Cnmx.\n"
+"Check:Pay bill by check and print it from Cnmx.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"수동 : Odoo 외에 현금이나 다른 방법으로 청구 금액을 지불합니다.\n"
-"전표 : 전표로 청구 금액을 지불하고 Odoo에서 인쇄합니다.\n"
+"수동 : Cnmx 외에 현금이나 다른 방법으로 청구 금액을 지불합니다.\n"
+"전표 : 전표로 청구 금액을 지불하고 Cnmx에서 인쇄합니다.\n"
 "SEPA 계좌 이체 : 은행에 제출한 SEPA 계좌 이체 파일에서 청구 금액을 지불합니다. 이 옵션은 설정에서 활성화합니다."
 
 #. module: account_bank_statement_import
@@ -663,11 +662,11 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 msgid ""
-"The account of the statement you are uploading is not yet recorded in Odoo. "
+"The account of the statement you are uploading is not yet recorded in Cnmx. "
 "In order to proceed with the upload, you need to create a bank journal for "
 "this account."
 msgstr ""
-"업로드 한 명세서의 계정이 아직 Odoo에 기록되지 않았습니다. 업로드를 진행하려면 이 계정에 대한 은행 분개장을 작성해야 합니다."
+"업로드 한 명세서의 계정이 아직 Cnmx에 기록되지 않았습니다. 업로드를 진행하려면 이 계정에 대한 은행 분개장을 작성해야 합니다."
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
@@ -805,8 +804,8 @@ msgstr "해당 파일은 이미 가져왔습니다."
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
-msgstr "참조 유형마다 다른 모델을 선택할 수 있습니다. 기본 설정은 Odoo 참조입니다."
+"is the Cnmx reference."
+msgstr "참조 유형마다 다른 모델을 선택할 수 있습니다. 기본 설정은 Cnmx 참조입니다."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_type

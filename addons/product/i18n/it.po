@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* product
 # 
@@ -13,23 +13,23 @@
 # Alberto Carollo <baba75@gmail.com>, 2019
 # Paolo Caruccio <paolo.caruccio66@gmail.com>, 2019
 # mymage <stefano.consolaro@mymage.it>, 2019
-# Davide Speranza <dsp@odoo.com>, 2019
+# Davide Speranza <dsp>, 2019
 # Martin Trigaux, 2019
 # Paolo Valier, 2019
 # Manuela Feliciani <mfeliciani@alice.it>, 2019
 # maiolif <maiolif@mgftools.com>, 2019
-# Léonie Bouchat <lbo@odoo.com>, 2019
+# Léonie Bouchat <lbo>, 2019
 # David Minneci <david@numeko.it>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:33+0000\n"
 "PO-Revision-Date: 2019-08-26 09:13+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language-Team: Italian (https://www.transifex.com/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2865,8 +2865,8 @@ msgstr "es. Lampade"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
-msgid "e.g. Odoo Enterprise Subscription"
-msgstr "es. Abbonamento a Odoo Enterprise"
+msgid "e.g. Cnmx Enterprise Subscription"
+msgstr "es. Abbonamento a Cnmx Enterprise"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view

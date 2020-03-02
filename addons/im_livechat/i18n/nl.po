@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* im_livechat
 # 
@@ -7,16 +7,16 @@
 # Cas Vissers <casvissers@brahoo.nl>, 2019
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2019
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2019
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2020
+# Erwin van der Ploeg <erwin@experts.nl>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: Cnmx Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-01 12:11+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
-"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2020\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Erwin van der Ploeg <erwin@experts.nl>, 2020\n"
+"Language-Team: Dutch (https://www.transifex.com/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -446,7 +446,7 @@ msgstr "Verklaar uw notitie"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"For websites built with the Odoo CMS, go to Website &gt; Configuration &gt; "
+"For websites built with the Cnmx CMS, go to Website &gt; Configuration &gt; "
 "Settings and select the Website Live Chat Channel you want to add on your "
 "website."
 msgstr ""
@@ -733,8 +733,8 @@ msgstr "OK"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Cnmx"
+msgstr "Cnmx"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.res_users_form_view_simple_modif
@@ -788,10 +788,10 @@ msgstr ""
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"Operators that do not show any activity In Odoo for more than 30 minutes "
+"Operators that do not show any activity In Cnmx for more than 30 minutes "
 "will be considered as disconnected."
 msgstr ""
-"Operators die geen activiteiten toont in Odoo voor meer dan 30 minuten wordt"
+"Operators die geen activiteiten toont in Cnmx voor meer dan 30 minuten wordt"
 " beschouwd als niet meer verbonden."
 
 #. module: im_livechat

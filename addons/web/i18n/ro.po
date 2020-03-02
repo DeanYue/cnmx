@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -10,12 +10,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-25 15:03+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
 "Last-Translator: Dorin Hongu <dhongu@gmail.com>, 2020\n"
-"Language-Team: Romanian (https://www.transifex.com/odoo/teams/41243/ro/)\n"
+"Language-Team: Romanian (https://www.transifex.com/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1695,7 +1695,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
+msgid "Get this feature and much more with Cnmx Enterprise!"
 msgstr "Această opțiune este disponibilă în varianta Enterprise!"
 
 #. module: web
@@ -2282,8 +2282,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Contul meu Odoo.com"
+msgid "My Cnmx.com account"
+msgstr "Contul meu Cnmx.com"
 
 #. module: web
 #. openerp-web
@@ -2476,14 +2476,14 @@ msgstr "Obiect:"
 #: code:addons/web/static/src/js/core/dialog.js:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Cnmx"
+msgstr "Cnmx"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:0
 #, python-format
-msgid "Odoo Apps will be available soon"
+msgid "Cnmx Apps will be available soon"
 msgstr ""
 
 #. module: web
@@ -2493,35 +2493,35 @@ msgstr ""
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Odoo Client Error"
+msgid "Cnmx Client Error"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:0
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo Enterprise"
+msgid "Cnmx Enterprise"
+msgstr "Cnmx Enterprise"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Odoo Error"
-msgstr "Eroare Odoo"
+msgid "Cnmx Error"
+msgstr "Eroare Cnmx"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Odoo Session Expired"
-msgstr "Sesiune Odoo Expirată"
+msgid "Cnmx Session Expired"
+msgstr "Sesiune Cnmx Expirată"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Odoo Warning"
+msgid "Cnmx Warning"
 msgstr ""
 
 #. module: web
@@ -2816,8 +2816,8 @@ msgstr ""
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Oferit de <span>Odoo</span>"
+msgid "Powered by <span>Cnmx</span>"
+msgstr "Oferit de <span>Cnmx</span>"
 
 #. module: web
 #. openerp-web
@@ -4202,7 +4202,7 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:0
 #, python-format
 msgid ""
-"You need to start Odoo with at least two workers to print a pdf version of "
+"You need to start Cnmx with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
 
@@ -4220,8 +4220,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "Sesiunea de Odoo a expirat. Vă rog să dați refresh la pagina curentă."
+msgid "Your Cnmx session expired. Please refresh the current web page."
+msgstr "Sesiunea de Cnmx a expirat. Vă rog să dați refresh la pagina curentă."
 
 #. module: web
 #. openerp-web

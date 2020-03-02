@@ -1,38 +1,38 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* payment
 # 
 # Translators:
 # Moka Tourisme <hello@mokatourisme.fr>, 2019
 # Antoine Lorence <antoine.lorence@gmail.com>, 2019
-# Fred Gilson <fgi@odoo.com>, 2019
-# Laura Piraux <lap@odoo.com>, 2019
+# Fred Gilson <fgi>, 2019
+# Laura Piraux <lap>, 2019
 # Nathan Noël <nathan070@me.com>, 2019
 # Xavier Symons <xsy@openerp.com>, 2019
-# Lucas Deliege <lud@odoo.com>, 2019
+# Lucas Deliege <lud>, 2019
 # Jérôme Tanché <jerome.tanche@ouest-dsi.fr>, 2019
 # Aurélien Pillevesse <aurelienpillevesse@hotmail.fr>, 2019
-# Eloïse Stilmant <est@odoo.com>, 2019
+# Eloïse Stilmant <est>, 2019
 # William Olhasque <william.olhasque@scopea.fr>, 2019
 # Rémi CAZENAVE <remi@le-filament.com>, 2019
 # Alain van de Werve <avw@openerp.com>, 2019
 # Olivier ANDRE <frsw194@gmail.com>, 2019
 # Mohamed BENKIRANE <benkirane.med.ali@gmail.com>, 2019
-# gdp Odoo <gdp@odoo.com>, 2019
-# thomas quertinmont <tqu@odoo.com>, 2019
+# gdp Cnmx <gdp>, 2019
+# thomas quertinmont <tqu>, 2019
 # Martin Trigaux, 2019
 # Vincent Luba <vincent@biz-4-africa.com>, 2019
-# Jonathan <jcs@odoo.com>, 2019
-# Cécile Collart <cco@odoo.com>, 2020
+# Jonathan <jcs>, 2019
+# Cécile Collart <cco>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-18 09:47+0000\n"
 "PO-Revision-Date: 2019-08-26 09:12+0000\n"
-"Last-Translator: Cécile Collart <cco@odoo.com>, 2020\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Last-Translator: Cécile Collart <cco>, 2020\n"
+"Language-Team: French (https://www.transifex.com/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -490,8 +490,8 @@ msgstr "Capturer la transaction"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__capture_manually
-msgid "Capture the amount from Odoo, when the delivery is completed."
-msgstr "Capturer le montant depuis Odoo une fois l'acheminement effectué."
+msgid "Capture the amount from Cnmx, when the delivery is completed."
+msgstr "Capturer le montant depuis Cnmx une fois l'acheminement effectué."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_onboarding_wizard_form
@@ -1086,13 +1086,13 @@ msgstr "Manuel"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of Cnmx.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Cnmx,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Paiement manuel : soyez payé en espèces, par chèque ou par tout autre moyen externe à Odoo.\n"
+"Paiement manuel : soyez payé en espèces, par chèque ou par tout autre moyen externe à Cnmx.\n"
 "Paiement électronique : soyez payé automatiquement par un acquéreur en demandant une transaction sur une carte enregistrée par le client lors de l'achat ou de l'inscription en ligne (jeton de paiement).\n"
-"Dépôt groupé : encaissez plusieurs chèques clients à la fois en générant un dépôt groupé à envoyer à votre banque. Lors de l'encodage du relevé bancaire dans Odoo, vous pouvez rapprocher la transaction et le dépôt groupé. Activez cette option dans les paramètres."
+"Dépôt groupé : encaissez plusieurs chèques clients à la fois en générant un dépôt groupé à envoyer à votre banque. Lors de l'encodage du relevé bancaire dans Cnmx, vous pouvez rapprocher la transaction et le dépôt groupé. Activez cette option dans les paramètres."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_onboarding_wizard__paypal_seller_account
@@ -1233,8 +1233,8 @@ msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer__module_to_buy
-msgid "Odoo Enterprise Module"
-msgstr "Module Enterprise Odoo"
+msgid "Cnmx Enterprise Module"
+msgstr "Module Enterprise Cnmx"
 
 #. module: payment
 #. openerp-web
@@ -1453,8 +1453,8 @@ msgstr ""
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_acquirer__payment_flow__s2s
-msgid "Payment from Odoo"
-msgstr "Paiement d'Odoo"
+msgid "Payment from Cnmx"
+msgstr "Paiement d'Cnmx"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.onboarding_payment_acquirer_step
@@ -1923,8 +1923,8 @@ msgstr "Type"
 #. openerp-web
 #: code:addons/payment/static/src/xml/payment_processing.xml:0
 #, python-format
-msgid "Unable to contact the Odoo server."
-msgstr "Impossible de contacter le serveur Odoo."
+msgid "Unable to contact the Cnmx Server."
+msgstr "Impossible de contacter le serveur Cnmx."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.acquirer_form

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
@@ -6,7 +6,7 @@
 # DE T1 <e2f8846@yahoo.com>, 2019
 # Anja Uebermuth <anja.uebermuth@arts.eu>, 2019
 # Philipp Hug <philipp@hug.cx>, 2019
-# Gab_Odoo <gab@odoo.com>, 2019
+# Gab_Cnmx <gab>, 2019
 # Alexander Klockhaus <a.klockhaus@gmail.com>, 2019
 # darenkster <inactive+darenkster@transifex.com>, 2019
 # DE T2 <e2f48d4s5vd1s2@outlook.com>, 2019
@@ -25,23 +25,23 @@
 # Katharina Moritz <kmo@e2f.com>, 2019
 # Bülent Tiknas <btiknas@googlemail.com>, 2019
 # brokemeister <work@maltejansen.de>, 2019
-# Johannes Croe <jcr@odoo.com>, 2019
+# Johannes Croe <jcr>, 2019
 # Bettina Pfeifer <betzilla@web.de>, 2019
 # Martin Trigaux, 2019
-# Leon Grill <leg@odoo.com>, 2019
+# Leon Grill <leg>, 2019
 # Chris Egal <sodaswed@web.de>, 2019
 # Marcel Trotzek <trotzek@rtg-portale.de>, 2019
-# Patrick Heuel <patrick.heuel@odoo-bs.com>, 2019
+# Patrick Heuel <patrick.heuel@-bs.com>, 2019
 # Philip Kuß <philip.kuss@gmx.de>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:14+0000\n"
 "Last-Translator: Philip Kuß <philip.kuss@gmx.de>, 2019\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -973,7 +973,7 @@ msgstr "mittels Seriennummer"
 #, python-format
 msgid ""
 "By changing this quantity here, you accept the new quantity as complete: "
-"Odoo will not automatically generate a back order."
+"Cnmx will not automatically generate a back order."
 msgstr ""
 "Durch eine Änderung der Anzahl an dieser Stelle, wird die Lieferung als "
 "vollständig ausgeführt markiert. Es wird keine automatischer Rückstand "
@@ -1708,10 +1708,10 @@ msgstr "Standard Routen im Lager"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint_form
 msgid ""
-"Define a minimum stock rule so that Odoo creates automatically requests for "
+"Define a minimum stock rule so that Cnmx creates automatically requests for "
 "quotations or draft manufacturing orders to resupply your stock."
 msgstr ""
-"Definieren Sie eine Mindestbestandsregel, so dass Odoo automatisch "
+"Definieren Sie eine Mindestbestandsregel, so dass Cnmx automatisch "
 "Bestellanfragen oder Entwürfe für Fertigungsaufsträge erstellt, um Ihr Lager"
 " wieder zu aufzustocken."
 
@@ -1724,14 +1724,14 @@ msgstr "Neues Lager erstellen"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. Cnmx is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "Definieren Sie Ihre Standorte, um Ihre Lagerstruktur und\n"
-"-organisation zu reflektieren. Odoo ist in der Lage, physische Standorte \n"
+"-organisation zu reflektieren. Cnmx ist in der Lage, physische Standorte \n"
 "(Lagerhallen, Regale, Abfallsysteme usw.), Partnerstandorte (Kunden, \n"
 "Verkäufer) und virtuelle Standorte zu verwalten, die das Gegenstück \n"
 "zu den Vorräten wie der Fertigungsaufträge, Lagerbestände usw. sind."
@@ -2147,15 +2147,15 @@ msgstr "Fehler"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in Cnmx moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, Cnmx will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Jeder Lagerbetrieb in Odoo bewegt die Produkte von einem \n"
+"Jeder Lagerbetrieb in Cnmx bewegt die Produkte von einem \n"
 "Ort zum anderen. Zum Beispiel, wenn Sie Produkte von einem \n"
-"Lieferanten erhalten, wird Odoo Produkte aus dem \n"
+"Lieferanten erhalten, wird Cnmx Produkte aus dem \n"
 "Vendor-Standort an den Lagerort verschieben. Jeder Bericht kann an physischen, Partner- oder virtuellen Orten durchgeführt werden."
 
 #. module: stock
@@ -2601,11 +2601,11 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Odoo will automatically pre-fill the detailed "
+"If this checkbox is ticked, Cnmx will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
 msgstr ""
-"Wenn dieses Kontrollkästchen angekreuzt ist, wird Odoo die detaillierten "
+"Wenn dieses Kontrollkästchen angekreuzt ist, wird Cnmx die detaillierten "
 "Bestandsvorgänge automatisch mit den entsprechenden Produkt-, Lagerort- und "
 "Chargen-/Seriennummerinformationen befüllen."
 
@@ -7117,19 +7117,19 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock equals to or goes below the Min Quantity specified "
-"for this field, Odoo generates a procurement to bring the forecasted "
+"for this field, Cnmx generates a procurement to bring the forecasted "
 "quantity to the Max Quantity."
 msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, Cnmx generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
 "Wenn der verfügbare Bestand geringer ist als der hier definierte "
-"Mindestbestand, erstellt Odoo einen Beschaffungsvorschlag zur "
+"Mindestbestand, erstellt Cnmx einen Beschaffungsvorschlag zur "
 "Wiederauffüllung des Lagers."
 
 #. module: stock
@@ -7420,10 +7420,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You have not recorded <i>done</i> quantities yet, by clicking on <i>apply</i>\n"
-"                        Odoo will process all the quantities."
+"                        Cnmx will process all the quantities."
 msgstr ""
 "Sie haben noch keine Menge als <i>erledigt</i> eingetragen. Wenn Sie auf <i>Anwenden</i> klicken,\n"
-"wird Odoo automatisch die gesamte Menge bestätigen."
+"wird Cnmx automatisch die gesamte Menge bestätigen."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_backorder_confirmation

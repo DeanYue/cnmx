@@ -47,8 +47,8 @@ class AcquirerBuckaroo(models.Model):
 
         :param browse acquirer: the payment.acquirer browse record. It should
                                 have a shakey in shaky out
-        :param string inout: 'in' (odoo contacting buckaroo) or 'out' (buckaroo
-                             contacting odoo).
+        :param string inout: 'in' (cnmx contacting buckaroo) or 'out' (buckaroo
+                             contacting cnmx).
         :param dict values: transaction values
 
         :return string: shasign

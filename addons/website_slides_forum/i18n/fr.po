@@ -1,27 +1,27 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* website_slides_forum
 # 
 # Translators:
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2019
-# Cécile Collart <cco@odoo.com>, 2019
+# Cécile Collart <cco>, 2019
 # e2f <projects@e2f.com>, 2019
 # Martin Trigaux, 2019
-# Olivier Dony <odo@odoo.com>, 2019
+# Olivier Dony <odo>, 2019
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2019
-# Clo <clo@odoo.com>, 2019
-# Melanie Bernard <mbe@odoo.com>, 2019
-# Eloïse Stilmant <est@odoo.com>, 2019
-# Léonie Bouchat <lbo@odoo.com>, 2019
+# Clo <clo>, 2019
+# Melanie Bernard <mbe>, 2019
+# Eloïse Stilmant <est>, 2019
+# Léonie Bouchat <lbo>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-07 07:13+0000\n"
 "PO-Revision-Date: 2019-08-26 09:16+0000\n"
-"Last-Translator: Léonie Bouchat <lbo@odoo.com>, 2019\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Last-Translator: Léonie Bouchat <lbo>, 2019\n"
+"Language-Team: French (https://www.transifex.com/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -383,9 +383,9 @@ msgstr "chaque réponse est valable: \"Quel est votre _______ préféré?\""
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "how to configure or customize Odoo to specific business needs,"
+msgid "how to configure or customize Cnmx to specific business needs,"
 msgstr ""
-"comment configurer ou personnaliser Odoo aux besoins business spécifiques,"
+"comment configurer ou personnaliser Cnmx aux besoins business spécifiques,"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -396,8 +396,8 @@ msgstr "comment développer des modules pour vos propres besoins,"
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "how to install Odoo on a specific infrastructure,"
-msgstr "Comment installer Odoo pour une infrastructure spécifique,"
+msgid "how to install Cnmx on a specific infrastructure,"
+msgstr "Comment installer Cnmx pour une infrastructure spécifique,"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -408,8 +408,8 @@ msgstr "C'est une critique déguisée en question: \"_____ est nul, pas vrai?\""
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "specific questions about Odoo service offers, etc."
-msgstr "questions spécifiques sur les services, offres,... d'Odoo."
+msgid "specific questions about Cnmx service offers, etc."
+msgstr "questions spécifiques sur les services, offres,... d'Cnmx."
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -434,9 +434,9 @@ msgstr ""
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "what's the best way to use Odoo for a specific business need,"
+msgid "what's the best way to use Cnmx for a specific business need,"
 msgstr ""
-"quelle est la meilleure manière d'utiliser Odoo pour un besoin business "
+"quelle est la meilleure manière d'utiliser Cnmx pour un besoin business "
 "spécifique,"
 
 #. module: website_slides_forum

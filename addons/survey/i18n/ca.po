@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # * survey
 # 
@@ -9,18 +9,18 @@
 # Carles Antoli <carlesantoli@hotmail.com>, 2018
 # Marc Tormo i Bochaca <mtbochaca@gmail.com>, 2018
 # Eric Antones <eantones@users.noreply.github.com>, 2018
-# RGB Consulting <odoo@rgbconsulting.com>, 2018
+# RGB Consulting <@rgbconsulting.com>, 2018
 # Quim - eccit <quim@eccit.com>, 2018
 # Manel Fernandez <manelfera@outlook.com>, 2018
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: Cnmx Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-08 06:49+0000\n"
 "PO-Revision-Date: 2018-08-24 09:25+0000\n"
 "Last-Translator: Manel Fernandez <manelfera@outlook.com>, 2018\n"
-"Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
+"Language-Team: Catalan (https://www.transifex.com/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -249,8 +249,8 @@ msgstr "El token ha de ser únic"
 
 #. module: survey
 #: model:survey.page,title:survey.feedback_1
-msgid "About your Odoo usage"
-msgstr "Sobre el seu ús d'Odoo"
+msgid "About your Cnmx usage"
+msgstr "Sobre el seu ús d'Cnmx"
 
 #. module: survey
 #: selection:survey.mail.compose.message,moderation_status:0
@@ -369,8 +369,8 @@ msgstr "Arxivat"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1
-msgid "Are you using Odoo on a daily basis?"
-msgstr "Està utilitzant Odoo diàriament?"
+msgid "Are you using Cnmx on a daily basis?"
+msgstr "Està utilitzant Cnmx diàriament?"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__message_attachment_count
@@ -877,8 +877,8 @@ msgstr ""
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_3_1
-msgid "How do you contribute or plan to contribute to Odoo?"
-msgstr "Com contribueix o planeja contribuir a Odoo?"
+msgid "How do you contribute or plan to contribute to Cnmx?"
+msgstr "Com contribueix o planeja contribuir a Cnmx?"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_2_6
@@ -912,8 +912,8 @@ msgstr "Participo en la discussió i els fòrums"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_1
-msgid "I use Github, like all official Odoo projects"
-msgstr "Utilitzo Github, com tots els projectes oficials d'Odoo"
+msgid "I use Github, like all official Cnmx projects"
+msgstr "Utilitzo Github, com tots els projectes oficials d'Cnmx"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_2
@@ -922,8 +922,8 @@ msgstr "Utilitzo un altre sistema de repositoris (SourceForge...)"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_1_3
-msgid "I use the contextual help in Odoo"
-msgstr "Utilitzo l'ajuda contextual en Odoo"
+msgid "I use the contextual help in Cnmx"
+msgstr "Utilitzo l'ajuda contextual en Cnmx"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_3_1_5
@@ -1000,8 +1000,8 @@ msgstr "Si altres, si us plau, precisar:"
 
 #. module: survey
 #: model_terms:survey.page,description:survey.feedback_4
-msgid "If you do not contribute or develop in Odoo, skip this page."
-msgstr "Si no contribueixes o desenvolupes en Odoo, salta aquesta pàgina."
+msgid "If you do not contribute or develop in Cnmx, skip this page."
+msgstr "Si no contribueixes o desenvolupes en Cnmx, salta aquesta pàgina."
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.sfinished
@@ -1518,8 +1518,8 @@ msgstr "Ocurrència"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.layout
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Cnmx"
+msgstr "Cnmx"
 
 #. module: survey
 #: selection:survey.question,matrix_subtype:0
@@ -2280,11 +2280,11 @@ msgstr "Hi ha massa menús. És massa complex d'entendre"
 #. module: survey
 #: model_terms:survey.page,description:survey.feedback_2
 msgid ""
-"These questions relate to the ergonomy and ease of use of Odoo. Try to remind your firsts days on Odoo and\n"
+"These questions relate to the ergonomy and ease of use of Cnmx. Try to remind your firsts days on Cnmx and\n"
 "what have been your difficulties."
 msgstr ""
 "Aquestes preguntes estan relacionades amb l'ergonomia i facilitat d'ús "
-"d'Odoo. Provi de recordar els seus primers dies en Odoo i quines van ser les"
+"d'Cnmx. Provi de recordar els seus primers dies en Cnmx i quines van ser les"
 " seves dificultats."
 
 #. module: survey
@@ -2299,8 +2299,8 @@ msgstr "Són útils en l'ús diari"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_1
-msgid "They help new users to understand Odoo"
-msgstr "Ajuden als nous usuaris a comprendre Odoo"
+msgid "They help new users to understand Cnmx"
+msgstr "Ajuden als nous usuaris a comprendre Cnmx"
 
 #. module: survey
 #: code:addons/survey/models/survey.py:544
@@ -2591,8 +2591,8 @@ msgstr "Que en penses sobre els assistents de configuració?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_1
-msgid "What do you think about the documentation available on doc.odoo.com?"
-msgstr "Que n'opina de la documentació disponible en doc.odoo.com?"
+msgid "What do you think about the documentation available on doc.cnmx.com?"
+msgstr "Que n'opina de la documentació disponible en doc.cnmx.com?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_5
@@ -2602,10 +2602,10 @@ msgstr "Que en pensa dels grups d'usuaris?"
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_2
 msgid ""
-"What do you think about the process views of Odoo, available in the web "
+"What do you think about the process views of Cnmx, available in the web "
 "client ?"
 msgstr ""
-"Que n'opina sobre les vistes de procés d'Odoo, disponibles en el client web?"
+"Que n'opina sobre les vistes de procés d'Cnmx, disponibles en el client web?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_4
@@ -2647,8 +2647,8 @@ msgstr "Sí, utilitzo la versió 7.0 instal·lada en local"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_1_3
-msgid "Yes, I use the online version of Odoo"
-msgstr "Sí, utilitzo la versió en línia d'Odoo"
+msgid "Yes, I use the online version of Cnmx"
+msgstr "Sí, utilitzo la versió en línia d'Cnmx"
 
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.action_survey_form

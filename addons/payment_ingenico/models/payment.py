@@ -64,8 +64,8 @@ class PaymentAcquirerOgone(models.Model):
     def _ogone_generate_shasign(self, inout, values):
         """ Generate the shasign for incoming or outgoing communications.
 
-        :param string inout: 'in' (odoo contacting ogone) or 'out' (ogone
-                             contacting odoo). In this last case only some
+        :param string inout: 'in' (cnmx contacting ogone) or 'out' (ogone
+                             contacting cnmx). In this last case only some
                              fields should be contained (see e-Commerce basic)
         :param dict values: transaction values
 

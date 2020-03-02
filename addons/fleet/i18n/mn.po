@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* fleet
 # 
@@ -12,12 +12,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:34+0000\n"
 "PO-Revision-Date: 2019-08-26 09:10+0000\n"
 "Last-Translator: Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2020\n"
-"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"Language-Team: Mongolian (https://www.transifex.com/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1344,11 +1344,11 @@ msgstr "Үйлдвэр"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"            their related services, costs. Odoo will automatically warn\n"
+"            their related services, costs. Cnmx will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
 "Бүх гэрээгээ (түрээс, даатгал гэх мэт) холбогдох үйлчилгээ, зардлаар удирд. "
-"Зарим гэрээг шинэчлэх шаардлагатай бол Odoo автоматаар танд анхааруулах "
+"Зарим гэрээг шинэчлэх шаардлагатай бол Cnmx автоматаар танд анхааруулах "
 "болно."
 
 #. module: fleet
@@ -1628,10 +1628,10 @@ msgstr "Энэ хөтлөлтийг хийх үеийн туулсан замы�
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_non_effective_action
 msgid ""
-"Odoo helps you managing the costs for your different vehicles\n"
+"Cnmx helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here."
 msgstr ""
-"Odoo нь тээврийн хэрэгслүүдийн зардлыг удирдахад туслана. \n"
+"Cnmx нь тээврийн хэрэгслүүдийн зардлыг удирдахад туслана. \n"
 "Зардлууд нь засвар үйлчилгээ болон гэрээнээс үүсч энд харагдана."
 
 #. module: fleet
@@ -2052,10 +2052,10 @@ msgstr "Худалдааны нөхцөл, журам"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_non_effective_action
 msgid ""
-"Thanks to the different filters, Odoo can only print the effective\n"
+"Thanks to the different filters, Cnmx can only print the effective\n"
 "          costs, sort them by type and by vehicle."
 msgstr ""
-"Олон төрлийн шүүлтүүрийн ачаар Odoo нь зөвхөн зохистой \n"
+"Олон төрлийн шүүлтүүрийн ачаар Cnmx нь зөвхөн зохистой \n"
 "зардлуудыг хэвлэх бөгөөд үүнийг төрлөөр нь, тээврийн \n"
 "хэрэгслээр нь эрэмбэлж, бүлэглэх боломжтой."
 

@@ -651,7 +651,7 @@ registry.mediaVideo = publicWidget.Widget.extend({
      */
     start: function () {
         // TODO: this code should be refactored to make more sense and be better
-        // integrated with Odoo (this refactoring should be done in master).
+        // integrated with Cnmx (this refactoring should be done in master).
 
         var def = this._super.apply(this, arguments);
         if (this.$target.children('iframe').length) {

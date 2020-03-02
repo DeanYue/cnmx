@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 try:
     from unittest.mock import patch
@@ -98,7 +98,7 @@ class TestPartnerLeadPortal(TestCrmCases):
         })
         # Integrating user/partner, having a salesman
         self.portal_user = self.env['res.users'].with_context({'no_reset_password': True, 'mail_notrack': True}).create({
-            'name': 'Super Customer Odoo Intregrating Partner',
+            'name': 'Super Customer Cnmx Intregrating Partner',
             'email': 'super.partner@ododo.com',
             'login': 'superpartner',
             'groups_id': [(6, 0, [self.env.ref('base.group_portal').id])],

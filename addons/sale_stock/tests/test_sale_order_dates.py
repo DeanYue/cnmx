@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 from datetime import timedelta
 from odoo import fields
@@ -88,7 +88,7 @@ class TestSaleExpectedDate(common.TransactionCase):
 
     def test_sale_order_commitment_date(self):
 
-        # In order to test the Commitment Date feature in Sales Orders in Odoo,
+        # In order to test the Commitment Date feature in Sales Orders in Cnmx,
         # I copy a demo Sales Order with committed Date on 2010-07-12
         new_order = self.env.ref('sale.sale_order_6').copy({'commitment_date': '2010-07-12'})
         # I confirm the Sales Order.
