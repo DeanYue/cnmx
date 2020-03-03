@@ -5,7 +5,7 @@
     'category': 'Website/Website',
     'sequence': 166,
     'summary': 'Publish events, sell tickets',
-    'website': 'https://www.odoo.com/page/events',
+    'website': 'https://www.cnmx.com/page/events',
     'description': "",
     'depends': ['website', 'website_partner', 'website_mail', 'event'],
     'data': [

@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* mail_bot
 # 
 # Translators:
 # Martin Trigaux, 2019
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2019
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2019
+# Erwin van der Ploeg <erwin@experts.nl>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: Cnmx Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:16+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
-"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2019\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Erwin van der Ploeg <erwin@experts.nl>, 2019\n"
+"Language-Team: Dutch (https://www.transifex.com/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -82,10 +82,10 @@ msgstr "HTTP routing"
 #: code:addons/mail_bot/models/mail_channel.py:0
 #, python-format
 msgid ""
-"Hello,<br/>Odoo's chat helps employees collaborate efficiently. I'm here to "
+"Hello,<br/>Cnmx's chat helps employees collaborate efficiently. I'm here to "
 "help you discover its features.<br/><b>Try to send me an emoji :)</b>"
 msgstr ""
-"Hallo, <br/>Odoo's chat helpt medewerkers efficiënt samen te werken. Ik ben "
+"Hallo, <br/>Cnmx's chat helpt medewerkers efficiënt samen te werken. Ik ben "
 "hier om je te helpen de functies ervan te ontdekken.<br/> <b>Probeer me een "
 "emoji te sturen :)</b>"
 
@@ -182,22 +182,22 @@ msgstr ""
 #: code:addons/mail_bot/static/src/js/systray_messaging_menu.js:0
 #, python-format
 msgid ""
-"Odoo will not have the permission to send native notifications on this "
+"Cnmx will not have the permission to send native notifications on this "
 "device."
 msgstr ""
-"Odoo heeft geen toegang om native berichten te versturen op dit apparaat."
+"Cnmx heeft geen toegang om native berichten te versturen op dit apparaat."
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "OdooBot status"
+msgid "CnmxBot Status"
+msgstr "CnmxBot status"
 
 #. module: mail_bot
 #. openerp-web
 #: code:addons/mail_bot/static/src/js/mailbot_service.js:0
 #, python-format
-msgid "OdooBot has a request"
-msgstr "OdooBot heeft een verzoek"
+msgid "CnmxBot has a request"
+msgstr "CnmxBot heeft een verzoek"
 
 #. module: mail_bot
 #: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_attachement
@@ -248,10 +248,10 @@ msgstr ""
 #, python-format
 msgid ""
 "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
-"Write \"@odoobot\" and select me."
+"Write \"@bot\" and select me."
 msgstr ""
 "Sorry, ik luister niet. Als je iemands aandacht wilt trekken, moet je hem "
-"<b>een ping sturen</b>. Schrijf \"@odoobot\" en selecteer mij."
+"<b>een ping sturen</b>. Schrijf \"@bot\" en selecteer mij."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
@@ -285,10 +285,10 @@ msgstr "Gebruikers"
 #, python-format
 msgid ""
 "Wow you are a natural!<br/>Ping someone to grab its attention with "
-"@nameoftheuser. <b>Try to ping me using @OdooBot</b> in a sentence."
+"@nameoftheuser. <b>Try to ping me using @Bot</b> in a sentence."
 msgstr ""
 "Wow je bent een natuurlijktalent! <br/>Ping iemand om zijn aandacht te "
-"trekken met @gebruikersnaam. <b>Probeer me te pingen met @OdooBot </b>in een"
+"trekken met @gebruikersnaam. <b>Probeer me te pingen met @Bot </b>in een"
 " zin."
 
 #. module: mail_bot
@@ -296,16 +296,16 @@ msgstr ""
 #, python-format
 msgid ""
 "Yep, I am here! 🎉 <br/>You finished the tour, you can <b>close this chat "
-"window</b>. Enjoy discovering Odoo."
+"window</b>. Enjoy discovering Cnmx."
 msgstr ""
 "Ja, ik ben hier! 🎉 Je hebt de rondleiding voltooid,<b> je kunt dit "
-"chatvenster sluiten</b>. Geniet van het ontdekken van Odoo."
+"chatvenster sluiten</b>. Geniet van het ontdekken van Cnmx."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
 #, python-format
-msgid "Yep, OdooBot is in the place!"
-msgstr "Yep, OdooBot is er klaar voor!"
+msgid "Yep, CnmxBot is in the place!"
+msgstr "Yep, CnmxBot is er klaar voor!"
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0

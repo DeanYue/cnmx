@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
@@ -6,8 +6,6 @@
 # Linda Stockelova <stockeloval@btlnet.com>, 2019
 # Seongseok Shin <shinss61@hotmail.com>, 2019
 # 경민기 <moonend@gmail.com>, 2019
-# nle_odoo, 2019
-# Mark Lee <odoos@soti.33mail.com>, 2019
 # Martin Trigaux, 2019
 # Goh Gangtai <gangtai.goh@gmail.com>, 2019
 # Link Up링크업 <linkup.way@gmail.com>, 2019
@@ -16,12 +14,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:14+0000\n"
 "Last-Translator: JH CHOI <hwangtog@gmail.com>, 2020\n"
-"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"Language-Team: Korean (https://www.transifex.com/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -929,8 +927,8 @@ msgstr "시리얼 번호에 따라"
 #, python-format
 msgid ""
 "By changing this quantity here, you accept the new quantity as complete: "
-"Odoo will not automatically generate a back order."
-msgstr "여기서 이 수량을 변경하면 새 수량을 완료 한 것으로 간주합니다. Odoo는 자동으로 주문잔량을 생성하지 않습니다."
+"Cnmx will not automatically generate a back order."
+msgstr "여기서 이 수량을 변경하면 새 수량을 완료 한 것으로 간주합니다. Cnmx는 자동으로 주문잔량을 생성하지 않습니다."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__procure_method
@@ -1639,7 +1637,7 @@ msgstr "창고를 통한 기본 경로"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint_form
 msgid ""
-"Define a minimum stock rule so that Odoo creates automatically requests for "
+"Define a minimum stock rule so that Cnmx creates automatically requests for "
 "quotations or draft manufacturing orders to resupply your stock."
 msgstr ""
 "Define a minimum stock rule so that Realook MES creates automatically "
@@ -1655,14 +1653,14 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. Cnmx is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "창고 구조 및 조직을 반영하도록 공간(위치)를\n"
-"            정의하십시오. Odoo는 제조 주문 소비,\n"
+"            정의하십시오. Cnmx는 제조 주문 소비,\n"
 "            재고 자산 등과 같은 재고 작업의,\n"
 "            상대적인 물리적 공간(위치)(창고, 셀브, 빈 등) 파트너 창고(고객, 공급업체) 및 가상 공간(위치)를 관리 할 수 있습니다.\n"
 "            파트너 창고(고객, 공급업체) 및 가상 공간(위치)를\n"
@@ -2075,15 +2073,15 @@ msgstr "오류"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in Cnmx moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, Cnmx will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Odoo의 모든 재고 작업은 제품을 한 공간(위치)에서\n"
+"Cnmx의 모든 재고 작업은 제품을 한 공간(위치)에서\n"
 "            다른 공간(위치)로 옮깁니다.  예를 들어, 공급 업체로부터\n"
-"            제품을 받은 경우, Odoo는 제품을 공급 업체 창고에서\n"
+"            제품을 받은 경우, Cnmx는 제품을 공급 업체 창고에서\n"
 "            재고 공간(위치)로 옮깁니다. 각 보고서는 실제,\n"
 "            파트너, 또는 가상 공간(위치)에서 수행 할 수 있습니다."
 
@@ -2514,7 +2512,7 @@ msgstr "선벽이 잠금 해제되면 초기 수요(초안 선별의 경우) 또
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Odoo will automatically pre-fill the detailed "
+"If this checkbox is ticked, Cnmx will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
 msgstr ""
@@ -6895,17 +6893,17 @@ msgstr "선별을 하지 않으면 초기 수요를 변결할 수 있습니다. 
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock equals to or goes below the Min Quantity specified "
-"for this field, Odoo generates a procurement to bring the forecasted "
+"for this field, Cnmx generates a procurement to bring the forecasted "
 "quantity to the Max Quantity."
 msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, Cnmx generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
-msgstr "가상 재고가 최소 수량보다 낮아지면 Odoo는 예측 수량을 최대 수량으로 지정된 수량을 가져 오는 조달을 생성합니다."
+msgstr "가상 재고가 최소 수량보다 낮아지면 Cnmx는 예측 수량을 최대 수량으로 지정된 수량을 가져 오는 조달을 생성합니다."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rule__propagate_cancel
@@ -7180,7 +7178,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You have not recorded <i>done</i> quantities yet, by clicking on <i>apply</i>\n"
-"                        Odoo will process all the quantities."
+"                        Cnmx will process all the quantities."
 msgstr ""
 
 #. module: stock

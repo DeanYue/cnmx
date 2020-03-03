@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* membership
 # 
 # Translators:
 # Martin Trigaux, 2019
 # Chris Egal <sodaswed@web.de>, 2019
-# Leon Grill <leg@odoo.com>, 2019
+# Leon Grill <leg>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: Cnmx Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:16+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
-"Last-Translator: Leon Grill <leg@odoo.com>, 2019\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Leon Grill <leg>, 2019\n"
+"Language-Team: German (https://www.transifex.com/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -550,10 +550,10 @@ msgstr "Kein Mitglied"
 #. module: membership
 #: model_terms:ir.actions.act_window,help:membership.action_membership_members
 msgid ""
-"Odoo helps you easily track all activities related to a member: \n"
+"Cnmx helps you easily track all activities related to a member: \n"
 "                  Current Membership Status, Discussions and History of Membership, etc."
 msgstr ""
-"Mit Odoo können Sie auf einfache Weise alle Aktivitäten verfolgen, die mit einem Mitglied in Verbindung stehen:\n"
+"Mit Cnmx können Sie auf einfache Weise alle Aktivitäten verfolgen, die mit einem Mitglied in Verbindung stehen:\n"
 "                  Aktueller Status der Mitgliedschaft, Diskussionen und Geschichte der Mitgliedschaft usw."
 
 #. module: membership

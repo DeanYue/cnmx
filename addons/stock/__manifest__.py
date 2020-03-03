@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Inventory',
     'version': '1.1',
     'summary': 'Manage your stock and logistics activities',
     'description': "",
-    'website': 'https://www.odoo.com/page/warehouse',
+    'website': 'https://www.cnmx.com/page/warehouse',
     'depends': ['product', 'barcodes'],
     'category': 'Operations/Inventory',
     'sequence': 13,

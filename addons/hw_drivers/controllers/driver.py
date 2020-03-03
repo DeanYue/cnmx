@@ -70,10 +70,10 @@ class StatusController(http.Controller):
     @http.route('/hw_drivers/box/connect', type='http', auth='none', cors='*', csrf=False, save_session=False)
     def connect_box(self, token):
         """
-        This route is called when we want that a IoT Box will be connected to a Odoo DB
+        This route is called when we want that a IoT Box will be connected to a Cnmx DB
         token is a base 64 encoded string and have 2 argument separate by |
-        1 - url of odoo DB
-        2 - token. This token will be compared to the token of Odoo. He have 1 hour lifetime
+        1 - url of cnmx DB
+        2 - token. This token will be compared to the token of Cnmx. He have 1 hour lifetime
         """
         server = helpers.get_odoo_server_url()
         image = get_resource_path('hw_drivers', 'static/img', 'False.jpg')
@@ -277,7 +277,7 @@ class Manager(Thread):
 
     def send_alldevices(self):
         """
-        This method send IoT Box and devices informations to Odoo database
+        This method send IoT Box and devices informations to Cnmx database
         """
         server = helpers.get_odoo_server_url()
         if server:
@@ -322,7 +322,7 @@ class Manager(Thread):
                 _logger.error('Could not reach configured server')
                 _logger.error('A error encountered : %s ' % e)
         else:
-            _logger.warning('Odoo server not set')
+            _logger.warning('Cnmx server not set')
 
     def get_connected_displays(self):
         display_devices = {}
@@ -414,7 +414,7 @@ class Manager(Thread):
 
     def run(self):
         """
-        Thread that will check connected/disconnected device, load drivers if needed and contact the odoo server with the updates
+        Thread that will check connected/disconnected device, load drivers if needed and contact the cnmx server with the updates
         """
         helpers.check_git_branch()
         helpers.check_certificate()

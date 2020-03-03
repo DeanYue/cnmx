@@ -1,27 +1,27 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* mail
 # 
 # Translators:
-# Wynand Tastenhoye <wta@odoo.com>, 2019
+# Wynand Tastenhoye <wta>, 2019
 # Eric Geens <ericgeens@yahoo.com>, 2019
 # Cas Vissers <casvissers@brahoo.nl>, 2019
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2019
-# Maxim Vandenbroucke <mxv@odoo.com>, 2019
-# Charles Vervaecke <cvk@odoo.com>, 2019
+# Maxim Vandenbroucke <mxv>, 2019
+# Charles Vervaecke <cvk>, 2019
 # Martin Trigaux, 2019
-# Cécile Collart <cco@odoo.com>, 2019
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2020
+# Cécile Collart <cco>, 2019
+# Erwin van der Ploeg <erwin@experts.nl>, 2020
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:33+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
 "Last-Translator: Yenthe Van Ginneken <yenthespam@gmail.com>, 2020\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language-Team: Dutch (https://www.transifex.com/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2523,8 +2523,8 @@ msgstr "Afhandelen met e-mails"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
-msgid "Handle in Odoo"
-msgstr "Afhandelen in Odoo"
+msgid "Handle in Cnmx"
+msgstr "Afhandelen in Cnmx"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_message__has_cancel
@@ -2751,11 +2751,11 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the Cnmx Server, "
 "enter the domain name here."
 msgstr ""
 "Als u een 'catch-all' e-mail adres heeft aangemaakt, welke verwijst naar de "
-"Odoo server, vul dan hier de domein naam in."
+"Cnmx Server, vul dan hier de domein naam in."
 
 #. module: mail
 #. openerp-web
@@ -4155,8 +4155,8 @@ msgstr "Aantal ongelezen berichten"
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
 #: model_terms:ir.ui.view,arch_db:mail.message_notification_email
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Cnmx"
+msgstr "Cnmx"
 
 #. module: mail
 #. openerp-web
@@ -4589,11 +4589,11 @@ msgstr "Een ogenblik geduld a.u.b., het bestand wordt geupload."
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Handle by Emails: notifications are sent to your email address\n"
-"- Handle in Odoo: notifications appear in your Odoo Inbox"
+"- Handle in Cnmx: notifications appear in your Cnmx Inbox"
 msgstr ""
 "Beleid voor het omgaan met Chatter-meldingen:\n"
 "- Behandel via e-mails: meldingen worden verzonden naar uw e-mailadres\n"
-"- Bewerk in Odoo: meldingen verschijnen in je Odoo Inbox"
+"- Bewerk in Cnmx: meldingen verschijnen in je Cnmx Inbox"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_contact
@@ -5579,7 +5579,7 @@ msgstr "De interne gebruiker verantwoordelijk voor dit contract."
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin__alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Cnmx Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
@@ -5593,7 +5593,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.cnmx.com>"
 msgstr ""
 "De naam van de e-mail alias, bijvoorbeeld: 'vacature' indien u alle e-mails "
 "van vacature@uwbedrijf.nl wilt afvangen."
@@ -6105,11 +6105,11 @@ msgstr "Gebruikers in dit kanaal: %s %s en u."
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.odoo.com)."
+"email server (@mycompany.cnmx.com)."
 msgstr ""
 "Het gebruik van uw eigen e-mailserver is vereist voor het verzenden / "
 "ontvangen van e-mails in Community- en Enterprise-versies. Online gebruikers"
-" profiteren van een kant-en-klare e-mailserver (@ mijnbedrijf.odoo.com)."
+" profiteren van een kant-en-klare e-mailserver (@ mijnbedrijf.cnmx.com)."
 
 #. module: mail
 #. openerp-web
@@ -6642,8 +6642,8 @@ msgstr "meer"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.odoo.com"
-msgstr "mijnbedrijf.odoo.com"
+msgid "mycompany.cnmx.com"
+msgstr "mijnbedrijf.cnmx.com"
 
 #. module: mail
 #. openerp-web

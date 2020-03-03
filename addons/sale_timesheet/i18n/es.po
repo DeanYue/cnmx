@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* sale_timesheet
 # 
@@ -12,21 +12,21 @@
 # Antonio Trueba, 2019
 # Miguel Orueta <mo@landoo.es>, 2019
 # 966ff43e6966712895a590e7320ca288, 2019
-# Pilar Marín <pilar@odooperu.pe>, 2019
+# Pilar Marín <pilar@peru.pe>, 2019
 # Alejandro Die Sanchis <marketing@domatix.com>, 2019
-# RGB Consulting <odoo@rgbconsulting.com>, 2019
-# Jon Perez <jop@odoo.com>, 2019
+# RGB Consulting <@rgbconsulting.com>, 2019
+# Jon Perez <jop>, 2019
 # Martin Trigaux, 2019
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-25 15:03+0000\n"
 "PO-Revision-Date: 2019-08-26 09:14+0000\n"
 "Last-Translator: Pedro M. Baeza <pedro.baeza@gmail.com>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"

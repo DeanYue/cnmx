@@ -1,9 +1,8 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* hr
 # 
 # Translators:
-# Mark Lee <odoos@soti.33mail.com>, 2019
 # Martin Trigaux, 2019
 # Link Up링크업 <linkup.way@gmail.com>, 2019
 # Seongseok Shin <shinss61@hotmail.com>, 2019
@@ -12,12 +11,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:10+0000\n"
 "Last-Translator: JH CHOI <hwangtog@gmail.com>, 2020\n"
-"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"Language-Team: Korean (https://www.transifex.com/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -255,7 +254,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Odoo</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Cnmx</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -283,7 +282,7 @@ msgstr ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        저작권 : <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Odoo</a>\n"
+"        저작권 : <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Cnmx</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -1821,10 +1820,10 @@ msgstr "읽지 않은 메시지 수"
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_module_tree_department
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"Cnmx's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves, recruitments, etc."
-msgstr "Odoo의 부서 구조는 부서별 직원 관련 문서 : 비용, 작업기록표, 휴가, 채용 등을 관리하는 데 사용됩니다."
+msgstr "Cnmx의 부서 구조는 부서별 직원 관련 문서 : 비용, 작업기록표, 휴가, 채용 등을 관리하는 데 사용됩니다."
 
 #. module: hr
 #: model:res.groups,name:hr.group_hr_user
@@ -2061,11 +2060,11 @@ msgstr "수익성이 있는"
 msgid ""
 "Programming Languages: Python &amp; JavaScript<br>Database: postgresql (with object relational\n"
 "                    mapping)<br>Collaboration platform: GitHub<br>Development model: open with external\n"
-"                    community<br>Framework: Odoo (ORM, Workflows, Report Engine, BI)"
+"                    community<br>Framework: Cnmx (ORM, Workflows, Report Engine, BI)"
 msgstr ""
 "프로그래밍 언어 : Python &amp; JavaScript<br> 데이터베이스 : postgresql (객체 관계형 매핑 포함)<br>\n"
 "협업 플랫폼 : GitHub<br> 개발 모델 : 외부 커뮤니티와 개방<br>\n"
-"프레임 워크 : Odoo (ORM, 워크 플로우, 보고서 엔진, BI)"
+"프레임 워크 : Cnmx (ORM, 워크 플로우, 보고서 엔진, BI)"
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_employee_public
@@ -2453,8 +2452,8 @@ msgstr "배지 ID는 고유해야 합니다. 이 ID는 이미 다른 직원에�
 #: model_terms:hr.job,website_description:hr.job_hrm
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
-msgid "The Odoo culture"
-msgstr "Odoo 문화"
+msgid "The Cnmx culture"
+msgstr "Cnmx 문화"
 
 #. module: hr
 #: code:addons/hr/models/hr_employee.py:0
@@ -2668,22 +2667,22 @@ msgstr "홀아비 또는 과부"
 #: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the Cnmx employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Odoo 직원 화면을 간단히 보면, \n"
+"Cnmx 직원 화면을 간단히 보면, \n"
 "                   각 사람에게 필요한 모든 정보를 쉽게 찾을 수 있습니다. \n"
 "                   연락처 데이터, 직무, 가용성 등."
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the Cnmx employee screen, you\n"
 "               can easily find all the information you need for each person;\n"
 "               contact data, job position, availability, etc."
 msgstr ""
-"Odoo 직원 화면을 간단히 살펴보면 \n"
+"Cnmx 직원 화면을 간단히 살펴보면 \n"
 "                 각 개인에게 필요한 모든 정보를 쉽게 찾을 수 있습니다 : \n"
 "                 연락처 데이터, 직책, 가용성 등"
 

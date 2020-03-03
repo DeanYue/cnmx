@@ -254,7 +254,7 @@ ScreenWidget.include({
 
 // On Payment screen, allow online payments
 PaymentScreenWidget.include({
-    // How long we wait for the odoo server to deliver the response of
+    // How long we wait for the cnmx server to deliver the response of
     // a Vantiv transaction
     server_timeout_in_ms: 95000,
 
@@ -408,7 +408,7 @@ PaymentScreenWidget.include({
 
                 if (data === "internal error") {
                     def.resolve({
-                        message: _t("Odoo error while processing transaction.")
+                        message: _t("Cnmx error while processing transaction.")
                     });
                     return;
                 }
@@ -562,7 +562,7 @@ PaymentScreenWidget.include({
 
                 if (data === "internal error") {
                     def.resolve({
-                        message: _t("Odoo error while processing transaction.")
+                        message: _t("Cnmx error while processing transaction.")
                     });
                     return;
                 }

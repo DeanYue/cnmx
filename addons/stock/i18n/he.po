@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
@@ -20,12 +20,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:14+0000\n"
 "Last-Translator: דודי מלכה <Dudimalka6@gmail.com>, 2020\n"
-"Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
+"Language-Team: Hebrew (https://www.transifex.com/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -947,9 +947,9 @@ msgstr "לפי מספר סידורי ייחודי"
 #, python-format
 msgid ""
 "By changing this quantity here, you accept the new quantity as complete: "
-"Odoo will not automatically generate a back order."
+"Cnmx will not automatically generate a back order."
 msgstr ""
-"על ידי שינוי כמות זו כאן, אתה מקבל את הכמות החדשה כשלמה: Odoo לא תיצור באופן"
+"על ידי שינוי כמות זו כאן, אתה מקבל את הכמות החדשה כשלמה: Cnmx לא תיצור באופן"
 " אוטומטי את הזמנה בחזרה."
 
 #. module: stock
@@ -1669,10 +1669,10 @@ msgstr "מסלולי ברירת מחדל של המחסן"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint_form
 msgid ""
-"Define a minimum stock rule so that Odoo creates automatically requests for "
+"Define a minimum stock rule so that Cnmx creates automatically requests for "
 "quotations or draft manufacturing orders to resupply your stock."
 msgstr ""
-"הגדר כלל למלאי מינימלי כך ש Odoo ינפיק באופן אוטומטי בקשות להצעות מחיר או "
+"הגדר כלל למלאי מינימלי כך ש Cnmx ינפיק באופן אוטומטי בקשות להצעות מחיר או "
 "טיוטות של הזמנות ייצור כדי להחזיר את המלאי מחדש."
 
 #. module: stock
@@ -1684,14 +1684,14 @@ msgstr "הגדר מחסן חדש"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. Cnmx is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "הגדר את המיקומים שלך כך שישקפו את מבנה המחסן ואת הארגון שבו.\n"
-"Odoo מסוגל לנהל מיקומים פיזיים\n"
+"Cnmx מסוגל לנהל מיקומים פיזיים\n"
 "(מחסנים, מדפים, סל, וכו '), מיקומים שותף (לקוחות,ספקים)\n"
 "וגם מיקומים וירטואליים מקבילים של פעולות המלאי \n"
 "כמו הזמנות ייצור, מצרכים, מלאי וכו '"
@@ -2108,15 +2108,15 @@ msgstr "שגיאה"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in Cnmx moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, Cnmx will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"כל פעולה המתבצעת במלאי Odoo תעביר את המוצרים ממיקום אחד\n"
+"כל פעולה המתבצעת במלאי Cnmx תעביר את המוצרים ממיקום אחד\n"
 "לאחר. לדוגמה, אם אתה מקבל מוצרים\n"
-"מהספק, Odoo תעביר מוצרים מהספק\n"
+"מהספק, Cnmx תעביר מוצרים מהספק\n"
 "למיקום במלאי. ניתן לבצע  דוח\n"
 "פיזית, שותף או מיקומים וירטואליים."
 
@@ -2557,11 +2557,11 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Odoo will automatically pre-fill the detailed "
+"If this checkbox is ticked, Cnmx will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
 msgstr ""
-"אם מסומנת תיבת סימון זו, Odoo ימלא אוטומטית מראש את הפעולות המפורטות "
+"אם מסומנת תיבת סימון זו, Cnmx ימלא אוטומטית מראש את הפעולות המפורטות "
 "במוצרים, באיתורים ובאצוות/ מספרים הסידוריים המתאימים."
 
 #. module: stock
@@ -7004,18 +7004,18 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock equals to or goes below the Min Quantity specified "
-"for this field, Odoo generates a procurement to bring the forecasted "
+"for this field, Cnmx generates a procurement to bring the forecasted "
 "quantity to the Max Quantity."
 msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, Cnmx generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
-"כאשר המלאי יורד מתחת לכמות המינימלית, Odoo מייצרת רכש כדי להביא את הכמות "
+"כאשר המלאי יורד מתחת לכמות המינימלית, Cnmx מייצרת רכש כדי להביא את הכמות "
 "החזוי לכמות שצוינה כמות מקסימום."
 
 #. module: stock
@@ -7320,10 +7320,10 @@ msgstr "יצרת שורות מוצרים ידנית, מחק אותן כדי לה
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You have not recorded <i>done</i> quantities yet, by clicking on <i>apply</i>\n"
-"                        Odoo will process all the quantities."
+"                        Cnmx will process all the quantities."
 msgstr ""
 "לא רשמת עדיין כמויות ש<i>בוצעו</i> , ע\"י לחיצה על <i>החל</i>\n"
-"                        Odoo יעבד את כל הכמויות."
+"                        Cnmx יעבד את כל הכמויות."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_backorder_confirmation

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* mail
 # 
@@ -12,7 +12,7 @@
 # 演奏王 <wangwhai@qq.com>, 2019
 # F4NNIU <sparkamax@gmail.com>, 2019
 # waveyeung <waveyeung@qq.com>, 2019
-# Lisa Zhang <lzh@odoo.com>, 2019
+# Lisa Zhang <lzh>, 2019
 # rejen he <251442037@qq.com>, 2019
 # niulin lnc. <admin@niulin.net>, 2019
 # gary chk <garychk@163.com>, 2019
@@ -21,17 +21,17 @@
 # Martin Trigaux, 2019
 # aishiby Ail <15287995117@189.cn>, 2019
 # guohuadeng <guohuadeng@hotmail.com>, 2019
-# Cécile Collart <cco@odoo.com>, 2019
+# Cécile Collart <cco>, 2019
 # keecome <7017511@qq.com>, 2019
-# Emily Jia <eji@odoo.com>, 2019
+# Emily Jia <eji>, 2019
 # roye w <159820@qq.com>, 2019
 # snow wang <147156565@qq.com>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # John An <johnxan@163.com>, 2019
 # Jeanphy <hzh0292@qq.com>, 2019
 # ChinaMaker <liuct@chinamaker.net>, 2019
-# Felix Yuen <fyu@odoo.com>, 2019
-# Mandy Choy <mnc@odoo.com>, 2019
+# Felix Yuen <fyu>, 2019
+# Mandy Choy <mnc>, 2019
 # Gary Wei <Gary.wei@elico-corp.com>, 2019
 # bf2549c5415a9287249cba2b8a5823c7, 2019
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
@@ -41,12 +41,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:33+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
 "Last-Translator: Jeffery CHEN Fan <jeffery9@gmail.com>, 2020\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2483,8 +2483,8 @@ msgstr "用邮件处理"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
-msgid "Handle in Odoo"
-msgstr "在Odoo内处理"
+msgid "Handle in Cnmx"
+msgstr "在明象内处理"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_message__has_cancel
@@ -2696,9 +2696,9 @@ msgstr "存在于黑名单的EMail表示收件者不会再收到任何列表的�
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the Cnmx Server, "
 "enter the domain name here."
-msgstr "如果你设置了EMail域名重定向到这个Odoo服务器，请在这里输入域名。"
+msgstr "如果你设置了EMail域名重定向到这个明象服务器，请在这里输入域名。"
 
 #. module: mail
 #. openerp-web
@@ -3779,7 +3779,7 @@ msgstr "新建消息"
 #: code:addons/mail/static/src/xml/thread.xml:0
 #, python-format
 msgid "New messages appear here."
-msgstr "Odoo中的新消息在此呈现。"
+msgstr "明象中的新消息在此呈现。"
 
 #. module: mail
 #. openerp-web
@@ -4062,8 +4062,8 @@ msgstr "未读消息数量"
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
 #: model_terms:ir.ui.view,arch_db:mail.message_notification_email
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Cnmx"
+msgstr "明象"
 
 #. module: mail
 #. openerp-web
@@ -4479,11 +4479,11 @@ msgstr "当文件上传时，请等待。"
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Handle by Emails: notifications are sent to your email address\n"
-"- Handle in Odoo: notifications appear in your Odoo Inbox"
+"- Handle in Cnmx: notifications appear in your Cnmx Inbox"
 msgstr ""
 "处理聊天通知的规则:\n"
 "- 通过EMail处理: 通知会发送至您的EMail地址\n"
-"- 系统内部处理: 通知会出现在Odoo收件箱"
+"- 系统内部处理: 通知会出现在明象收件箱"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_contact
@@ -5450,11 +5450,11 @@ msgstr "负责此联系人的内部用户。"
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin__alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Cnmx Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"相应于这个别名对应的模型(Odoo单据种类)。任何一封不属于对某个已存在的记录的到来邮件，将导致此模块中新记录的创建(例如，一个新的项目任务)。"
+"相应于这个别名对应的模型(明象单据种类)。任何一封不属于对某个已存在的记录的到来邮件，将导致此模块中新记录的创建(例如，一个新的项目任务)。"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_name
@@ -5462,8 +5462,8 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
-msgstr "邮件别名的名称，例如，如果你要收取 <jobs@example.odoo.com> 的EMail,别名就要设为：\"jobs\""
+"<jobs@example.cnmx.com>"
+msgstr "邮件别名的名称，例如，如果你要收取 <jobs@example.cnmx.com> 的EMail,别名就要设为：\"jobs\""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_user_id
@@ -5947,10 +5947,10 @@ msgstr "在此频道的用户 : %s %s 以及 你."
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.odoo.com)."
+"email server (@mycompany.cnmx.com)."
 msgstr ""
 "在社区和企业版本中，发送/接收EMail需要使用自己的EMail服务器。在线用户已受益于随时可用的EMail服务器 "
-"(@mycompany.odoo.com)。"
+"(@mycompany.cnmx.com)。"
 
 #. module: mail
 #. openerp-web
@@ -6460,8 +6460,8 @@ msgstr "更多"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.odoo.com"
-msgstr "mycompany.odoo.com"
+msgid "mycompany.cnmx.com"
+msgstr "mycompany.cnmx.com"
 
 #. module: mail
 #. openerp-web

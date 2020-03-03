@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* product
 # 
@@ -13,12 +13,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:33+0000\n"
 "PO-Revision-Date: 2019-08-26 09:13+0000\n"
 "Last-Translator: Ivan Yelizariev <yelizariev@it-projects.info>, 2020\n"
-"Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
+"Language-Team: Russian (https://www.transifex.com/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2848,8 +2848,8 @@ msgstr "например Лампы"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
-msgid "e.g. Odoo Enterprise Subscription"
-msgstr "например, Подписка Odoo Enterprise"
+msgid "e.g. Cnmx Enterprise Subscription"
+msgstr "например, Подписка Cnmx Enterprise"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view

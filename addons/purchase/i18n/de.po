@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
@@ -9,22 +9,22 @@
 # Felix Schubert <felix.schubert@go-erp.com>, 2019
 # Andreas Stauder <andreas.stauder@brain-tec.ch>, 2019
 # Andi, 2019
-# Johannes Croe <jcr@odoo.com>, 2019
+# Johannes Croe <jcr>, 2019
 # Chris Egal <sodaswed@web.de>, 2019
 # Anja Uebermuth <anja.uebermuth@arts.eu>, 2019
 # Bettina Pfeifer <betzilla@web.de>, 2019
-# Leon Grill <leg@odoo.com>, 2019
-# Stéphane Diez <snd@odoo.com>, 2019
-# Patrick Heuel <patrick.heuel@odoo-bs.com>, 2019
+# Leon Grill <leg>, 2019
+# Stéphane Diez <snd>, 2019
+# Patrick Heuel <patrick.heuel@-bs.com>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:13+0000\n"
-"Last-Translator: Patrick Heuel <patrick.heuel@odoo-bs.com>, 2019\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Patrick Heuel <patrick.heuel@-bs.com>, 2019\n"
+"Language-Team: German (https://www.transifex.com/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2208,10 +2208,10 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in Cnmx."
 msgstr ""
 "Lieferantenrechnungen können vorab, auf der Basis\n"
-"von Bestellungen oder Lieferungen, erstellt werden. Dies ermöglicht Ihnen die Kontrolle über die Rechnungen, die Sie von Lieferanten, auf Basis der Rechnungsentwürfe in Odoo erhalten."
+"von Bestellungen oder Lieferungen, erstellt werden. Dies ermöglicht Ihnen die Kontrolle über die Rechnungen, die Sie von Lieferanten, auf Basis der Rechnungsentwürfe in Cnmx erhalten."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__volume

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* delivery
 # 
@@ -9,21 +9,21 @@
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2019
 # Miguel Orueta <mo@landoo.es>, 2019
 # Cris Martin <cristina.marrod@gmail.com>, 2019
-# Jon Perez <jop@odoo.com>, 2019
+# Jon Perez <jop>, 2019
 # VivianMontana23 <vivianpvm@gmail.com>, 2019
-# Mariana Santos Romo <msn@odoo.com>, 2019
-# Juan Pablo Mora <jpm@odoo.com>, 2019
+# Mariana Santos Romo <msn>, 2019
+# Juan Pablo Mora <jpm>, 2019
 # Antonio Trueba, 2019
 # Amaia Bastida <amaiatrainer@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-07 07:12+0000\n"
 "PO-Revision-Date: 2019-08-26 09:09+0000\n"
 "Last-Translator: Amaia Bastida <amaiatrainer@gmail.com>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -51,11 +51,11 @@ msgstr "<i class=\"fa fa-arrow-right mr-1\"/>Obtener tarifa "
 #, python-format
 msgid ""
 "<p class=\"o_view_nocontent\">\n"
-"                    Buy Odoo Enterprise now to get more providers.\n"
+"                    Buy Cnmx Enterprise now to get more providers.\n"
 "                </p>"
 msgstr ""
 "<p class=\"o_view_nocontent\">\n"
-"                    Compra Odoo Enterprise ahora para obtener más proveedores.\n"
+"                    Compra Cnmx Enterprise ahora para obtener más proveedores.\n"
 "                         </p>"
 
 #. module: delivery

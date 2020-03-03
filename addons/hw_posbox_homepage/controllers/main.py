@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 import logging
 import json
@@ -104,7 +104,7 @@ class IoTboxHomepage(web.Home):
             if driver != '__pycache__':
                 drivers_list.append(driver)
         return driver_list_template.render({
-            'title': "Odoo's IoT Box - Drivers list",
+            'title': "Cnmx's IoT Box - Drivers list",
             'breadcrumb': 'Drivers list',
             'drivers_list': drivers_list,
             'server': helpers.get_odoo_server_url()
@@ -119,7 +119,7 @@ class IoTboxHomepage(web.Home):
     @http.route('/list_credential', type='http', auth='none', website=True)
     def list_credential(self):
         return list_credential_template.render({
-            'title': "Odoo's IoT Box - List credential",
+            'title': "Cnmx's IoT Box - List credential",
             'breadcrumb': 'List credential',
             'db_uuid': helpers.read_file_first_line('odoo-db-uuid.conf'),
             'enterprise_code': helpers.read_file_first_line('odoo-enterprise-code.conf'),
@@ -162,7 +162,7 @@ class IoTboxHomepage(web.Home):
         if server:
             res_payload['server'] = {
                 'url': server,
-                'message': 'Redirect to Odoo Server'
+                'message': 'Redirect to Cnmx Server'
             }
         else:
             res_payload['server'] = {
@@ -232,8 +232,8 @@ class IoTboxHomepage(web.Home):
     @http.route('/server', type='http', auth='none', website=True)
     def server(self):
         return server_config_template.render({
-            'title': 'IoT -> Odoo server configuration',
-            'breadcrumb': 'Configure Odoo Server',
+            'title': 'IoT -> Cnmx server configuration',
+            'breadcrumb': 'Configure Cnmx Server',
             'hostname': subprocess.check_output('hostname').decode('utf-8').strip('\n'),
             'server_status': helpers.get_odoo_server_url() or 'Not configured yet',
             'loading_message': 'Configure Domain Server'
@@ -269,7 +269,7 @@ class IoTboxHomepage(web.Home):
         if flashToVersion:
             flashToVersion = '%s.%s' % (flashToVersion.get('major', ''), flashToVersion.get('minor', ''))
         return upgrade_page_template.render({
-            'title': "Odoo's IoTBox - Software Upgrade",
+            'title': "Cnmx's IoTBox - Software Upgrade",
             'breadcrumb': 'IoT Box Software Upgrade',
             'loading_message': 'Updating IoT box',
             'commit': commit,

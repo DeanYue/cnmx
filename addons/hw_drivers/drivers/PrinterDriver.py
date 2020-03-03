@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 from base64 import b64decode
 from cups import IPPError, IPP_PRINTER_IDLE, IPP_PRINTER_PROCESSING, IPP_PRINTER_STOPPED
@@ -38,7 +38,7 @@ def print_star_error(deviceId):
         "configure your printer, please refer to:\n\n"
         "\x1B\x1D\x61\x01"                                      # Centering start
         "\x1B\x2D\x01"                                          # Underline start
-        "http://www.odoo.com"  # TODO: Replace URL
+        "http://www.cnmx.com"  # TODO: Replace URL
         "\x0A\x0A"
         "\x1B\x2D\x00"                                          # Underline stop
         "\x1B\x1D\x61\x00"                                      # Centering stop
@@ -170,7 +170,7 @@ class PrinterDriver(Driver):
             self.send_status()
 
     def send_status(self):
-        """ Sends the current status of the printer to the connected Odoo instance.
+        """ Sends the current status of the printer to the connected Cnmx instance.
         """
         self.data = {
             'value': '',

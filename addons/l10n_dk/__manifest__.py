@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Denmark - Accounting',
     'version': '1.0',
-    'author': 'Odoo House ApS',
-    'website': 'https://odoohouse.dk',
+    'author': 'Cnmx House ApS',
+    'website': 'https://www.cnmx.com',
     'category': 'Localization',
     'description': """
 
@@ -87,7 +87,7 @@ Produkt setup:
 
 .
 
-Copyright 2018 Odoo House ApS
+Copyright 2018 Cnmx House ApS
     """,
     'depends': ['account', 'base_iban', 'base_vat'],
     'data': [

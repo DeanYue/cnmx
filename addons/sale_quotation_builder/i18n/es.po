@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* sale_quotation_builder
 # 
@@ -10,16 +10,16 @@
 # Miguel Orueta <mo@landoo.es>, 2019
 # 966ff43e6966712895a590e7320ca288, 2019
 # 715cd7e95e9ee8a7f9785bf3e53bc76f, 2019
-# Cristopher Cravioto <ccr@odoo.com>, 2019
+# Cristopher Cravioto <ccr>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: Cnmx Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:17+0000\n"
 "PO-Revision-Date: 2019-08-26 09:14+0000\n"
-"Last-Translator: Cristopher Cravioto <ccr@odoo.com>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Last-Translator: Cristopher Cravioto <ccr>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -283,13 +283,13 @@ msgstr "Descripción del sitio web"
 #. module: sale_quotation_builder
 #: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
 msgid ""
-"You can <strong>set a description per product</strong>. Odoo will\n"
+"You can <strong>set a description per product</strong>. Cnmx will\n"
 "                        automatically create a quotation using the descriptions\n"
 "                        of all products in the proposal. The table of content\n"
 "                        on the left is generated automatically using the styles you\n"
 "                        used in your description (heading 1, heading 2, ...)"
 msgstr ""
-"Puede <strong>elegir una descripción por producto</strong>. Odoo creará\n"
+"Puede <strong>elegir una descripción por producto</strong>. Cnmx creará\n"
 "                        un presupuesto automáticamente con las descripciones\n"
 "                        de todos los productos de la propuesta. La tabla de contenidos\n"
 "                        de la izquierda se genera de forma automática con los estilos\n"

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* website_slides_forum
 # 
@@ -11,12 +11,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-07 07:13+0000\n"
 "PO-Revision-Date: 2019-08-26 09:16+0000\n"
 "Last-Translator: Ivan Yelizariev <yelizariev@it-projects.info>, 2019\n"
-"Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
+"Language-Team: Russian (https://www.transifex.com/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -387,9 +387,9 @@ msgstr "каждый ответ в равной степени относитс�
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "how to configure or customize Odoo to specific business needs,"
+msgid "how to configure or customize Cnmx to specific business needs,"
 msgstr ""
-"как сконфигурировать или настроить Odoo для конкретных деловых потребностей,"
+"как сконфигурировать или настроить Cnmx для конкретных деловых потребностей,"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -400,8 +400,8 @@ msgstr "как разрабатывать модули для собственн
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "how to install Odoo on a specific infrastructure,"
-msgstr "как установить Odoo на конкретной инфраструктуре,"
+msgid "how to install Cnmx on a specific infrastructure,"
+msgstr "как установить Cnmx на конкретной инфраструктуре,"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -412,8 +412,8 @@ msgstr "это громкие слова, замаскированный под 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "specific questions about Odoo service offers, etc."
-msgstr "конкретные вопросы о Odoo сервисных предложениях, и др."
+msgid "specific questions about Cnmx service offers, etc."
+msgstr "конкретные вопросы о Cnmx сервисных предложениях, и др."
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -438,9 +438,9 @@ msgstr ""
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "what's the best way to use Odoo for a specific business need,"
+msgid "what's the best way to use Cnmx for a specific business need,"
 msgstr ""
-"какой самый лучший способ использовать Odoo для определенной потребности "
+"какой самый лучший способ использовать Cnmx для определенной потребности "
 "бизнеса,"
 
 #. module: website_slides_forum

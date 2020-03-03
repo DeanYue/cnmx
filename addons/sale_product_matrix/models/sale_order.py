@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 import json
 from odoo import api, fields, models, _
 from odoo.exceptions import ValidationError
@@ -117,7 +117,7 @@ class SaleOrder(models.Model):
         :rtype dict:
         """
         def has_ptavs(line, sorted_attr_ids):
-            # TODO instead of sorting on ids, use odoo-defined order for matrix ?
+            # TODO instead of sorting on ids, use cnmx-defined order for matrix ?
             ptav = line.product_template_attribute_value_ids.ids
             pnav = line.product_no_variant_attribute_value_ids.ids
             pav = pnav + ptav

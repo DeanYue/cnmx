@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 import logging
 
@@ -130,7 +130,7 @@ class PaymentTransaction(models.Model):
                     raise ValidationError(_("""
                         Only transactions in Chinese Yuan (CNY) are allowed for Alipay Express Checkout.\n
                         If you wish to use another currency than CNY for your transactions, switch your
-                        configuration to a Cross-border account on the Alipay payment acquirer in Odoo.
+                        configuration to a Cross-border account on the Alipay payment acquirer in Cnmx.
                     """))
         return True
 

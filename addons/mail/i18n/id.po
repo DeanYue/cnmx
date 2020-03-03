@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* mail
 # 
@@ -23,12 +23,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:33+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
 "Last-Translator: PAS IRVANUS <ipankbiz@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2485,8 +2485,8 @@ msgstr "Ditangani melalui email"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
-msgid "Handle in Odoo"
-msgstr "Ditangani di Odoo"
+msgid "Handle in Cnmx"
+msgstr "Ditangani di Cnmx"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_message__has_cancel
@@ -2709,11 +2709,11 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the Cnmx Server, "
 "enter the domain name here."
 msgstr ""
 "Jika Anda mengatur email domain penangkap-semua yang dialihkan ke server "
-"Odoo, masukkan nama domain di sini."
+"Cnmx, masukkan nama domain di sini."
 
 #. module: mail
 #. openerp-web
@@ -4100,8 +4100,8 @@ msgstr "Jumlah pesan yang belum dibaca"
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
 #: model_terms:ir.ui.view,arch_db:mail.message_notification_email
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Cnmx"
+msgstr "Cnmx"
 
 #. module: mail
 #. openerp-web
@@ -4530,7 +4530,7 @@ msgstr "Harap tunggu sementara berkas diunggah."
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Handle by Emails: notifications are sent to your email address\n"
-"- Handle in Odoo: notifications appear in your Odoo Inbox"
+"- Handle in Cnmx: notifications appear in your Cnmx Inbox"
 msgstr ""
 
 #. module: mail
@@ -5508,11 +5508,11 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin__alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Cnmx Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Model (Jenis Dokumen Odoo) di mana alias ini dikaitkan. Email masuk yang "
+"Model (Jenis Dokumen Cnmx) di mana alias ini dikaitkan. Email masuk yang "
 "tidak menjawab catatan yang sudah ada akan menyebabkan pembuatan rekor baru "
 "model ini (misalnya tugas proyek)"
 
@@ -5522,10 +5522,10 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.cnmx.com>"
 msgstr ""
 "Nama email alias, misalnya 'pekerjaan' jika Anda ingin menangkap email untuk"
-" <jobs@example.odoo.com>"
+" <jobs@example.cnmx.com>"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_user_id
@@ -6018,11 +6018,11 @@ msgstr "Pengguna pada saluran ini: %s %s dan Anda."
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.odoo.com)."
+"email server (@mycompany.cnmx.com)."
 msgstr ""
 "Menggunakan server email Anda sendiri diperlukan untuk mengirim/menerima "
 "email pada versi Komunitas dan Enterprise. Pengguna daring sudah disediakan "
-"server email yang siap dipakai (@mycompany.odoo.com)."
+"server email yang siap dipakai (@mycompany.cnmx.com)."
 
 #. module: mail
 #. openerp-web
@@ -6538,8 +6538,8 @@ msgstr "Babe I'm gonna leaves you"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.odoo.com"
-msgstr "mycompany.odoo.com"
+msgid "mycompany.cnmx.com"
+msgstr "mycompany.cnmx.com"
 
 #. module: mail
 #. openerp-web

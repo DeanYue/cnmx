@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* iap
 # 
@@ -8,12 +8,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: Cnmx Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:16+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
 "Last-Translator: Dorin Hongu <dhongu@gmail.com>, 2019\n"
-"Language-Team: Romanian (https://www.transifex.com/odoo/teams/41243/ro/)\n"
+"Language-Team: Romanian (https://www.transifex.com/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -41,8 +41,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/iap/static/src/js/crash_manager.js:0
 #, python-format
-msgid "Buy credits at Odoo"
-msgstr "Cumpără credite la Odoo"
+msgid "Buy credits at Cnmx"
+msgstr "Cumpără credite la Cnmx"
 
 #. module: iap
 #. openerp-web
@@ -135,7 +135,7 @@ msgstr "Ultima actualizare pe"
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
-msgid "Odoo IAP"
+msgid "Cnmx IAP"
 msgstr ""
 
 #. module: iap
@@ -152,7 +152,7 @@ msgstr "Nume serviciu"
 #. openerp-web
 #: code:addons/iap/static/src/js/crash_manager.js:0
 #, python-format
-msgid "Start a Trial at Odoo"
+msgid "Start a Trial at Cnmx"
 msgstr ""
 
 #. module: iap

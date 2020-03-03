@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* website
 # 
@@ -20,12 +20,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-18 09:46+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
 "Last-Translator: Igor Krizanovic <krizanovic.igor@gmail.com>, 2019\n"
-"Language-Team: Croatian (https://www.transifex.com/odoo/teams/41243/hr/)\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -226,7 +226,7 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
-msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
+msgid "<b>50,000+ companies</b> run Cnmx to grow their businesses."
 msgstr ""
 
 #. module: website
@@ -1069,7 +1069,7 @@ msgid ""
 "Analyze the efficiency of your marketing campaigns by using trackable UTM "
 "trackers (campaigns, medium, sources). Create trackers and follow clicks "
 "from the Promote menu of your website. Those trackers can be used in Google "
-"Analytics or in Odoo reports where you can see the opportunities and sales "
+"Analytics or in Cnmx reports where you can see the opportunities and sales "
 "revenue generated thanks to your links."
 msgstr ""
 
@@ -2227,7 +2227,7 @@ msgstr "Prati sve"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Follow your website traffic in Odoo."
+msgid "Follow your website traffic in Cnmx."
 msgstr ""
 
 #. module: website
@@ -2879,7 +2879,7 @@ msgstr ""
 #, python-format
 msgid ""
 "It might be possible to edit the relevant items or fix the issue in <a "
-"href=\"%s\">the classic Odoo interface</a>"
+"href=\"%s\">the classic Cnmx interface</a>"
 msgstr ""
 
 #. module: website
@@ -3578,44 +3578,44 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 1 for three columns"
-msgstr "Odoo - uzorak 1 za 3 stupca"
+msgid "Cnmx - Sample 1 for three columns"
+msgstr "Cnmx - uzorak 1 za 3 stupca"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 2 for three columns"
-msgstr "Odoo - uzorak 2 za 3 stupca"
+msgid "Cnmx - Sample 2 for three columns"
+msgstr "Cnmx - uzorak 2 za 3 stupca"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 3 for three columns"
-msgstr "Odoo - uzorak 3 za 3 stupca"
+msgid "Cnmx - Sample 3 for three columns"
+msgstr "Cnmx - uzorak 3 za 3 stupca"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Odoo verzija"
+msgid "Cnmx Version"
+msgstr "Cnmx verzija"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_quotes_carousel
 msgid ""
-"Odoo provides essential platform for our project management. Things are "
+"Cnmx provides essential platform for our project management. Things are "
 "better organized and more visible with it."
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_picture
-msgid "Odoo • A picture with a caption"
+msgid "Cnmx • A picture with a caption"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_image_text
-msgid "Odoo • Image and Text"
+msgid "Cnmx • Image and Text"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_text_image
-msgid "Odoo • Text and Image"
+msgid "Cnmx • Text and Image"
 msgstr ""
 
 #. module: website
@@ -5798,8 +5798,8 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "primjer Odoo-a, na"
+msgid "instance of Cnmx, the"
+msgstr "primjer Cnmx-a, na"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -5853,7 +5853,7 @@ msgstr "web stranica"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "www.odoo.com"
+msgid "www.cnmx.com"
 msgstr ""
 
 #. module: website

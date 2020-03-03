@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 from odoo.tests import common
 from lxml import etree
@@ -59,7 +59,7 @@ class TestMassMailingShortener(common.TransactionCase):
             "subject": "test_00_test_mass_mailing_shortener",
             "body_html": """
 Hi,
-% set url = "www.odoo.com"
+% set url = "www.cnmx.com"
 % set httpurl = "https://www.odoo.eu"
 Website0: <a id="url0" href="https://www.odoo.tz/my/${object.name}">https://www.odoo.tz/my/${object.name}</h1>
 Website1: <a id="url1" href="https://www.odoo.be">https://www.odoo.be</h1>

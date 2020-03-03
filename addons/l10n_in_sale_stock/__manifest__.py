@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 {
     'name': "India Sales and Warehouse Management",
@@ -14,8 +14,8 @@
         useful when you setup the multiple GSTIN units.
     """,
 
-    'author': "Odoo",
-    'website': "https://www.odoo.com",
+    'author': "Cnmx",
+    'website': "https://www.cnmx.com",
     'category': 'Accounting/Accounting',
     'version': '0.1',
 

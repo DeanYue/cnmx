@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* website_slides
 # 
@@ -20,28 +20,28 @@
 # Sergio Flores <vitavitae1@gmail.com>, 2019
 # Antonio Trueba, 2019
 # Carlos rodriguez <carlosalbertor436@gmail.com>, 2019
-# RGB Consulting <odoo@rgbconsulting.com>, 2019
+# RGB Consulting <@rgbconsulting.com>, 2019
 # Pablo Fuentes <pablo@studio73.es>, 2019
 # 966ff43e6966712895a590e7320ca288, 2019
 # Nicolás Broggi <rnbroggi@gmail.com>, 2019
-# Cristopher Cravioto <ccr@odoo.com>, 2019
+# Cristopher Cravioto <ccr>, 2019
 # VivianMontana23 <vivianpvm@gmail.com>, 2019
-# John Guardado <jgu@odoo.com>, 2019
+# John Guardado <jgu>, 2019
 # Martin Trigaux, 2019
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2019
-# Jon Perez <jop@odoo.com>, 2019
-# Jesse Garza <jga@odoo.com>, 2019
-# Carolina Gonzalez <cgo@odoo.com>, 2019
+# Jon Perez <jop>, 2019
+# Jesse Garza <jga>, 2019
+# Carolina Gonzalez <cgo>, 2019
 # Pablo Rojas <rojaspablo88@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-07 07:13+0000\n"
 "PO-Revision-Date: 2019-08-26 09:16+0000\n"
 "Last-Translator: Pablo Rojas <rojaspablo88@gmail.com>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2871,8 +2871,8 @@ msgstr "Números de preguntas"
 #. module: website_slides
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_1_4
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
-msgid "Odoo • Image and Text"
-msgstr "Odoo • Imagen y texto"
+msgid "Cnmx • Image and Text"
+msgstr "Cnmx • Imagen y texto"
 
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_channel__enroll__invite
@@ -4431,23 +4431,23 @@ msgstr "por correo."
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "e.g. How to grow your business with Odoo?"
-msgstr "e.g. ¿Cómo crecer su negocio con Odoo?"
+msgid "e.g. How to grow your business with Cnmx?"
+msgstr "e.g. ¿Cómo crecer su negocio con Cnmx?"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid ""
-"e.g. In this video, we'll give you the keys on how Odoo can help you to grow"
+"e.g. In this video, we'll give you the keys on how Cnmx can help you to grow"
 " your business. At the end, we'll propose you a quiz to test your knowledge."
 msgstr ""
-"e.g. En este video te mostraremos las claves de cómo Odoo puede ayudarte a "
+"e.g. En este video te mostraremos las claves de cómo Cnmx puede ayudarte a "
 "crecer tu negocio. Al final, te propondremos un quiz para probar tu "
 "conocimiento."
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "e.g. https://www.odoo.com"
-msgstr "e.j. https://www.odoo.com"
+msgid "e.g. https://www.cnmx.com"
+msgstr "e.j. https://www.cnmx.com"
 
 #. module: website_slides
 #: model:ir.ui.menu,name:website_slides.website_slides_menu_root

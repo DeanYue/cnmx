@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # * purchase
 # 
@@ -13,12 +13,12 @@
 # Hamed Mohammadi <hamed@dehongi.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~11.5\n"
+"Project-Id-Version: Cnmx Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-09-21 13:17+0000\n"
 "Last-Translator: Hamed Mohammadi <hamed@dehongi.com>, 2018\n"
-"Language-Team: Persian (https://www.transifex.com/odoo/teams/41243/fa/)\n"
+"Language-Team: Persian (https://www.transifex.com/41243/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1889,7 +1889,7 @@ msgstr "مقدار بدون مالیات"
 msgid ""
 "Use this menu to control the invoices to be received from your\n"
 "            vendors. When registering a new bill, set the purchase order\n"
-"            and Odoo will fill the bill automatically according to ordered\n"
+"            and Cnmx will fill the bill automatically according to ordered\n"
 "            or received quantities."
 msgstr ""
 
@@ -1958,7 +1958,7 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in Cnmx."
 msgstr ""
 
 #. module: purchase

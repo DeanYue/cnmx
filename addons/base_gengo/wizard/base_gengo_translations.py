@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 import logging
 import re
@@ -121,7 +121,7 @@ class BaseGengoTranslations(models.TransientModel):
         """
         This method will be called by cron services to get translations from
         Gengo. It will read translated terms and comments from Gengo and will
-        update respective ir.translation in Odoo.
+        update respective ir.translation in Cnmx.
         """
         IrTranslation = self.env['ir.translation']
         flag, gengo = self.gengo_authentication()
@@ -253,7 +253,7 @@ class BaseGengoTranslations(models.TransientModel):
 
         A special key 'gengo_language' can be passed in the context in order to
         request only translations of that language only. Its value is the language
-        ID in Odoo.
+        ID in Cnmx.
         """
         domain = [
             ('state', '=', 'to_translate'),

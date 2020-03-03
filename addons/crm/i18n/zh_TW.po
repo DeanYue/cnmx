@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* crm
 # 
@@ -12,12 +12,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:09+0000\n"
 "Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2020\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -33,7 +33,7 @@ msgstr "#會議"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
-msgid "% (Estimated by Odoo)"
+msgid "% (Estimated by Cnmx)"
 msgstr "% (依系統計算估計)"
 
 #. module: crm
@@ -1794,10 +1794,10 @@ msgstr "未讀訊息的數量"
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
-"Odoo helps you keep track of your sales pipeline to follow\n"
+"Cnmx helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
-"Odoo幫助您追蹤\n"
+"明象幫助您追蹤\n"
 "您的銷售商機漏斗以跟進潛在銷售並更好的預測您的未來收入。"
 
 #. module: crm
@@ -2799,8 +2799,8 @@ msgstr "例如： 產品定價"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
-msgid "e.g. https://www.odoo.com"
-msgstr "例如：https://www.odoo.com"
+msgid "e.g. https://www.cnmx.com"
+msgstr "例如：https://www.cnmx.com"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0

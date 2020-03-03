@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* mail
 # 
@@ -9,44 +9,42 @@
 # Guilhaume Bordiau <github@guilhaume.fr>, 2019
 # MaxyMoos <maxence.groine@gmail.com>, 2019
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2019
-# Fred Gilson <fgi@odoo.com>, 2019
+# Fred Gilson <fgi>, 2019
 # a270031086f2a0d3514bc0cb507b48f6, 2019
 # Fabien Pinckaers <fp@openerp.com>, 2019
 # Xavier Belmere <Info@cartmeleon.com>, 2019
-# Alex T <alt@odoo.com>, 2019
-# nle_odoo, 2019
+# Alex T <alt>, 2019
 # Olivier ANDRE <frsw194@gmail.com>, 2019
 # Christophe CHAUVET <christophe.chauvet@gmail.com>, 2019
 # Moka Tourisme <hello@mokatourisme.fr>, 2019
 # ShevAbam, 2019
 # Aurélien Pillevesse <aurelienpillevesse@hotmail.fr>, 2019
-# Eloïse Stilmant <est@odoo.com>, 2019
-# Laura Piraux <lap@odoo.com>, 2019
+# Eloïse Stilmant <est>, 2019
+# Laura Piraux <lap>, 2019
 # William Olhasque <william.olhasque@scopea.fr>, 2019
-# Nathan Grognet <ngr@odoo.com>, 2019
-# Celia Tydgat <cty@odoo.com>, 2019
-# gdp Odoo <gdp@odoo.com>, 2019
-# Nicolas Roussey <nro@odoo.com>, 2019
-# Inès Gérardy <ige@odoo.com>, 2019
-# Gilles Dupont <gid@odoo.com>, 2019
-# thomas quertinmont <tqu@odoo.com>, 2019
-# Cécile Collart <cco@odoo.com>, 2019
-# Quentin THEURET <odoo@kerpeo.com>, 2019
+# Nathan Grognet <ngr>, 2019
+# Celia Tydgat <cty>, 2019
+# gdp Cnmx <gdp>, 2019
+# Nicolas Roussey <nro>, 2019
+# Inès Gérardy <ige>, 2019
+# Gilles Dupont <gid>, 2019
+# thomas quertinmont <tqu>, 2019
+# Cécile Collart <cco>, 2019
+# Quentin THEURET <@kerpeo.com>, 2019
 # Martin Trigaux, 2019
 # Julien Martin <204336@supinfo.com>, 2019
-# Oriane Malburny <oma@odoo.com>, 2019
-# lcaodoo <lca@odoo.com>, 2019
-# Jonathan <jcs@odoo.com>, 2020
-# Alexandra Jubert <aju@odoo.com>, 2020
+# Oriane Malburny <oma>, 2019
+# Jonathan <jcs>, 2020
+# Alexandra Jubert <aju>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:33+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
-"Last-Translator: Alexandra Jubert <aju@odoo.com>, 2020\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Last-Translator: Alexandra Jubert <aju>, 2020\n"
+"Language-Team: French (https://www.transifex.com/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2544,8 +2542,8 @@ msgstr "Gérer par des e-mails"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
-msgid "Handle in Odoo"
-msgstr "Gérer dans Odoo"
+msgid "Handle in Cnmx"
+msgstr "Gérer dans Cnmx"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_message__has_cancel
@@ -2772,11 +2770,11 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the Cnmx Server, "
 "enter the domain name here."
 msgstr ""
 "Si vous avez configuré un domain \"catch-all\" email redirigé vers le "
-"serveur d'Odoo, entrez le nom du domaine ici."
+"serveur d'Cnmx, entrez le nom du domaine ici."
 
 #. module: mail
 #. openerp-web
@@ -4177,8 +4175,8 @@ msgstr "Nombre de messages non lus"
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
 #: model_terms:ir.ui.view,arch_db:mail.message_notification_email
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Cnmx"
+msgstr "Cnmx"
 
 #. module: mail
 #. openerp-web
@@ -4609,11 +4607,11 @@ msgstr "Merci de patienter durant le transfert du fichier."
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Handle by Emails: notifications are sent to your email address\n"
-"- Handle in Odoo: notifications appear in your Odoo Inbox"
+"- Handle in Cnmx: notifications appear in your Cnmx Inbox"
 msgstr ""
 "Politique de gestion des notifications de messagerie:\n"
 "- Gérer par Emails: Les notifications sont envoyées à votre adresse email\n"
-"- Gérer dans Odoo: Les notifications apparaitront dans votre Boite de Réception Odoo"
+"- Gérer dans Cnmx: Les notifications apparaitront dans votre Boite de Réception Cnmx"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_contact
@@ -5594,11 +5592,11 @@ msgstr "L'utilisateur interne en charge de ce contact."
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin__alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Cnmx Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Le modèle (sorte de document Odoo) auquel correspond cet alias. Tout les "
+"Le modèle (sorte de document Cnmx) auquel correspond cet alias. Tout les "
 "e-mail entrant ne correspondant pas à un enregistrement existant entraînera "
 "la création d'un nouvel enregistrement de ce modèle (Ex. : une tâche d'un "
 "projet)"
@@ -5609,10 +5607,10 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.cnmx.com>"
 msgstr ""
 "Le nom de l'alias de messagerie, par exemple 'carrieres' pour relever les "
-"e-mails de <carrieres@example.odoo.com>"
+"e-mails de <carrieres@example.cnmx.com>"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_user_id
@@ -6121,12 +6119,12 @@ msgstr "Utilisateurs dans ce canal: %s %s et vous."
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.odoo.com)."
+"email server (@mycompany.cnmx.com)."
 msgstr ""
 "Vous devez utiliser votre propre serveur d'e-mails pour envoyer ou recevoir "
 "des e-mails dans les versions Community et Enterprise. Les utilisateurs en "
 "ligne bénéficient déjà d'un serveur d'e-mails préalablement compatible "
-"(@mycompany.odoo.com)."
+"(@mycompany.cnmx.com)."
 
 #. module: mail
 #. openerp-web
@@ -6652,8 +6650,8 @@ msgstr "plus"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.odoo.com"
-msgstr "masociete.odoo.com"
+msgid "mycompany.cnmx.com"
+msgstr "masociete.cnmx.com"
 
 #. module: mail
 #. openerp-web

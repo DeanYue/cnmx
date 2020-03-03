@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* im_support
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-18 09:47+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
-"Language-Team: Uzbek (https://www.transifex.com/odoo/teams/41243/uz/)\n"
+"Language-Team: Uzbek (https://www.transifex.com/41243/uz/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -46,14 +46,14 @@ msgstr ""
 #: code:addons/im_support/static/src/js/systray_messaging_menu.js:0
 #: code:addons/im_support/static/src/js/systray_messaging_menu.js:0
 #, python-format
-msgid "Odoo Live Support"
+msgid "Cnmx Live Support"
 msgstr ""
 
 #. module: im_support
 #. openerp-web
 #: code:addons/im_support/static/src/xml/discuss.xml:0
 #, python-format
-msgid "Odoo Support"
+msgid "Cnmx Support"
 msgstr ""
 
 #. module: im_support

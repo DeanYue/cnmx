@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 from uuid import uuid4
@@ -156,7 +156,7 @@ class PosConfig(models.Model):
         help="This sequence is automatically created by Odoo but you can change it "
         "to customize the reference numbers of your orders.", copy=False, ondelete='restrict')
     sequence_line_id = fields.Many2one('ir.sequence', string='Order Line IDs Sequence', readonly=True,
-        help="This sequence is automatically created by Odoo but you can change it "
+        help="This sequence is automatically created by Cnmx but you can change it "
         "to customize the reference numbers of your orders lines.", copy=False)
     session_ids = fields.One2many('pos.session', 'config_id', string='Sessions')
     current_session_id = fields.Many2one('pos.session', compute='_compute_current_session', string="Current Session")

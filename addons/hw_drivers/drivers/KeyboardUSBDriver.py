@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 import ctypes
 import evdev
@@ -219,7 +219,7 @@ class KeyboardUSBDriver(Driver):
 
     def _keyboard_input(self, scancode):
         """Deal with a keyboard input. Send the character corresponding to the
-        pressed key represented by its scancode to the connected Odoo instance.
+        pressed key represented by its scancode to the connected Cnmx instance.
 
         Args:
             scancode (int): The scancode of the pressed key.

@@ -111,7 +111,7 @@
     <!-- Attendee -->
     <record id="reg_2_0" model="event.registration">
         <field name="name">Camptocamp</field>
-        <field name="email">odoo@camptocamp.com</field>
+        <field name="email">cnmx@camptocamp.com</field>
         <field name="phone">+41 21 619 10 04 </field>
         <field name="event_id" ref="event_2"/>
         <field name="partner_id" ref="base.res_partner_12"/>

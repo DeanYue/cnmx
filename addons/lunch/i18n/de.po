@@ -1,28 +1,28 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* lunch
 # 
 # Translators:
 # Felix Schubert <felix.schubert@go-erp.com>, 2019
 # Jan Meyer, 2019
-# Johannes Croe <jcr@odoo.com>, 2019
+# Johannes Croe <jcr>, 2019
 # Martin Trigaux, 2019
 # Wolfgang Taferner, 2019
-# Gab_Odoo <gab@odoo.com>, 2019
+# Gab_Cnmx <gab>, 2019
 # JackTheHunter <Maximilian.N98@gmail.com>, 2019
 # Andreas Stauder <andreas.stauder@brain-tec.ch>, 2019
 # Bülent Tiknas <btiknas@googlemail.com>, 2019
 # Chris Egal <sodaswed@web.de>, 2019
-# Leon Grill <leg@odoo.com>, 2019
+# Leon Grill <leg>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:34+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
-"Last-Translator: Leon Grill <leg@odoo.com>, 2019\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Leon Grill <leg>, 2019\n"
+"Language-Team: German (https://www.transifex.com/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -196,7 +196,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com\" style=\"color: #875A7B;\">Odoo</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.cnmx.com\" style=\"color: #875A7B;\">Cnmx</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"

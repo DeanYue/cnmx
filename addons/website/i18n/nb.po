@@ -1,9 +1,9 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* website
 # 
 # Translators:
-# Andy Schønhaug <odoo@cypodgroup.com>, 2019
+# Andy Schønhaug <@cypodgroup.com>, 2019
 # Jorunn D. Newth, 2019
 # Martin Trigaux, 2019
 # Aleksander, 2019
@@ -11,12 +11,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-18 09:46+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
 "Last-Translator: Marius Stedjan <marius@stedjan.com>, 2019\n"
-"Language-Team: Norwegian Bokmål (https://www.transifex.com/odoo/teams/41243/nb/)\n"
+"Language-Team: Norwegian Bokmål (https://www.transifex.com/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -219,9 +219,9 @@ msgstr "75%"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
-msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
+msgid "<b>50,000+ companies</b> run Cnmx to grow their businesses."
 msgstr ""
-"<b>50 000+ firmaer</b> bruker Odoo for å få virksomhetene sine til å vokse."
+"<b>50 000+ firmaer</b> bruker Cnmx for å få virksomhetene sine til å vokse."
 
 #. module: website
 #. openerp-web
@@ -1129,13 +1129,13 @@ msgid ""
 "Analyze the efficiency of your marketing campaigns by using trackable UTM "
 "trackers (campaigns, medium, sources). Create trackers and follow clicks "
 "from the Promote menu of your website. Those trackers can be used in Google "
-"Analytics or in Odoo reports where you can see the opportunities and sales "
+"Analytics or in Cnmx reports where you can see the opportunities and sales "
 "revenue generated thanks to your links."
 msgstr ""
 "Analyser effektiviteten av dine markedsføringskampanjer ved å bruke sporbare"
 " UTM-trackere (kampanjer, medier, kilder). Opprett trackere og følg klikkene"
 " fra Promoter-menyen på ditt nettsted. Disse trackerne kan brukes i Google "
-"Analytics eller i Odoo-rapporter, hvor du kan se mulighetene og "
+"Analytics eller i Cnmx-rapporter, hvor du kan se mulighetene og "
 "salgsinntekter generert takket være linkene dine."
 
 #. module: website
@@ -2303,8 +2303,8 @@ msgstr "Følg alle"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Follow your website traffic in Odoo."
-msgstr "Følg trafikken til nettsiden i Odoo."
+msgid "Follow your website traffic in Cnmx."
+msgstr "Følg trafikken til nettsiden i Cnmx."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.theme_customize
@@ -2972,10 +2972,10 @@ msgstr "Det ser ut som filen din kalles av"
 #, python-format
 msgid ""
 "It might be possible to edit the relevant items or fix the issue in <a "
-"href=\"%s\">the classic Odoo interface</a>"
+"href=\"%s\">the classic Cnmx interface</a>"
 msgstr ""
 "Det kan være mulig å redigere de relevante oppføringene eller fikse "
-"problemet i det <a href=\"%s\">klassiske Odoo-grensesnittet</a>"
+"problemet i det <a href=\"%s\">klassiske Cnmx-grensesnittet</a>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -3676,47 +3676,47 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 1 for three columns"
-msgstr "Odoo - Eksempel 1 for tre kolonner"
+msgid "Cnmx - Sample 1 for three columns"
+msgstr "Cnmx - Eksempel 1 for tre kolonner"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 2 for three columns"
-msgstr "Odoo - Eksempel 2 for tre kolonner"
+msgid "Cnmx - Sample 2 for three columns"
+msgstr "Cnmx - Eksempel 2 for tre kolonner"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 3 for three columns"
-msgstr "Odoo - Eksempel 3 for tre kolonner"
+msgid "Cnmx - Sample 3 for three columns"
+msgstr "Cnmx - Eksempel 3 for tre kolonner"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Odoo-versjon"
+msgid "Cnmx Version"
+msgstr "Cnmx-versjon"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_quotes_carousel
 msgid ""
-"Odoo provides essential platform for our project management. Things are "
+"Cnmx provides essential platform for our project management. Things are "
 "better organized and more visible with it."
 msgstr ""
-"Odoo tilbyr en essensiell platform for vår prosjektstyring. Ting er bedre "
-"organisert og mer synlig med Odoo."
+"Cnmx tilbyr en essensiell platform for vår prosjektstyring. Ting er bedre "
+"organisert og mer synlig med Cnmx."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_picture
-msgid "Odoo • A picture with a caption"
-msgstr "Odoo • Et bilde med bildetekst"
+msgid "Cnmx • A picture with a caption"
+msgstr "Cnmx • Et bilde med bildetekst"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_image_text
-msgid "Odoo • Image and Text"
-msgstr "Odoo • Bilde og tekst"
+msgid "Cnmx • Image and Text"
+msgstr "Cnmx • Bilde og tekst"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_text_image
-msgid "Odoo • Text and Image"
-msgstr "Odoo • Tekst og bilde"
+msgid "Cnmx • Text and Image"
+msgstr "Cnmx • Tekst og bilde"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_visitor_view_kanban
@@ -5952,8 +5952,8 @@ msgstr "gratis nettsted"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "instans av Odoo,"
+msgid "instance of Cnmx, the"
+msgstr "instans av Cnmx,"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -6007,8 +6007,8 @@ msgstr "nettsted"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "www.odoo.com"
-msgstr "www.odoo.com"
+msgid "www.cnmx.com"
+msgstr "www.cnmx.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.qweb_500

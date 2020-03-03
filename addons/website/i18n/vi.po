@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* website
 # 
@@ -17,12 +17,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-18 09:46+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
 "Last-Translator: Chinh Chinh <trinhttp@trobz.com>, 2019\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language-Team: Vietnamese (https://www.transifex.com/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -225,7 +225,7 @@ msgstr "75%"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
-msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
+msgid "<b>50,000+ companies</b> run Cnmx to grow their businesses."
 msgstr ""
 "<b>50,000+ công ty</b> đang sử dụng hệ thống để phát triển việc kinh doanh "
 "của họ."
@@ -1148,14 +1148,14 @@ msgid ""
 "Analyze the efficiency of your marketing campaigns by using trackable UTM "
 "trackers (campaigns, medium, sources). Create trackers and follow clicks "
 "from the Promote menu of your website. Those trackers can be used in Google "
-"Analytics or in Odoo reports where you can see the opportunities and sales "
+"Analytics or in Cnmx reports where you can see the opportunities and sales "
 "revenue generated thanks to your links."
 msgstr ""
 "Phân tích hiệu quả của các chiến dịch tiếp thị của bạn bằng cách sử dụng "
 "trình theo dõi UTM có thể theo dõi (chiến dịch, phương tiện, nguồn). Tạo "
 "trình theo dõi và theo dõi các nhấp chuột từ menu Quảng cáo của trang web "
 "của bạn. Những trình theo dõi đó có thể được sử dụng trong Google Analytics "
-"hoặc trong các báo cáo Odoo nơi bạn có thể thấy các cơ hội và doanh thu bán "
+"hoặc trong các báo cáo Cnmx nơi bạn có thể thấy các cơ hội và doanh thu bán "
 "hàng được tạo nhờ các liên kết của bạn."
 
 #. module: website
@@ -2324,8 +2324,8 @@ msgstr "Hãy đi theo các hình tượng"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Follow your website traffic in Odoo."
-msgstr "Theo dõi lượng truy cập vào website của bạn trong Odoo."
+msgid "Follow your website traffic in Cnmx."
+msgstr "Theo dõi lượng truy cập vào website của bạn trong Cnmx."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.theme_customize
@@ -2993,10 +2993,10 @@ msgstr "Có vẻ như tệp của bạn đang được gọi bởi"
 #, python-format
 msgid ""
 "It might be possible to edit the relevant items or fix the issue in <a "
-"href=\"%s\">the classic Odoo interface</a>"
+"href=\"%s\">the classic Cnmx interface</a>"
 msgstr ""
 "Có thể chỉnh sửa các mục có liên quan hoặc khắc phục sự cố trong <a "
-"href=\"%s\"> giao diện Odoo cổ điển </a>"
+"href=\"%s\"> giao diện Cnmx cổ điển </a>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -3697,47 +3697,47 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 1 for three columns"
-msgstr "Odoo - Mẫu 1 cho ba cột"
+msgid "Cnmx - Sample 1 for three columns"
+msgstr "Cnmx - Mẫu 1 cho ba cột"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 2 for three columns"
-msgstr "Odoo - Mẫu 2 cho ba cột"
+msgid "Cnmx - Sample 2 for three columns"
+msgstr "Cnmx - Mẫu 2 cho ba cột"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 3 for three columns"
-msgstr "Odoo - Mẫu 3 cho ba cột"
+msgid "Cnmx - Sample 3 for three columns"
+msgstr "Cnmx - Mẫu 3 cho ba cột"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
+msgid "Cnmx Version"
 msgstr "Phiên bản hệ thống"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_quotes_carousel
 msgid ""
-"Odoo provides essential platform for our project management. Things are "
+"Cnmx provides essential platform for our project management. Things are "
 "better organized and more visible with it."
 msgstr ""
-"Odoo cung cấp nền tảng thiết yếu cho quản lý dự án của chúng tôi. Mọi thứ "
+"Cnmx cung cấp nền tảng thiết yếu cho quản lý dự án của chúng tôi. Mọi thứ "
 "được tổ chức tốt hơn và hiển thị nhiều hơn với nó."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_picture
-msgid "Odoo • A picture with a caption"
-msgstr "Odoo • Hình ảnh với chú thích"
+msgid "Cnmx • A picture with a caption"
+msgstr "Cnmx • Hình ảnh với chú thích"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_image_text
-msgid "Odoo • Image and Text"
-msgstr "Odoo • Văn bản và hình ảnh"
+msgid "Cnmx • Image and Text"
+msgstr "Cnmx • Văn bản và hình ảnh"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_text_image
-msgid "Odoo • Text and Image"
-msgstr "Odoo • Văn bản và hình ảnh"
+msgid "Cnmx • Text and Image"
+msgstr "Cnmx • Văn bản và hình ảnh"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_visitor_view_kanban
@@ -5991,8 +5991,8 @@ msgstr "website miễn phí"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "instance of Odoo, the"
+msgid "instance of Cnmx, the"
+msgstr "instance of Cnmx, the"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -6046,8 +6046,8 @@ msgstr "website"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "www.odoo.com"
-msgstr "www.odoo.com"
+msgid "www.cnmx.com"
+msgstr "www.cnmx.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.qweb_500

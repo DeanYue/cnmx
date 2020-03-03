@@ -1,27 +1,27 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* crm
 # 
 # Translators:
-# Léonie Bouchat <lbo@odoo.com>, 2019
+# Léonie Bouchat <lbo>, 2019
 # Christophe CHAUVET <christophe.chauvet@gmail.com>, 2019
 # Moka Tourisme <hello@mokatourisme.fr>, 2019
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2019
-# Melanie Bernard <mbe@odoo.com>, 2019
-# Fred Gilson <fgi@odoo.com>, 2019
-# Nathan Grognet <ngr@odoo.com>, 2019
-# Elise Carton <eca@odoo.com>, 2019
+# Melanie Bernard <mbe>, 2019
+# Fred Gilson <fgi>, 2019
+# Nathan Grognet <ngr>, 2019
+# Elise Carton <eca>, 2019
 # Olivier ANDRE <frsw194@gmail.com>, 2019
-# Lucas Deliege <lud@odoo.com>, 2019
-# Eloïse Stilmant <est@odoo.com>, 2019
-# Laura Piraux <lap@odoo.com>, 2019
-# Nils Goossens Bara <ngb@odoo.com>, 2019
-# Celia Tydgat <cty@odoo.com>, 2019
-# gdp Odoo <gdp@odoo.com>, 2019
-# Emmanuel Partsafas <epa@odoo.com>, 2019
-# Inès Gérardy <ige@odoo.com>, 2019
+# Lucas Deliege <lud>, 2019
+# Eloïse Stilmant <est>, 2019
+# Laura Piraux <lap>, 2019
+# Nils Goossens Bara <ngb>, 2019
+# Celia Tydgat <cty>, 2019
+# gdp Cnmx <gdp>, 2019
+# Emmanuel Partsafas <epa>, 2019
+# Inès Gérardy <ige>, 2019
 # Alexandre Fellner <afe@openerp.com>, 2019
-# Cécile Collart <cco@odoo.com>, 2019
+# Cécile Collart <cco>, 2019
 # Martin Trigaux, 2019
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2019
 # Cyrille de Lambert <cdelambert@auguria.net>, 2019
@@ -31,12 +31,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:09+0000\n"
 "Last-Translator: Vincent Luba <vincent@biz-4-africa.com>, 2020\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://www.transifex.com/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -52,8 +52,8 @@ msgstr "Nbre de réunions"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
-msgid "% (Estimated by Odoo)"
-msgstr "% (Estimé par Odoo)"
+msgid "% (Estimated by Cnmx)"
+msgstr "% (Estimé par Cnmx)"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
@@ -1868,10 +1868,10 @@ msgstr "Nombre de messages non lus"
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
-"Odoo helps you keep track of your sales pipeline to follow\n"
+"Cnmx helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
-"Odoo vous aide à suivre votre canal de vente pour faire le suivi des "
+"Cnmx vous aide à suivre votre canal de vente pour faire le suivi des "
 "potentielles ventes et pour mieux prévoir vos revenus futurs. "
 
 #. module: crm
@@ -2919,8 +2919,8 @@ msgstr "Ex. : Tarification de Produit"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
-msgid "e.g. https://www.odoo.com"
-msgstr "e.x. https://www.odoo.com"
+msgid "e.g. https://www.cnmx.com"
+msgstr "e.x. https://www.cnmx.com"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0

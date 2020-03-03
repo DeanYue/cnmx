@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* base_vat
 # 
@@ -6,16 +6,16 @@
 # Martin Trigaux, 2019
 # Manuel Gómez <nuelgoz@gmail.com>, 2019
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
-# Cristopher Cravioto <ccr@odoo.com>, 2019
+# Cristopher Cravioto <ccr>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.4\n"
+"Project-Id-Version: Cnmx Server saas~12.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-12 11:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:09+0000\n"
-"Last-Translator: Cristopher Cravioto <ccr@odoo.com>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Last-Translator: Cristopher Cravioto <ccr>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"

@@ -38,7 +38,7 @@ class AccountBankStatementImport(models.TransientModel):
             currency_code, account_number, stmts_vals = self.with_context(active_id=self.ids[0])._parse_file(base64.b64decode(data_file.datas))
             # Check raw data
             self._check_parsed_data(stmts_vals, account_number)
-            # Try to find the currency and journal in odoo
+            # Try to find the currency and journal in cnmx
             currency, journal = self._find_additional_data(currency_code, account_number)
             # If no journal found, ask the user about creating one
             if not journal:
@@ -104,7 +104,7 @@ class AccountBankStatementImport(models.TransientModel):
                         - 'amount': float
                         - 'unique_import_id': string
                         -o 'account_number': string
-                            Will be used to find/create the res.partner.bank in odoo
+                            Will be used to find/create the res.partner.bank in cnmx
                         -o 'note': string
                         -o 'partner_name': string
                         -o 'ref': string

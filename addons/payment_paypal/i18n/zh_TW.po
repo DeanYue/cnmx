@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* payment_paypal
 # 
@@ -8,12 +8,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: Cnmx Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:16+0000\n"
 "PO-Revision-Date: 2019-08-26 09:12+0000\n"
 "Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2019\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -25,16 +25,16 @@ msgstr ""
 msgid ""
 "<br/><br/>\n"
 "                Thanks,<br/>\n"
-"                <b>The Odoo Team</b>"
+"                <b>The Cnmx Team</b>"
 msgstr ""
 "<br><br>謝謝<br>\n"
-"                <b>Odoo 團隊</b>"
+"                <b>明象 團隊</b>"
 
 #. module: payment_paypal
 #: code:addons/payment_paypal/models/payment.py:0
 #, python-format
-msgid "Add your Paypal account to Odoo"
-msgstr "將您的Paypal 帳戶添加到 Odoo"
+msgid "Add your Paypal account to Cnmx"
+msgstr "將您的Paypal 帳戶添加到 明象"
 
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_acquirer__paypal_email_account
@@ -58,9 +58,9 @@ msgid ""
 "                <br/><br/>\n"
 "                You have received a payment through PayPal.<br/>\n"
 "                Kindly follow the instructions given by PayPal to create your account.<br/>\n"
-"                Then, help us complete your Paypal credentials in Odoo.<br/><br/>"
+"                Then, help us complete your Paypal credentials in Cnmx.<br/><br/>"
 msgstr ""
-"你好<br><br>您已收到通過PayPal付款。<br>請按照PayPal給出的說明創建您的帳戶。<br>然後，説明我們在 Odoo "
+"你好<br><br>您已收到通過PayPal付款。<br>請按照PayPal給出的說明創建您的帳戶。<br>然後，説明我們在 明象 "
 "中完成您的Paypal 憑證。<br><br>"
 
 #. module: payment_paypal

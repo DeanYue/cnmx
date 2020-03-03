@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 from odoo import api, fields, models
 
@@ -16,6 +16,6 @@ class ResConfigSettings(models.TransientModel):
         res = super(ResConfigSettings, self).get_values()
         get_param = self.env['ir.config_parameter'].sudo().get_param
         res.update(
-            server_uri="%s/google_account/authentication" % get_param('web.base.url', default="http://yourcompany.odoo.com"),
+            server_uri="%s/google_account/authentication" % get_param('web.base.url', default="http://yourcompany.cnmx.com"),
         )
         return res

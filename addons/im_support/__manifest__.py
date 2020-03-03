@@ -7,7 +7,7 @@
         This module allows employee users to communicate with livechat operators
         of another database on which a counterpart addon is installed.
     """,
-    'author': 'Odoo SA',
+    'author': 'Cnmx SA',
     'depends': [
         'mail',
     ],

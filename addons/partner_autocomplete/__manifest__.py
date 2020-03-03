@@ -5,7 +5,7 @@
     'description': """
        Auto-complete partner companies' data
     """,
-    'author': "Odoo SA",
+    'author': "Cnmx SA",
     'category': 'Tools',
     'version': '1.0',
 

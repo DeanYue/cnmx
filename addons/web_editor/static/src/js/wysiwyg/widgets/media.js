@@ -101,7 +101,7 @@ var SearchableMediaWidget = MediaWidget.extend({
 });
 
 /**
- * Let users choose a file, including uploading a new file in odoo.
+ * Let users choose a file, including uploading a new file in cnmx.
  */
 var FileWidget = SearchableMediaWidget.extend({
     events: _.extend({}, SearchableMediaWidget.prototype.events || {}, {
@@ -294,7 +294,7 @@ var FileWidget = SearchableMediaWidget.extend({
      *
      * @private
      * @params {string} needle
-     * @returns {Array} "ir.attachment" odoo domain.
+     * @returns {Array} "ir.attachment" cnmx domain.
      */
     _getAttachmentsDomain: function (needle) {
         var domain = this.options.attachmentIDs && this.options.attachmentIDs.length ? ['|', ['id', 'in', this.options.attachmentIDs]] : [];
@@ -765,7 +765,7 @@ var FileWidget = SearchableMediaWidget.extend({
 });
 
 /**
- * Let users choose an image, including uploading a new image in odoo.
+ * Let users choose an image, including uploading a new image in cnmx.
  */
 var ImageWidget = FileWidget.extend({
     template: 'wysiwyg.widgets.image',
@@ -798,7 +798,7 @@ var ImageWidget = FileWidget.extend({
 
 
 /**
- * Let users choose a document, including uploading a new document in odoo.
+ * Let users choose a document, including uploading a new document in cnmx.
  */
 var DocumentWidget = FileWidget.extend({
     template: 'wysiwyg.widgets.document',

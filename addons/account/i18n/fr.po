@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -11,11 +11,11 @@
 # Khalyomede <khalyomede@gmail.com>, 2019
 # Phil Anth <thep3r3x@gmail.com>, 2019
 # Moka Tourisme <hello@mokatourisme.fr>, 2019
-# Clo <clo@odoo.com>, 2019
-# Léonie Bouchat <lbo@odoo.com>, 2019
+# Clo <clo>, 2019
+# Léonie Bouchat <lbo>, 2019
 # Sébastien BÜHL <buhlsebastien@gmail.com>, 2019
-# Melanie Bernard <mbe@odoo.com>, 2019
-# Fred Gilson <fgi@odoo.com>, 2019
+# Melanie Bernard <mbe>, 2019
+# Fred Gilson <fgi>, 2019
 # Florent de Labarre <florent@iguanayachts.com>, 2019
 # f5f0a0dac17dde787a1d812a6989680e, 2019
 # Valaeys Stéphane <svalaeys@fiefmanage.ch>, 2019
@@ -23,48 +23,46 @@
 # e2f <projects@e2f.com>, 2019
 # bb76cd9ac0cb7e20167a14728edb858b, 2019
 # Jérôme Tanché <jerome.tanche@ouest-dsi.fr>, 2019
-# Nathan Grognet <ngr@odoo.com>, 2019
+# Nathan Grognet <ngr>, 2019
 # Rémi CAZENAVE <remi@le-filament.com>, 2019
 # Olivier ANDRE <frsw194@gmail.com>, 2019
-# Celia Tydgat <cty@odoo.com>, 2019
-# thomas quertinmont <tqu@odoo.com>, 2019
-# omaodoo <oma@odoo.com>, 2019
+# Celia Tydgat <cty>, 2019
+# thomas quertinmont <tqu>, 2019
 # Fabien Pinckaers <fp@openerp.com>, 2019
-# Damien Bouvy <dbo@odoo.com>, 2019
+# Damien Bouvy <dbo>, 2019
 # Daniel & Delphine <dd2013@leschoupinous.net>, 2019
-# Laura Piraux <lap@odoo.com>, 2019
-# Florence Lambrechts <fla@odoo.com>, 2019
-# Nicolas Roussey <nro@odoo.com>, 2019
+# Laura Piraux <lap>, 2019
+# Florence Lambrechts <fla>, 2019
+# Nicolas Roussey <nro>, 2019
 # e34d4dcb8e697b071167e94624cfbccb, 2019
 # Antoine Lorence <antoine.lorence@gmail.com>, 2019
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2019
 # Alain van de Werve <avw@openerp.com>, 2019
 # Herve GUERIN <herve.guerin@auguria.fr>, 2019
 # Florian Hatat, 2019
-# nle_odoo, 2019
 # Daniel Deyris <daniel.deyris@phidias.fr>, 2019
 # Aurélien Pillevesse <aurelienpillevesse@hotmail.fr>, 2019
-# Eloïse Stilmant <est@odoo.com>, 2019
-# Jonathan <jcs@odoo.com>, 2019
-# Alexandra Jubert <aju@odoo.com>, 2020
+# Eloïse Stilmant <est>, 2019
+# Jonathan <jcs>, 2019
+# Alexandra Jubert <aju>, 2020
 # Brice Reul <brice@bluerice.be>, 2020
-# Cécile Collart <cco@odoo.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
+# Cécile Collart <cco>, 2020
+# Fernanda Marques <fem>, 2020
 # Martin Trigaux, 2020
 # Fabien FML, 2020
-# Caroline Renson <car@odoo.com>, 2020
+# Caroline Renson <car>, 2020
 # Vincent Luba <vincent@biz-4-africa.com>, 2020
-# Alice Van Goethem <vga@odoo.com>, 2020
+# Alice Van Goethem <vga>, 2020
 # romrik_, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:06+0000\n"
 "Last-Translator: romrik_, 2020\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://www.transifex.com/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -4090,10 +4088,10 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in Cnmx. It is the date of the "
 "opening entry."
 msgstr ""
-"Date à compter de laquelle la comptabilité est gérée dans Odoo. Il s'agit de"
+"Date à compter de laquelle la comptabilité est gérée dans Cnmx. Il s'agit de"
 " la date de l'écriture d'ouverture."
 
 #. module: account
@@ -7077,39 +7075,39 @@ msgstr "Opérations manuelles"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of Cnmx.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Cnmx,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Paiement manuel : soyez payé en espèces, par chèque ou par tout autre moyen externe à Odoo.\n"
+"Paiement manuel : soyez payé en espèces, par chèque ou par tout autre moyen externe à Cnmx.\n"
 "Paiement électronique : soyez payé automatiquement par un acquéreur en demandant une transaction sur une carte enregistrée par le client lors de l'achat ou de l'inscription en ligne (jeton de paiement).\n"
-"Dépôt groupé : encaissez plusieurs chèques clients à la fois en générant un dépôt groupé à envoyer à votre banque. Lors de l'encodage du relevé bancaire dans Odoo, vous pouvez rapprocher la transaction et le dépôt groupé. Activez cette option dans les paramètres."
+"Dépôt groupé : encaissez plusieurs chèques clients à la fois en générant un dépôt groupé à envoyer à votre banque. Lors de l'encodage du relevé bancaire dans Cnmx, vous pouvez rapprocher la transaction et le dépôt groupé. Activez cette option dans les paramètres."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_id
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of Cnmx.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Check: Pay bill by check and print it from Odoo.\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
+"Check: Pay bill by check and print it from Cnmx.\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Cnmx, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
-"intermédiaire de paiementPaiement manuel : soyez payé en espèces, par chèque ou par tout autre moyen externe à Odoo.\n"
+"intermédiaire de paiementPaiement manuel : soyez payé en espèces, par chèque ou par tout autre moyen externe à Cnmx.\n"
 "Paiement électronique : soyez payé automatiquement par un intermédiaire de paiement en demandant une transaction sur une carte enregistrée par le client lors de l'achat ou de l'inscription en ligne (jeton de paiement).\n"
-"Chèque : payez par chèque en l'imprimant depuis Odoo.\n"
-"Dépôt groupé : encaissez plusieurs chèques clients à la fois en générant un dépôt groupé à envoyer à votre banque. Lors de l'encodage du relevé bancaire dans Odoo, vous pouvez rapprocher la transaction et le dépôt groupé. Pour activer le dépôt groupé, vous devez installer le module account_batch_deposit.\n"
+"Chèque : payez par chèque en l'imprimant depuis Cnmx.\n"
+"Dépôt groupé : encaissez plusieurs chèques clients à la fois en générant un dépôt groupé à envoyer à votre banque. Lors de l'encodage du relevé bancaire dans Cnmx, vous pouvez rapprocher la transaction et le dépôt groupé. Pour activer le dépôt groupé, vous devez installer le module account_batch_deposit.\n"
 "Virement SEPA : payez en envoyant un fichier de virement SEPA à votre banque. Pour activer les virements SEPA, vous devez installer le module account_sepa.  "
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Odoo.\n"
-"Check:Pay bill by check and print it from Odoo.\n"
+"Manual:Pay bill by cash or any other method outside of Cnmx.\n"
+"Check:Pay bill by check and print it from Cnmx.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"Paiement manuel : payez en espèces ou par tout autre moyen externe à Odoo.\n"
-"Chèque : payez par chèque en l'imprimant depuis Odoo.\n"
+"Paiement manuel : payez en espèces ou par tout autre moyen externe à Cnmx.\n"
+"Chèque : payez par chèque en l'imprimant depuis Cnmx.\n"
 "Virement SEPA : payez en envoyant un fichier de virement SEPA à votre banque. Activez cette option dans les paramètres."
 
 #. module: account
@@ -7682,38 +7680,38 @@ msgstr "Octobre"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__odoo
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Cnmx"
+msgstr "Cnmx"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Cnmx allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoice(s)."
 msgstr ""
-"Odoo vous permet de lettre une ligne de relevé directement avec la(es) "
+"Cnmx vous permet de lettre une ligne de relevé directement avec la(es) "
 "facture(s) de ventes ou d'achats associée(s)."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Cnmx allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoices."
 msgstr ""
-"Odoo vous permet de lettre une ligne de relevé directement avec la facture "
+"Cnmx vous permet de lettre une ligne de relevé directement avec la facture "
 "de ventes ou d'achats associée."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Odoo helps you easily track all activities related to a customer."
+msgid "Cnmx helps you easily track all activities related to a customer."
 msgstr ""
-"Odoo vous aide à facilement suivre toutes les activités liées à un vendeur."
+"Cnmx vous aide à facilement suivre toutes les activités liées à un vendeur."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Odoo helps you easily track all activities related to a supplier."
+msgid "Cnmx helps you easily track all activities related to a supplier."
 msgstr ""
-"Odoo vous aide à suivre facilement toutes les activités liées à un "
+"Cnmx vous aide à suivre facilement toutes les activités liées à un "
 "fournisseur."
 
 #. module: account
@@ -12534,10 +12532,10 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
+"is the Cnmx reference."
 msgstr ""
 "Vous pouvez choisir différents modèles par type de référence. Le modèle par "
-"défaut est la référence Odoo."
+"défaut est la référence Cnmx."
 
 #. module: account
 #: code:addons/account/models/account_payment_term.py:0

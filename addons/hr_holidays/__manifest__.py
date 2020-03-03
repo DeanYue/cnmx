@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Time Off',
     'version': '1.5',
     'category': 'Human Resources/Time Off',
     'summary': 'Allocate time off and follow time off requests',
-    'website': 'https://www.odoo.com/page/leaves',
+    'website': 'https://www.cnmx.com/page/leaves',
     'description': """
 Manage time off requests and allocations
 =====================================

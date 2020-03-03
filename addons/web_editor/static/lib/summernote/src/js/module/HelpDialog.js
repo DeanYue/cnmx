@@ -1,4 +1,4 @@
-define([], function () { // ODOO: remove error from Odoo define
+define([], function () { // CNMX: remove error from Cnmx define
   var HelpDialog = function (handler) {
     /**
      * show help dialog

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -27,16 +27,16 @@
 # Martin Trigaux, 2019
 # Mateus Lopes <mateus1@gmail.com>, 2019
 # Ramiro Pereira de Magalhães <ramiro.p.magalhaes@gmail.com>, 2019
-# Fernanda Marques <fem@odoo.com>, 2020
+# Fernanda Marques <fem>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:12+0000\n"
-"Last-Translator: Fernanda Marques <fem@odoo.com>, 2020\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Last-Translator: Fernanda Marques <fem>, 2020\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1927,8 +1927,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/popups.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr "IMPORTANTE: Relatório de Erros do Odoo - Ponto de Venda"
+msgid "IMPORTANT: Bug Report From Cnmx Point Of Sale"
+msgstr "IMPORTANTE: Relatório de Erros do Cnmx - Ponto de Venda"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
@@ -2580,8 +2580,8 @@ msgstr "Quantidade de mensagens não lidas"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model_terms:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Odoo Logo"
-msgstr "Logo do Odoo"
+msgid "Cnmx Logo"
+msgstr "Logo do Cnmx"
 
 #. module: point_of_sale
 #. openerp-web
@@ -4716,19 +4716,19 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Cnmx but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"Essa sequencia é criada automaticamente pelo Odoo mas vc pode mudar "
+"Essa sequencia é criada automaticamente pelo Cnmx mas vc pode mudar "
 "issocustomizando um número de referÊncia para as suas linhas de pedido"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Cnmx but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Esta sequência é criada automaticamente pelo Odoo mas você pode alterá-la "
+"Esta sequência é criada automaticamente pelo Cnmx mas você pode alterá-la "
 "para personalizar os números de referência das suas ordens."
 
 #. module: point_of_sale

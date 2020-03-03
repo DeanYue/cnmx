@@ -510,7 +510,7 @@ odoo.define('website_slides.fullscreen', function (require) {
                 slideData.hasNext = index < slidesDataList.length-1;
                 // compute embed url
                 if (slideData.type === 'video') {
-                    slideData.embedCode = $(slideData.embedCode).attr('src');  // embedCode containts an iframe tag, where src attribute is the url (youtube or embed document from odoo)
+                    slideData.embedCode = $(slideData.embedCode).attr('src');  // embedCode containts an iframe tag, where src attribute is the url (youtube or embed document from cnmx)
                     slideData.embedUrl =  "https://" + slideData.embedCode + "&rel=0&autoplay=1&enablejsapi=1&origin=" + window.location.origin;
                 } else if (slideData.type === 'infographic') {
                     slideData.embedUrl = _.str.sprintf('/web/image/slide.slide/%s/image_1024', slideData.id);

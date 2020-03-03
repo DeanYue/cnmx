@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* mail_bot
 # 
@@ -9,12 +9,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: Cnmx Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:16+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
 "Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2019\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -78,10 +78,10 @@ msgstr "HTTP 路由"
 #: code:addons/mail_bot/models/mail_channel.py:0
 #, python-format
 msgid ""
-"Hello,<br/>Odoo's chat helps employees collaborate efficiently. I'm here to "
+"Hello,<br/>Cnmx's chat helps employees collaborate efficiently. I'm here to "
 "help you discover its features.<br/><b>Try to send me an emoji :)</b>"
 msgstr ""
-"您好,<br/>Odoo的通訊功能能協助您的員工高效協作. 其功能特點靠您來發現.<br/><b>試試輸入笑臉符號看看效果 emoji :)</b>"
+"您好,<br/>明象的通訊功能能協助您的員工高效協作. 其功能特點靠您來發現.<br/><b>試試輸入笑臉符號看看效果 emoji :)</b>"
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
@@ -167,9 +167,13 @@ msgstr "不確定您的動作。請按\"/\"等待。選擇「幫助」並點選�
 #: code:addons/mail_bot/static/src/js/systray_messaging_menu.js:0
 #, python-format
 msgid ""
-"Odoo will not have the permission to send native notifications on this "
+"Cnmx will not have the permission to send native notifications on this "
 "device."
+<<<<<<< HEAD
+msgstr "明象 沒有權限在該設備上發送本地通知。"
+=======
 msgstr "明象沒有權限在該設備上發送本地通知。"
+>>>>>>> 2db15f39bf9e73650f8ee508d31df90961caae32
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__cnmxbot_state
@@ -271,8 +275,8 @@ msgstr "就是您了!<br/>使用@nameoftheuser來讓聯絡人可以醒目看到�
 #, python-format
 msgid ""
 "Yep, I am here! 🎉 <br/>You finished the tour, you can <b>close this chat "
-"window</b>. Enjoy discovering Odoo."
-msgstr "是的, 我在這!🎉完成預覽, 您可以 <b>關閉視窗</b>. 盡情享受發現 Odoo的驚奇之旅."
+"window</b>. Enjoy discovering Cnmx."
+msgstr "是的, 我在這!🎉完成預覽, 您可以 <b>關閉視窗</b>. 盡情享受發現 明象的驚奇之旅."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0

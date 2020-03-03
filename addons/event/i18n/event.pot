@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* event
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:33+0000\n"
 "PO-Revision-Date: 2019-12-05 12:33+0000\n"
@@ -55,7 +55,7 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
-"<b>Technical Rooms</b> - One dedicated to advanced Odoo developers, one for "
+"<b>Technical Rooms</b> - One dedicated to advanced Cnmx developers, one for "
 "new developers."
 msgstr ""
 
@@ -642,7 +642,7 @@ msgid ""
 "At just 13 years old, John DOE was already starting to develop his first "
 "business applications for customers. After mastering civil engineering, he "
 "founded TinyERP. This was the first phase of OpenERP which would later "
-"became Odoo, the most installed open-source business software worldwide."
+"became Cnmx, the most installed open-source business software worldwide."
 msgstr ""
 
 #. module: event
@@ -2198,7 +2198,7 @@ msgstr ""
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
-msgid "events@odoo.com"
+msgid "events@cnmx.com"
 msgstr ""
 
 #. module: event

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
@@ -26,12 +26,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:13+0000\n"
 "Last-Translator: Silmar <pinheirosilmar@gmail.com>, 2019\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -899,7 +899,7 @@ msgstr "Avaliações de Cliente(s)"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid ""
-"Customers propose feedbacks by email; Odoo creates tasks automatically, and "
+"Customers propose feedbacks by email; Cnmx creates tasks automatically, and "
 "you can communicate on the task directly. Your managers decide which "
 "feedback is accepted %s and which feedback is moved to the \"Refused\" "
 "column."
@@ -1898,7 +1898,7 @@ msgstr "Quantidade de mensagens não lidas"
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.action_view_task
 msgid ""
-"Odoo's project management allows you to manage the pipeline of your tasks efficiently.<br>\n"
+"Cnmx's project management allows you to manage the pipeline of your tasks efficiently.<br>\n"
 "                    You can track progress, discuss on tasks, attach documents, etc."
 msgstr ""
 
@@ -2806,11 +2806,11 @@ msgstr "Testes"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Cnmx Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"O modelo (Odoo Documento Tipo), ao qual este apelido corresponde. Qualquer "
+"O modelo (Cnmx Documento Tipo), ao qual este apelido corresponde. Qualquer "
 "e-mails recebidos que não responde a um registro existente fará com que a "
 "criação de um novo registro desse modelo (e.g. a Project Task)"
 
@@ -2818,7 +2818,7 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.cnmx.com>"
 msgstr ""
 "O nome do apelido de e-mail, por exemplo, 'empregos' se você quer pegar "
 "e-mails para <empregos@suaempresa.com.br>"

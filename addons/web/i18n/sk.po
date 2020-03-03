@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -14,12 +14,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-25 15:03+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
 "Last-Translator: Jaroslav Bosansky <jaro.bosansky@ekoenergo.sk>, 2019\n"
-"Language-Team: Slovak (https://www.transifex.com/odoo/teams/41243/sk/)\n"
+"Language-Team: Slovak (https://www.transifex.com/41243/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1706,8 +1706,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "Získajte túto funkciu a omnoho viac s Odoo Podnikanie!"
+msgid "Get this feature and much more with Cnmx Enterprise!"
+msgstr "Získajte túto funkciu a omnoho viac s Cnmx Podnikanie!"
 
 #. module: web
 #. openerp-web
@@ -2292,8 +2292,8 @@ msgstr "Viacriadkový text"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Môj Odoo.com účet"
+msgid "My Cnmx.com account"
+msgstr "Môj Cnmx.com účet"
 
 #. module: web
 #. openerp-web
@@ -2486,15 +2486,15 @@ msgstr "Objekt:"
 #: code:addons/web/static/src/js/core/dialog.js:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Cnmx"
+msgstr "Cnmx"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:0
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Odoo aplikácie budú dostupné čoskoro"
+msgid "Cnmx Apps will be available soon"
+msgstr "Cnmx aplikácie budú dostupné čoskoro"
 
 #. module: web
 #. openerp-web
@@ -2503,36 +2503,36 @@ msgstr "Odoo aplikácie budú dostupné čoskoro"
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Odoo Client Error"
-msgstr "Chyba klienta Odoo"
+msgid "Cnmx Client Error"
+msgstr "Chyba klienta Cnmx"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:0
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo Enterprise"
+msgid "Cnmx Enterprise"
+msgstr "Cnmx Enterprise"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Odoo Error"
-msgstr "Chyba  Odoo"
+msgid "Cnmx Error"
+msgstr "Chyba  Cnmx"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Odoo Session Expired"
-msgstr "Odoo relácia vypršala"
+msgid "Cnmx Session Expired"
+msgstr "Cnmx relácia vypršala"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Odoo Warning"
-msgstr "Varovanie Odoo"
+msgid "Cnmx Warning"
+msgstr "Varovanie Cnmx"
 
 #. module: web
 #. openerp-web
@@ -2825,8 +2825,8 @@ msgstr ""
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Poháňané <span>Odoo</span>"
+msgid "Powered by <span>Cnmx</span>"
+msgstr "Poháňané <span>Cnmx</span>"
 
 #. module: web
 #. openerp-web
@@ -4214,10 +4214,10 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:0
 #, python-format
 msgid ""
-"You need to start Odoo with at least two workers to print a pdf version of "
+"You need to start Cnmx with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
-"Treba nakonfigurovať Odoo: odoo.conf min (workers =2) pre tlač PDF verzie "
+"Treba nakonfigurovať Cnmx: odoo.conf min (workers =2) pre tlač PDF verzie "
 "výkazov."
 
 #. module: web
@@ -4237,9 +4237,9 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
+msgid "Your Cnmx session expired. Please refresh the current web page."
 msgstr ""
-"Vaša Odoo relácie vypršala. Prosím znovu načítajte aktuálnu webovú stránku."
+"Vaša Cnmx relácie vypršala. Prosím znovu načítajte aktuálnu webovú stránku."
 
 #. module: web
 #. openerp-web

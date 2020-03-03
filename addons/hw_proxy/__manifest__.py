@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Hardware Proxy',
     'category': 'Sales/Point Of Sale',
     'sequence': 6,
     'summary': 'Connect the Web Client to Hardware Peripherals',
-    'website': 'https://www.odoo.com/page/point-of-sale-hardware',
+    'website': 'https://www.cnmx.com/page/point-of-sale-hardware',
     'description': """
 Hardware Poxy
 =============

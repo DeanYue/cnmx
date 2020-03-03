@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* account_bank_statement_import
 # 
@@ -10,12 +10,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: Cnmx Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-27 09:10+0000\n"
 "PO-Revision-Date: 2019-08-26 09:08+0000\n"
 "Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2019\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -491,19 +491,19 @@ msgstr "主要附件"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of Cnmx.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Cnmx,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"手動：通過現金、支票或除 Odoo 以外的任何其他方法獲取報酬。\n"
+"手動：通過現金、支票或除 明象 以外的任何其他方法獲取報酬。\n"
 "電子方式：線上購買或訂閱時（支付指示物），通過請求客戶保存的卡上的交易，通過付款受讓人自動獲得付款。\n"
-"批量存款：通過生成批量存款立即兌現幾個客戶的支票，以便提交給銀行。在 Odoo 中編碼銀行對帳單時，建議您將交易與批量存款進行核對。從設定中啟用此選項。 "
+"批量存款：通過生成批量存款立即兌現幾個客戶的支票，以便提交給銀行。在 明象 中編碼銀行對帳單時，建議您將交易與批量存款進行核對。從設定中啟用此選項。 "
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Odoo.\n"
-"Check:Pay bill by check and print it from Odoo.\n"
+"Manual:Pay bill by cash or any other method outside of Cnmx.\n"
+"Check:Pay bill by check and print it from Cnmx.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
 "手動：現金支付或使用系統外的方式支付。\n"
@@ -660,10 +660,10 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 msgid ""
-"The account of the statement you are uploading is not yet recorded in Odoo. "
+"The account of the statement you are uploading is not yet recorded in Cnmx. "
 "In order to proceed with the upload, you need to create a bank journal for "
 "this account."
-msgstr "您上傳的對帳單的帳戶尚未記錄在 Odoo 中。為了繼續上載，您需要為此帳戶創建銀行帳號。"
+msgstr "您上傳的對帳單的帳戶尚未記錄在 明象 中。為了繼續上載，您需要為此帳戶創建銀行帳號。"
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
@@ -801,8 +801,8 @@ msgstr "您已經導入了該檔案。"
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
-msgstr "您可以為每種類型的參考選擇不同的模型。預設值是 Odoo reference。"
+"is the Cnmx reference."
+msgstr "您可以為每種類型的參考選擇不同的模型。預設值是 明象 reference。"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_type

@@ -1,19 +1,19 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Israel - Accounting',
     'version': '1.0',
     'category': 'Localization',
     'description': """
-This is the latest basic Israelian localisation necessary to run Odoo in Israel:
+This is the latest basic Israelian localisation necessary to run Cnmx in Israel:
 ================================================================================
 
 This module consists:
  - Generic Israelian chart of accounts
  - Israelian taxes
  """,
-    'website': 'http://www.odoo.com/accounting',
+    'website': 'http://www.cnmx.com/accounting',
     'depends': ['account'],
     'data': [
         'data/account_chart_template_data.xml',

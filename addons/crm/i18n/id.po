@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* crm
 # 
@@ -19,12 +19,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:09+0000\n"
 "Last-Translator: PAS IRVANUS <ipankbiz@gmail.com>, 2019\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -40,7 +40,7 @@ msgstr "# Pertemuan"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
-msgid "% (Estimated by Odoo)"
+msgid "% (Estimated by Cnmx)"
 msgstr ""
 
 #. module: crm
@@ -1801,10 +1801,10 @@ msgstr "Jumlah pesan yang belum dibaca"
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
-"Odoo helps you keep track of your sales pipeline to follow\n"
+"Cnmx helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
-"Odoo membantu Anda untuk memonitor saluran penjualan Anda untuk\n"
+"Cnmx membantu Anda untuk memonitor saluran penjualan Anda untuk\n"
 "                    mengikuti potensi penjualan dan meramalkan omzet dengan lebih baik."
 
 #. module: crm
@@ -2824,7 +2824,7 @@ msgstr "mis. Harga Produk"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
-msgid "e.g. https://www.odoo.com"
+msgid "e.g. https://www.cnmx.com"
 msgstr ""
 
 #. module: crm

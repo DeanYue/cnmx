@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Notes',
     'version': '1.0',
     'category': 'Tools',
     'description': "",
-    'website': 'https://www.odoo.com/page/notes',
+    'website': 'https://www.cnmx.com/page/notes',
     'summary': 'Organize your work with memos',
     'sequence': 45,
     'depends': [

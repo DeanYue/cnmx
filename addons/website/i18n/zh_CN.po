@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* website
 # 
@@ -27,31 +27,31 @@
 # bf2549c5415a9287249cba2b8a5823c7, 2019
 # diaojiaolou <124412206@qq.com>, 2019
 # keecome <7017511@qq.com>, 2019
-# Lisa Zhang <lzh@odoo.com>, 2019
+# Lisa Zhang <lzh>, 2019
 # Jeanphy <hzh0292@qq.com>, 2019
-# Felix Yuen <fyu@odoo.com>, 2019
+# Felix Yuen <fyu>, 2019
 # e2f <projects@e2f.com>, 2019
 # fausthuang, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
-# Mandy Choy <mnc@odoo.com>, 2019
+# Mandy Choy <mnc>, 2019
 # Martin Trigaux, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
 # v2exerer <9010446@qq.com>, 2019
 # 苏州远鼎 <tiexinliu@126.com>, 2019
-# Shane Tsoi <sso@odoo.com>, 2019
+# Shane Tsoi <sso>, 2019
 # snow wang <147156565@qq.com>, 2019
-# Manga Tsang <mts@odoo.com>, 2019
+# Manga Tsang <mts>, 2019
 # guohuadeng <guohuadeng@hotmail.com>, 2019
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-18 09:46+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
 "Last-Translator: Jeffery CHEN Fan <jeffery9@gmail.com>, 2020\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -254,8 +254,8 @@ msgstr "75%"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
-msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
-msgstr "<b>50000+ 公司</b>使用Odoo发展其业务。"
+msgid "<b>50,000+ companies</b> run Cnmx to grow their businesses."
+msgstr "<b>50000+ 公司</b>使用明象发展其业务。"
 
 #. module: website
 #. openerp-web
@@ -1153,10 +1153,10 @@ msgid ""
 "Analyze the efficiency of your marketing campaigns by using trackable UTM "
 "trackers (campaigns, medium, sources). Create trackers and follow clicks "
 "from the Promote menu of your website. Those trackers can be used in Google "
-"Analytics or in Odoo reports where you can see the opportunities and sales "
+"Analytics or in Cnmx reports where you can see the opportunities and sales "
 "revenue generated thanks to your links."
 msgstr ""
-"通过使用可跟踪的UTM跟踪器（广告系列，媒介，来源）分析您的营销活动的效率。创建跟踪器并按照您网站的“推广”菜单中的点击进行操作。这些跟踪器可以在谷歌数据分析或Odoo报告中使用，您可以通过链接查看产生的机会和销售收入。"
+"通过使用可跟踪的UTM跟踪器（广告系列，媒介，来源）分析您的营销活动的效率。创建跟踪器并按照您网站的“推广”菜单中的点击进行操作。这些跟踪器可以在谷歌数据分析或明象报告中使用，您可以通过链接查看产生的机会和销售收入。"
 
 #. module: website
 #. openerp-web
@@ -2316,8 +2316,8 @@ msgstr "关注全部"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Follow your website traffic in Odoo."
-msgstr "用 Odoo 跟踪你的网站流量。"
+msgid "Follow your website traffic in Cnmx."
+msgstr "用 明象 跟踪你的网站流量。"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.theme_customize
@@ -2973,8 +2973,8 @@ msgstr "似乎以下对象调用了您的文件"
 #, python-format
 msgid ""
 "It might be possible to edit the relevant items or fix the issue in <a "
-"href=\"%s\">the classic Odoo interface</a>"
-msgstr "在<a href=\"%s\">经典 Odoo 界面</a>上可以编辑相关项目或修改问题。"
+"href=\"%s\">the classic Cnmx interface</a>"
+msgstr "在<a href=\"%s\">经典 明象 界面</a>上可以编辑相关项目或修改问题。"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -3673,45 +3673,45 @@ msgstr "访客人数"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 1 for three columns"
-msgstr "Odoo－三列示例 1"
+msgid "Cnmx - Sample 1 for three columns"
+msgstr "明象－三列示例 1"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 2 for three columns"
-msgstr "Odoo－三列示例 2"
+msgid "Cnmx - Sample 2 for three columns"
+msgstr "明象－三列示例 2"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 3 for three columns"
-msgstr "Odoo－三列示例 3"
+msgid "Cnmx - Sample 3 for three columns"
+msgstr "明象－三列示例 3"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Odoo版本"
+msgid "Cnmx Version"
+msgstr "明象版本"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_quotes_carousel
 msgid ""
-"Odoo provides essential platform for our project management. Things are "
+"Cnmx provides essential platform for our project management. Things are "
 "better organized and more visible with it."
-msgstr "Odoo为我们的项目管理提供了重要的平台。事情组织得更好，更明显。"
+msgstr "明象为我们的项目管理提供了重要的平台。事情组织得更好，更明显。"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_picture
-msgid "Odoo • A picture with a caption"
-msgstr "Odoo • 带有标题的图片"
+msgid "Cnmx • A picture with a caption"
+msgstr "明象 • 带有标题的图片"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_image_text
-msgid "Odoo • Image and Text"
-msgstr "Odoo • 图像和文字"
+msgid "Cnmx • Image and Text"
+msgstr "明象 • 图像和文字"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_text_image
-msgid "Odoo • Text and Image"
-msgstr "Odoo • 文字和图像"
+msgid "Cnmx • Text and Image"
+msgstr "明象 • 文字和图像"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_visitor_view_kanban
@@ -5907,8 +5907,8 @@ msgstr "免费的网站"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "Odoo实例，"
+msgid "instance of Cnmx, the"
+msgstr "明象实例，"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -5962,8 +5962,8 @@ msgstr "网站"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "www.odoo.com"
-msgstr "www.odoo.com"
+msgid "www.cnmx.com"
+msgstr "www.cnmx.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.qweb_500

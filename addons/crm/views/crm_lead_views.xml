@@ -96,7 +96,7 @@
                                                 attrs="{'invisible': [('is_automated_probability', '=', True)]}">
                                             <i class="fa fa-gear" role="img" title="Switch to automatic probability" aria-label="Switch to automatic probability"></i>
                                         </button>
-                                        <small class="oe_grey" attrs="{'invisible': [('is_automated_probability', '=', True)]}"><field name="automated_probability"/> %% (Estimated by Odoo)</small>
+                                        <small class="oe_grey" attrs="{'invisible': [('is_automated_probability', '=', True)]}"><field name="automated_probability"/> %% (Estimated by Cnmx)</small>
                                         </span>
                                     <div id="probability" class="o_row d-flex">
                                         <field name="is_automated_probability" invisible="1"/>
@@ -135,7 +135,7 @@
                                     <field name="zip" placeholder="ZIP" class="o_address_zip"/>
                                     <field name="country_id" placeholder="Country" class="o_address_country" options='{"no_open": True, "no_create": True}'/>
                                 </div>
-                                <field name="website" widget="url" placeholder="e.g. https://www.odoo.com"/>
+                                <field name="website" widget="url" placeholder="e.g. https://www.cnmx.com"/>
                                 <field name="lang_id"/>
                             </group>
 
@@ -268,7 +268,7 @@
                                             <field name="zip" placeholder="ZIP" class="o_address_zip"/>
                                             <field name="country_id" placeholder="Country" class="o_address_country" options='{"no_open": True, "no_create": True}'/>
                                         </div>
-                                        <field name="website" widget="url" placeholder="e.g. https://www.odoo.com"/>
+                                        <field name="website" widget="url" placeholder="e.g. https://www.cnmx.com"/>
                                         <field name="lang_id"/>
                                     </group>
                                     <group class="mt48">

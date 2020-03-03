@@ -31,7 +31,7 @@ var AbstractFieldUpgrade = {
     //--------------------------------------------------------------------------
 
     /**
-     * Redirects the user to the odoo-enterprise/uprade page
+     * Redirects the user to the cnmx-enterprise/uprade page
      *
      * @private
      * @returns {Promise}
@@ -83,7 +83,7 @@ var AbstractFieldUpgrade = {
             $content: $('<div>', {
                 html: message,
             }),
-            title: _t("Odoo Enterprise"),
+            title: _t("Cnmx Enterprise"),
         }).open();
     },
     /**

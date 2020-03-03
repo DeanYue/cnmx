@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* payment
 # 
@@ -14,12 +14,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-18 09:47+0000\n"
 "PO-Revision-Date: 2019-08-26 09:12+0000\n"
 "Last-Translator: Jaroslav Bosansky <jaro.bosansky@ekoenergo.sk>, 2019\n"
-"Language-Team: Slovak (https://www.transifex.com/odoo/teams/41243/sk/)\n"
+"Language-Team: Slovak (https://www.transifex.com/41243/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -455,8 +455,8 @@ msgstr "Zachytenie transakcie"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__capture_manually
-msgid "Capture the amount from Odoo, when the delivery is completed."
-msgstr "Zachytiť sumu z Odoo, keď je dodávka skompletovaná."
+msgid "Capture the amount from Cnmx, when the delivery is completed."
+msgstr "Zachytiť sumu z Cnmx, keď je dodávka skompletovaná."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_onboarding_wizard_form
@@ -1049,13 +1049,13 @@ msgstr "Manuálne"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of Cnmx.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Cnmx,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Ručne: platba v hotovosti, šekom alebo inou metódou mimo Odoo.\n"
+"Ručne: platba v hotovosti, šekom alebo inou metódou mimo Cnmx.\n"
 "Elektronicky: Platba automaticky prostredníctvom príjemcu platby vyžiadaním transakcie na karte predloženej zákazníkom pri nákupe alebo  online (platobný token).\n"
-"Dávkové vklady: Vykryte niekoľko zákazníckych šekov naraz tým, že vytvoríte dávku na vklad, ktorú chcete predložiť banke Pri kódovaní bankového výpisu v Odoo sa odporúča zosúladiť transakciu s dávkovým vkladom. Povoľte túto možnosť v nastavení."
+"Dávkové vklady: Vykryte niekoľko zákazníckych šekov naraz tým, že vytvoríte dávku na vklad, ktorú chcete predložiť banke Pri kódovaní bankového výpisu v Cnmx sa odporúča zosúladiť transakciu s dávkovým vkladom. Povoľte túto možnosť v nastavení."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_onboarding_wizard__paypal_seller_account
@@ -1189,8 +1189,8 @@ msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer__module_to_buy
-msgid "Odoo Enterprise Module"
-msgstr "Odoo modul podnikateľskej edície"
+msgid "Cnmx Enterprise Module"
+msgstr "Cnmx modul podnikateľskej edície"
 
 #. module: payment
 #. openerp-web
@@ -1406,8 +1406,8 @@ msgstr ""
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_acquirer__payment_flow__s2s
-msgid "Payment from Odoo"
-msgstr "Platba z Odoo"
+msgid "Payment from Cnmx"
+msgstr "Platba z Cnmx"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.onboarding_payment_acquirer_step
@@ -1863,8 +1863,8 @@ msgstr "Typ"
 #. openerp-web
 #: code:addons/payment/static/src/xml/payment_processing.xml:0
 #, python-format
-msgid "Unable to contact the Odoo server."
-msgstr "Odoo server nedostupný."
+msgid "Unable to contact the Cnmx Server."
+msgstr "Cnmx Server nedostupný."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.acquirer_form

@@ -1,22 +1,22 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # * analytic
 # 
 # Translators:
 # Manel Fernandez <manelfera@outlook.com>, 2019
 # Martin Trigaux, 2019
-# RGB Consulting <odoo@rgbconsulting.com>, 2019
+# RGB Consulting <@rgbconsulting.com>, 2019
 # Quim - eccit <quim@eccit.com>, 2019
 # Sandra Franch <sandra.franch@upc.edu>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~11.5\n"
+"Project-Id-Version: Cnmx Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2016-08-05 12:56+0000\n"
 "Last-Translator: Sandra Franch <sandra.franch@upc.edu>, 2019\n"
-"Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
+"Language-Team: Catalan (https://www.transifex.com/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -345,11 +345,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
-"In Odoo, sales orders and projects are implemented using\n"
+"In Cnmx, sales orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
-"En Odoo, les comandes de venda i els projectes s'implementaran utilitzant "
+"En Cnmx, les comandes de venda i els projectes s'implementaran utilitzant "
 "comptes analítiques. Pot realitzar seguiment dels costos i ingressos per "
 "analitzar els seus marges fàcilment."
 

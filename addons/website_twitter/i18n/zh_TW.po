@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* website_twitter
 # 
@@ -10,12 +10,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.4\n"
+"Project-Id-Version: Cnmx Server saas~12.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-12 11:33+0000\n"
 "PO-Revision-Date: 2019-08-26 09:16+0000\n"
 "Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2019\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -47,13 +47,13 @@ msgstr "<strong>Callback URL:</strong>留空"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "<strong>Description: </strong> Odoo Twitter Integration"
-msgstr "<strong>描述：</strong> Odoo Twitter 整合"
+msgid "<strong>Description: </strong> Cnmx Twitter Integration"
+msgstr "<strong>描述：</strong> 明象 Twitter 整合"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "<strong>Name: </strong> Odoo Twitter Integration"
-msgstr "<strong>名稱：</strong> Odoo Twitter 整合"
+msgid "<strong>Name: </strong> Cnmx Twitter Integration"
+msgstr "<strong>名稱：</strong> 明象 Twitter 整合"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form

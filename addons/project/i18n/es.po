@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
@@ -8,26 +8,26 @@
 # Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2019
 # Carlos Lopez <celm1990@hotmail.com>, 2019
 # Diego de cos <diegodecos@hotmail.com>, 2019
-# Cristopher Cravioto <ccr@odoo.com>, 2019
+# Cristopher Cravioto <ccr>, 2019
 # Harald Panten <harald.panten@qubiq.es>, 2019
 # Dany Daniel Roche <ddanielroche@gmail.com>, 2019
-# Jon Perez <jop@odoo.com>, 2019
-# Jesse Garza <jga@odoo.com>, 2019
-# Mariana Santos Romo <msn@odoo.com>, 2019
+# Jon Perez <jop>, 2019
+# Jesse Garza <jga>, 2019
+# Mariana Santos Romo <msn>, 2019
 # Martin Trigaux, 2019
 # Alejandro Die Sanchis <marketing@domatix.com>, 2019
-# RGB Consulting <odoo@rgbconsulting.com>, 2019
+# RGB Consulting <@rgbconsulting.com>, 2019
 # Nicolás Broggi <rnbroggi@gmail.com>, 2019
 # oihane <oihanecruce@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:13+0000\n"
 "Last-Translator: oihane <oihanecruce@gmail.com>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -910,12 +910,12 @@ msgstr "Valoración de cliente(s)"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid ""
-"Customers propose feedbacks by email; Odoo creates tasks automatically, and "
+"Customers propose feedbacks by email; Cnmx creates tasks automatically, and "
 "you can communicate on the task directly. Your managers decide which "
 "feedback is accepted %s and which feedback is moved to the \"Refused\" "
 "column."
 msgstr ""
-"Los clientes proponen comentarios por correo electrónico; Odoo crea tareas "
+"Los clientes proponen comentarios por correo electrónico; Cnmx crea tareas "
 "automáticamente, y usted puede comunicarse directamente sobre la tarea. Sus "
 "gerentes deciden qué feedback es aceptado %s y qué feedback es movido a la "
 "columna \"Rechazado\"."
@@ -1945,10 +1945,10 @@ msgstr "Número de mensajes no leidos"
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.action_view_task
 msgid ""
-"Odoo's project management allows you to manage the pipeline of your tasks efficiently.<br>\n"
+"Cnmx's project management allows you to manage the pipeline of your tasks efficiently.<br>\n"
 "                    You can track progress, discuss on tasks, attach documents, etc."
 msgstr ""
-"La gestión de proyectos de Odoo le permite gestionar el pipeline de sus tareas de forma eficiente. <br>\n"
+"La gestión de proyectos de Cnmx le permite gestionar el pipeline de sus tareas de forma eficiente. <br>\n"
 "Puede hacer un seguimiento del progreso, discutir sobre las tareas, adjuntar documentos, etc."
 
 #. module: project
@@ -2860,11 +2860,11 @@ msgstr "Tests"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Cnmx Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"El modelo (Tipo de documento de Odoo) al que corresponde este seudónimo. "
+"El modelo (Tipo de documento de Cnmx) al que corresponde este seudónimo. "
 "Cualquier correo entrante que no sea respuesta a un registro existente, "
 "causará la creación de un nuevo registro de este modelo (por ejemplo, una "
 "tarea de proyecto)."
@@ -2873,11 +2873,11 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.cnmx.com>"
 msgstr ""
 "El nombre de este seudónimo de correo electrónico. Por ejemplo, "
 "\"trabajos\",  si lo que quiere es obtener los correos para "
-"<trabajos@example.odoo.com>."
+"<trabajos@example.cnmx.com>."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_user_id

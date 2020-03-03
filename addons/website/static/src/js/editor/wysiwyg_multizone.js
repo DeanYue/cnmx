@@ -37,7 +37,7 @@ function toggleDropdown($toggles, show) {
 /**
  * HtmlEditor
  * Intended to edit HTML content. This widget uses the Wysiwyg editor
- * improved by odoo.
+ * improved by cnmx.
  *
  * class editable: o_editable
  * class non editable: o_not_editable

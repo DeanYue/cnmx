@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
@@ -9,20 +9,20 @@
 # Cas Vissers <casvissers@brahoo.nl>, 2019
 # Thijs van Oers <thijsvanoers@yahoo.com>, 2019
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2019
-# Maxim Vandenbroucke <mxv@odoo.com>, 2019
-# Charles Vervaecke <cvk@odoo.com>, 2019
+# Maxim Vandenbroucke <mxv>, 2019
+# Charles Vervaecke <cvk>, 2019
 # Martin Trigaux, 2019
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2019
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2020
+# Erwin van der Ploeg <erwin@experts.nl>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:14+0000\n"
-"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2020\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Erwin van der Ploeg <erwin@experts.nl>, 2020\n"
+"Language-Team: Dutch (https://www.transifex.com/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -975,10 +975,10 @@ msgstr "Op uniek serienummer"
 #, python-format
 msgid ""
 "By changing this quantity here, you accept the new quantity as complete: "
-"Odoo will not automatically generate a back order."
+"Cnmx will not automatically generate a back order."
 msgstr ""
 "Door de hoeveelheid hier te wijzigen accepteert u de nieuwe hoeveel als "
-"compleet. Odoo zal niet automatisch een backorder aanmaken."
+"compleet. Cnmx zal niet automatisch een backorder aanmaken."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__procure_method
@@ -1709,10 +1709,10 @@ msgstr "Standaard routes door het magazijn"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint_form
 msgid ""
-"Define a minimum stock rule so that Odoo creates automatically requests for "
+"Define a minimum stock rule so that Cnmx creates automatically requests for "
 "quotations or draft manufacturing orders to resupply your stock."
 msgstr ""
-"Definieer een minimale voorraadregel, zodat Odoo automatisch aanvragen voor "
+"Definieer een minimale voorraadregel, zodat Cnmx automatisch aanvragen voor "
 "offertes of productieorders kan aanmaken om uw voorraad te aan te vullen."
 
 #. module: stock
@@ -1724,14 +1724,14 @@ msgstr "Definieer een nieuw magazijn"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. Cnmx is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "Definieer uw locaties om uw magazijnstructuur en organisatie\n"
-"te reflecteren. Odoo kan fysieke locaties beheren\n"
+"te reflecteren. Cnmx kan fysieke locaties beheren\n"
 "(magazijnen, planken, bakken, enz), relatie locaties (klanten,\n"
 "leveranciers) en virtuele locaties die de tegenrekening zijn van de\n"
 "voorraad bewerkingen zoals de productieorder\n"
@@ -2156,14 +2156,14 @@ msgstr "Fout"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in Cnmx moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, Cnmx will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Elke voorraad bewerking in Odoo verplaatst het product van een locatie naar een \n"
-"andere. Bijvoorbeeld, als u producten ontvangt van een leverancier, zal Odoo de \n"
+"Elke voorraad bewerking in Cnmx verplaatst het product van een locatie naar een \n"
+"andere. Bijvoorbeeld, als u producten ontvangt van een leverancier, zal Cnmx de \n"
 "producten verplaatsen van de leverancierslocatie naar de voorraad locatie. Elk rapport\n"
 "kan toegepast worden op fysieke, partner of virtuele locaties."
 
@@ -2616,11 +2616,11 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Odoo will automatically pre-fill the detailed "
+"If this checkbox is ticked, Cnmx will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
 msgstr ""
-"Indien aangevinkt, vult Odoo automatisch de gedetailleerde bewerkingen in "
+"Indien aangevinkt, vult Cnmx automatisch de gedetailleerde bewerkingen in "
 "met de overeenkomstige producten, locaties en partij- / serienummers."
 
 #. module: stock
@@ -7175,22 +7175,22 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock equals to or goes below the Min Quantity specified "
-"for this field, Odoo generates a procurement to bring the forecasted "
+"for this field, Cnmx generates a procurement to bring the forecasted "
 "quantity to the Max Quantity."
 msgstr ""
 "Wanneer een virtuele voorraad gelijk is aan of onder de minimale voorraad "
-"komt, zoals gespecificeerd in dit veld, zal Odoo een verwervingsopdracht "
+"komt, zoals gespecificeerd in dit veld, zal Cnmx een verwervingsopdracht "
 "genereren om de voorraadprognose aan te vullen tot de maximale hoeveelheid."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, Cnmx generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
 "Wanneer een virtuele voorraad onder de minimale voorraad komt, zoals "
-"gespecificeerd in dit veld, zal Odoo een verwervingsopdracht genereren om de"
+"gespecificeerd in dit veld, zal Cnmx een verwervingsopdracht genereren om de"
 " voorraadprognose aan te vullen tot de maximale hoeveelheid."
 
 #. module: stock
@@ -7532,10 +7532,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You have not recorded <i>done</i> quantities yet, by clicking on <i>apply</i>\n"
-"                        Odoo will process all the quantities."
+"                        Cnmx will process all the quantities."
 msgstr ""
 "U heeft geen hoeveelheden ingesteld op <i>Verwerkt</i>, wanneer u klikt op <i>Toepassen</i>, dan \n"
-"zal Odoo alle hoeveelheden welke gereserveerd zijn verwerken."
+"zal Cnmx alle hoeveelheden welke gereserveerd zijn verwerken."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_backorder_confirmation

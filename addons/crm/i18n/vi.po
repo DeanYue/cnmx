@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* crm
 # 
@@ -11,18 +11,18 @@
 # fanha99 <fanha99@hotmail.com>, 2019
 # son dang <son.dang@doda100.com>, 2019
 # Dung Nguyen Thi <dungnt@trobz.com>, 2019
-# Phuc Tran Thanh <phuctran.odoo@gmail.com>, 2019
+# Phuc Tran Thanh <phuctran.@gmail.com>, 2019
 # Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2019
 # Duy BQ <duybq86@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:09+0000\n"
 "Last-Translator: Duy BQ <duybq86@gmail.com>, 2020\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language-Team: Vietnamese (https://www.transifex.com/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -38,8 +38,8 @@ msgstr "# SL Cuộc gặp"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
-msgid "% (Estimated by Odoo)"
-msgstr "% (Ước tính bởi Odoo)"
+msgid "% (Estimated by Cnmx)"
+msgstr "% (Ước tính bởi Cnmx)"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
@@ -1849,10 +1849,10 @@ msgstr "Số thông điệp chưa đọc"
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
-"Odoo helps you keep track of your sales pipeline to follow\n"
+"Cnmx helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
-"Odoo giúp bạn theo vết toàn bộ các tiềm năng và cơ hội bán hàng\n"
+"Cnmx giúp bạn theo vết toàn bộ các tiềm năng và cơ hội bán hàng\n"
 "                    đồng thời giúp dự bán tốt hơn về doanh số tương lai của bạn."
 
 #. module: crm
@@ -2887,8 +2887,8 @@ msgstr "vd: Giá Sản phẩm"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
-msgid "e.g. https://www.odoo.com"
-msgstr "vd: https://www.odoo.com"
+msgid "e.g. https://www.cnmx.com"
+msgstr "vd: https://www.cnmx.com"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'OdooBot',
@@ -7,7 +7,7 @@
     'category': 'Discuss',
     'summary': 'Add OdooBot in discussions',
     'description': "",
-    'website': 'https://www.odoo.com/page/discuss',
+    'website': 'https://www.cnmx.com/page/discuss',
     'depends': ['mail'],
     'installable': True,
     'application': False,

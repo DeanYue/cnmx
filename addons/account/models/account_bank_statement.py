@@ -384,7 +384,7 @@ class AccountBankStatementLine(models.Model):
     def _check_amount(self):
         for line in self:
             # Allow to enter bank statement line with an amount of 0,
-            # so that user can enter/import the exact bank statement they have received from their bank in Odoo
+            # so that user can enter/import the exact bank statement they have received from their bank in Cnmx
             currency = line.currency_id or line.journal_currency_id
             if line.journal_id.type != 'bank' and currency.is_zero(line.amount):
                 raise ValidationError(_('The amount of a cash transaction cannot be 0.'))

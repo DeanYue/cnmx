@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* website
 # 
@@ -11,16 +11,16 @@
 # Nhomar Hernández [Vauxoo] <nhomar@vauxoo.com>, 2019
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
 # 966ff43e6966712895a590e7320ca288, 2019
-# Raquel Iciarte <ric@odoo.com>, 2019
+# Raquel Iciarte <ric>, 2019
 # Mateo Tibaquirá Palacios <nestormateo@gmail.com>, 2019
 # Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2019
 # Alejandro Santana <alejandrosantana@anubia.es>, 2019
 # Andrés Felipe Casas Palomino <afcasas@nubark.com>, 2019
 # David Sanchez <david.sanchez@jarsa.com.mx>, 2019
 # Carlos rodriguez <carlosalbertor436@gmail.com>, 2019
-# RGB Consulting <odoo@rgbconsulting.com>, 2019
-# Cristopher Cravioto <ccr@odoo.com>, 2019
-# Pilar Marín <pilar@odooperu.pe>, 2019
+# RGB Consulting <@rgbconsulting.com>, 2019
+# Cristopher Cravioto <ccr>, 2019
+# Pilar Marín <pilar@peru.pe>, 2019
 # Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2019
 # ced903afe967c2a46d1036224972db9d, 2019
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2019
@@ -30,9 +30,9 @@
 # Inigo Zuluaga <inigo_zuluaga@yahoo.es>, 2019
 # Hbto [ Vauxoo ] <hbto@vauxoo.com>, 2019
 # Nicolás Broggi <rnbroggi@gmail.com>, 2019
-# Carolina Gonzalez <cgo@odoo.com>, 2019
-# Efrem Jimenez <efj@odoo.com>, 2019
-# Jesse Garza <jga@odoo.com>, 2019
+# Carolina Gonzalez <cgo>, 2019
+# Efrem Jimenez <efj>, 2019
+# Jesse Garza <jga>, 2019
 # e2f <projects@e2f.com>, 2019
 # Alejandro Die Sanchis <marketing@domatix.com>, 2019
 # Antonio Trueba, 2019
@@ -41,17 +41,17 @@
 # Rick Hunter <rick.hunter.ec@gmail.com>, 2019
 # JOSE ALEJANDRO ECHEVERRI VALENCIA <josealejandroeche@gmail.com>, 2019
 # Cris Martin <cristina.marrod@gmail.com>, 2019
-# Jon Perez <jop@odoo.com>, 2019
+# Jon Perez <jop>, 2019
 # Pablo Rojas <rojaspablo88@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-18 09:46+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
 "Last-Translator: Pablo Rojas <rojaspablo88@gmail.com>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -254,9 +254,9 @@ msgstr "75%"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
-msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
+msgid "<b>50,000+ companies</b> run Cnmx to grow their businesses."
 msgstr ""
-"<b>Más de 50,000 empresas</b> utilizan Odoo para hacer crecer sus negocios"
+"<b>Más de 50,000 empresas</b> utilizan Cnmx para hacer crecer sus negocios"
 
 #. module: website
 #. openerp-web
@@ -1197,7 +1197,7 @@ msgid ""
 "Analyze the efficiency of your marketing campaigns by using trackable UTM "
 "trackers (campaigns, medium, sources). Create trackers and follow clicks "
 "from the Promote menu of your website. Those trackers can be used in Google "
-"Analytics or in Odoo reports where you can see the opportunities and sales "
+"Analytics or in Cnmx reports where you can see the opportunities and sales "
 "revenue generated thanks to your links."
 msgstr ""
 
@@ -2370,8 +2370,8 @@ msgstr "Siga todos los"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Follow your website traffic in Odoo."
-msgstr "Siga el tráfico de su sitio web en Odoo."
+msgid "Follow your website traffic in Cnmx."
+msgstr "Siga el tráfico de su sitio web en Cnmx."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.theme_customize
@@ -3043,10 +3043,10 @@ msgstr "Parece que su archivo está siendo llamado por"
 #, python-format
 msgid ""
 "It might be possible to edit the relevant items or fix the issue in <a "
-"href=\"%s\">the classic Odoo interface</a>"
+"href=\"%s\">the classic Cnmx interface</a>"
 msgstr ""
 "Es posible editar los elementos más relevantes o solucionar el problema en "
-"<a href=\"%s\">la interfaz clásica de Odoo</a>"
+"<a href=\"%s\">la interfaz clásica de Cnmx</a>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -3750,47 +3750,47 @@ msgstr "Número de visitas"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 1 for three columns"
-msgstr "Odoo - Prueba 1 a tres columnas"
+msgid "Cnmx - Sample 1 for three columns"
+msgstr "Cnmx - Prueba 1 a tres columnas"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 2 for three columns"
-msgstr "Odoo - Prueba 2 a tres columnas"
+msgid "Cnmx - Sample 2 for three columns"
+msgstr "Cnmx - Prueba 2 a tres columnas"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 3 for three columns"
-msgstr "Odoo - Prueba 3 a tres columnas"
+msgid "Cnmx - Sample 3 for three columns"
+msgstr "Cnmx - Prueba 3 a tres columnas"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Versión de Odoo"
+msgid "Cnmx Version"
+msgstr "Versión de Cnmx"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_quotes_carousel
 msgid ""
-"Odoo provides essential platform for our project management. Things are "
+"Cnmx provides essential platform for our project management. Things are "
 "better organized and more visible with it."
 msgstr ""
-"Odoo proporciona una plataforma esencial para nuestra gestión de proyectos. "
+"Cnmx proporciona una plataforma esencial para nuestra gestión de proyectos. "
 "Las cosas están mejor organizadas y más visibles con ella."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_picture
-msgid "Odoo • A picture with a caption"
-msgstr "Odoo • Una imagen con una leyenda"
+msgid "Cnmx • A picture with a caption"
+msgstr "Cnmx • Una imagen con una leyenda"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_image_text
-msgid "Odoo • Image and Text"
-msgstr "Odoo • Imagen y texto"
+msgid "Cnmx • Image and Text"
+msgstr "Cnmx • Imagen y texto"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_text_image
-msgid "Odoo • Text and Image"
-msgstr "Odoo • Texto e imagen"
+msgid "Cnmx • Text and Image"
+msgstr "Cnmx • Texto e imagen"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_visitor_view_kanban
@@ -6049,8 +6049,8 @@ msgstr "web gratuita"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "instancia de Odoo, el"
+msgid "instance of Cnmx, the"
+msgstr "instancia de Cnmx, el"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -6104,8 +6104,8 @@ msgstr "sitio web"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "www.odoo.com"
-msgstr "www.odoo.com"
+msgid "www.cnmx.com"
+msgstr "www.cnmx.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.qweb_500

@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Italy - E-invoicing',
     'version': '0.3',
     'depends': ['l10n_it'],
-    'author': 'Odoo',
+    'author': 'Cnmx',
     'description': """
 E-invoice implementation
     """,
     'category': 'Localization',
-    'website': 'http://www.odoo.com/',
+    'website': 'http://www.cnmx.com/',
     'data': [
         'security/ir.model.access.csv',
         'data/invoice_it_template.xml',

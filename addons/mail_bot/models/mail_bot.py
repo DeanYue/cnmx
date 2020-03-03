@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 import itertools
 import random
@@ -48,7 +48,7 @@ class MailBot(models.AbstractModel):
                 return _("Wow you are a natural!<br/>Ping someone to grab its attention with @nameoftheuser. <b>Try to ping me using @CnmxBot</b> in a sentence.")
             elif cnmxbot_state == 'onboarding_ping' and self._is_bot_pinged(values):
                 self.env.user.cnmxbot_state = "idle"
-                return _("Yep, I am here! 🎉 <br/>You finished the tour, you can <b>close this chat window</b>. Enjoy discovering Odoo.")
+                return _("Yep, I am here! 🎉 <br/>You finished the tour, you can <b>close this chat window</b>. Enjoy discovering Cnmx.")
             elif cnmxbot_state == "idle" and (_('start the tour') in body.lower()):
                 self.env.user.cnmxbot_state = "onboarding_emoji"
                 return _("To start, try to send me an emoji :)")

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -21,12 +21,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:12+0000\n"
 "Last-Translator: Linas Versada <linaskrisiukenas@gmail.com>, 2019\n"
-"Language-Team: Lithuanian (https://www.transifex.com/odoo/teams/41243/lt/)\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1920,8 +1920,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/popups.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr "SVARBU: Klaidų ataskaita iš \"Odoo\" pardavimų taško"
+msgid "IMPORTANT: Bug Report From Cnmx Point Of Sale"
+msgstr "SVARBU: Klaidų ataskaita iš \"Cnmx\" pardavimų taško"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
@@ -2576,8 +2576,8 @@ msgstr "Neperskaitytų žinučių skaičius"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model_terms:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Odoo Logo"
-msgstr "\"Odoo\" logotipas"
+msgid "Cnmx Logo"
+msgstr "\"Cnmx\" logotipas"
 
 #. module: point_of_sale
 #. openerp-web
@@ -4713,19 +4713,19 @@ msgstr "Šis produktas naudojamas kaip nuoroda klientų kvituose."
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Cnmx but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"Ši seka yra automatiškai sukurta \"Odoo\", tačiau galite pakeisti ją ir "
+"Ši seka yra automatiškai sukurta \"Cnmx\", tačiau galite pakeisti ją ir "
 "nustatyti numerius pagal savo užsakymų eilutes."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Cnmx but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Ši seka yra automatiškai sukurta \"Odoo\", tačiau galite keisti ją ir "
+"Ši seka yra automatiškai sukurta \"Cnmx\", tačiau galite keisti ją ir "
 "nustatyti savo užsakymų numerius."
 
 #. module: point_of_sale

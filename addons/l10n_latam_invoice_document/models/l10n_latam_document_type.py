@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 from odoo import fields, models, api
 
@@ -23,7 +23,7 @@ class L10nLatamDocumentType(models.Model):
     report_name = fields.Char('Name on Reports', help='Name that will be printed in reports, for example "CREDIT NOTE"')
     internal_type = fields.Selection(
         [('invoice', 'Invoices'), ('debit_note', 'Debit Notes'), ('credit_note', 'Credit Notes')], index=True,
-        help='Analog to odoo account.move.type but with more options allowing to identify the kind of document we are'
+        help='Analog to cnmx account.move.type but with more options allowing to identify the kind of document we are'
         ' working with. (not only related to account.move, could be for documents of other models like stock.picking)')
 
     def _format_document_number(self, document_number):

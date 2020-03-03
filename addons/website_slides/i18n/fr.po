@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* website_slides
 # 
@@ -8,38 +8,37 @@
 # Shark McGnark <peculiarcheese@gmail.com>, 2019
 # e2f <projects@e2f.com>, 2019
 # Frédéric LIETART <stuff@tifred.fr>, 2019
-# Richard Mathot <rim@odoo.com>, 2019
+# Richard Mathot <rim>, 2019
 # bb76cd9ac0cb7e20167a14728edb858b, 2019
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2019
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2019
 # Agathe Mollé <molleagathe@gmail.com>, 2019
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2019
 # Mohamed Cherkaoui <chermed@gmail.com>, 2019
-# user 2 odoo <user2odoo@gmail.com>, 2019
 # Hamid Darabi, 2019
-# Laura Piraux <lap@odoo.com>, 2019
-# Nathan Grognet <ngr@odoo.com>, 2019
+# Laura Piraux <lap>, 2019
+# Nathan Grognet <ngr>, 2019
 # Olivier ANDRE <frsw194@gmail.com>, 2019
-# gdp Odoo <gdp@odoo.com>, 2019
-# Nicolas Roussey <nro@odoo.com>, 2019
-# Melanie Bernard <mbe@odoo.com>, 2019
+# gdp Cnmx <gdp>, 2019
+# Nicolas Roussey <nro>, 2019
+# Melanie Bernard <mbe>, 2019
 # Martin Trigaux, 2019
-# Clo <clo@odoo.com>, 2019
-# Lucas Deliege <lud@odoo.com>, 2019
+# Clo <clo>, 2019
+# Lucas Deliege <lud>, 2019
 # Xavier Belmere <Info@cartmeleon.com>, 2019
-# Fred Gilson <fgi@odoo.com>, 2019
-# Cécile Collart <cco@odoo.com>, 2019
+# Fred Gilson <fgi>, 2019
+# Cécile Collart <cco>, 2019
 # Aurélien Pillevesse <aurelienpillevesse@hotmail.fr>, 2019
-# Eloïse Stilmant <est@odoo.com>, 2019
+# Eloïse Stilmant <est>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:34+0000\n"
 "PO-Revision-Date: 2019-08-26 09:16+0000\n"
-"Last-Translator: Eloïse Stilmant <est@odoo.com>, 2019\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Last-Translator: Eloïse Stilmant <est>, 2019\n"
+"Language-Team: French (https://www.transifex.com/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2761,8 +2760,8 @@ msgstr "Nombre de questions"
 #. module: website_slides
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_1_4
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
-msgid "Odoo • Image and Text"
-msgstr "Odoo • Image et Texte"
+msgid "Cnmx • Image and Text"
+msgstr "Cnmx • Image et Texte"
 
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_channel__enroll__invite
@@ -4293,23 +4292,23 @@ msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "e.g. How to grow your business with Odoo?"
-msgstr "par ex: Comment développer votre entreprise avec Odoo?"
+msgid "e.g. How to grow your business with Cnmx?"
+msgstr "par ex: Comment développer votre entreprise avec Cnmx?"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid ""
-"e.g. In this video, we'll give you the keys on how Odoo can help you to grow"
+"e.g. In this video, we'll give you the keys on how Cnmx can help you to grow"
 " your business. At the end, we'll propose you a quiz to test your knowledge."
 msgstr ""
-"par ex:. Dans cette vidéo, nous vous expliquerons comment Odoo peut vous "
+"par ex:. Dans cette vidéo, nous vous expliquerons comment Cnmx peut vous "
 "aider à développer votre entreprise. À la fin, nous vous proposerons un quiz"
 " pour tester vos connaissances."
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "e.g. https://www.odoo.com"
-msgstr "e.x. https://www.odoo.com"
+msgid "e.g. https://www.cnmx.com"
+msgstr "e.x. https://www.cnmx.com"
 
 #. module: website_slides
 #: model:ir.ui.menu,name:website_slides.website_slides_menu_root

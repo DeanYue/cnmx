@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* delivery
 # 
@@ -6,25 +6,24 @@
 # e2f <projects@e2f.com>, 2019
 # Martin Trigaux, 2019
 # David Halgand <david.halgand@gmail.com>, 2019
-# Eloïse Stilmant <est@odoo.com>, 2019
+# Eloïse Stilmant <est>, 2019
 # Nathan Noël <nathan070@me.com>, 2019
 # Maximilien Tantin <maximilien.tantin@horanet.com>, 2019
-# Elise Carton <eca@odoo.com>, 2019
+# Elise Carton <eca>, 2019
 # Olivier ANDRE <frsw194@gmail.com>, 2019
 # a270031086f2a0d3514bc0cb507b48f6, 2019
-# Adrien Heyse <ahe@odoo.com>, 2019
+# Adrien Heyse <ahe>, 2019
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2019
-# omaodoo <oma@odoo.com>, 2020
-# Cécile Collart <cco@odoo.com>, 2020
+# Cécile Collart <cco>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-07 07:12+0000\n"
 "PO-Revision-Date: 2019-08-26 09:09+0000\n"
-"Last-Translator: Cécile Collart <cco@odoo.com>, 2020\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Last-Translator: Cécile Collart <cco>, 2020\n"
+"Language-Team: French (https://www.transifex.com/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -52,11 +51,11 @@ msgstr ""
 #, python-format
 msgid ""
 "<p class=\"o_view_nocontent\">\n"
-"                    Buy Odoo Enterprise now to get more providers.\n"
+"                    Buy Cnmx Enterprise now to get more providers.\n"
 "                </p>"
 msgstr ""
 "<p class=\"o_view_nocontent\">\n"
-"                    Achetez Odoo Enterprise maintenant pour obtenir plus de fournisseurs.\n"
+"                    Achetez Cnmx Enterprise maintenant pour obtenir plus de fournisseurs.\n"
 "                </p>"
 
 #. module: delivery

@@ -170,7 +170,7 @@ var WebsiteRoot = publicRootData.PublicRoot.extend({
                     html: (data.data ? data.data.arguments[1] : data.statusText)
                         + '<br/>'
                         + _.str.sprintf(
-                            _t('It might be possible to edit the relevant items or fix the issue in <a href="%s">the classic Odoo interface</a>'),
+                            _t('It might be possible to edit the relevant items or fix the issue in <a href="%s">the classic Cnmx interface</a>'),
                             '/web#model=' + $data.data('object') + '&id=' + $data.data('id')
                         ),
                 }),

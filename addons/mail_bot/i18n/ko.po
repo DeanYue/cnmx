@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* mail_bot
 # 
@@ -11,12 +11,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: Cnmx Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:16+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
 "Last-Translator: JH CHOI <hwangtog@gmail.com>, 2020\n"
-"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"Language-Team: Korean (https://www.transifex.com/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -80,10 +80,10 @@ msgstr "HTTP 라우팅"
 #: code:addons/mail_bot/models/mail_channel.py:0
 #, python-format
 msgid ""
-"Hello,<br/>Odoo's chat helps employees collaborate efficiently. I'm here to "
+"Hello,<br/>Cnmx's chat helps employees collaborate efficiently. I'm here to "
 "help you discover its features.<br/><b>Try to send me an emoji :)</b>"
 msgstr ""
-"안녕하세요. <br/>Odoo의 대화는 직원들이 효율적으로 협력할 수 있도록 도와줍니다. 나는 당신이 그것의 특징을 발견하는 것을 돕기 "
+"안녕하세요. <br/>Cnmx의 대화는 직원들이 효율적으로 협력할 수 있도록 도와줍니다. 나는 당신이 그것의 특징을 발견하는 것을 돕기 "
 "위해 여기에 있습니다.  <br/><b>나에게 이모티콘을 보내보세요 :)</b>"
 
 #. module: mail_bot
@@ -172,21 +172,21 @@ msgstr "잘하고 있는지는 모르겠지만. /를 누르고 제안이 있을 
 #: code:addons/mail_bot/static/src/js/systray_messaging_menu.js:0
 #, python-format
 msgid ""
-"Odoo will not have the permission to send native notifications on this "
+"Cnmx will not have the permission to send native notifications on this "
 "device."
-msgstr "Odoo는 지금 이 장치에서 기본 알림을 보낼 수 있는 권한이 없습니다."
+msgstr "Cnmx는 지금 이 장치에서 기본 알림을 보낼 수 있는 권한이 없습니다."
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "Odoo봇 상태"
+msgid "CnmxBot Status"
+msgstr "Cnmx봇 상태"
 
 #. module: mail_bot
 #. openerp-web
 #: code:addons/mail_bot/static/src/js/mailbot_service.js:0
 #, python-format
-msgid "OdooBot has a request"
-msgstr "Odoo봇이 요청을 했습니다"
+msgid "CnmxBot has a request"
+msgstr "Cnmx봇이 요청을 했습니다"
 
 #. module: mail_bot
 #: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_attachement
@@ -236,9 +236,9 @@ msgstr ""
 #, python-format
 msgid ""
 "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
-"Write \"@odoobot\" and select me."
+"Write \"@bot\" and select me."
 msgstr ""
-"미안해요, 안 듣고 있어요. 다른 사람의 주의를 끌려면, <b>핑을 쏘세요</b>. \"@odoobot\"이라고 쓰고 저를 선택하세요."
+"미안해요, 안 듣고 있어요. 다른 사람의 주의를 끌려면, <b>핑을 쏘세요</b>. \"@bot\"이라고 쓰고 저를 선택하세요."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
@@ -270,9 +270,9 @@ msgstr "사용자"
 #, python-format
 msgid ""
 "Wow you are a natural!<br/>Ping someone to grab its attention with "
-"@nameoftheuser. <b>Try to ping me using @OdooBot</b> in a sentence."
+"@nameoftheuser. <b>Try to ping me using @Bot</b> in a sentence."
 msgstr ""
-"와우 당신 정말 타고났군요! <br/>누군가가 @nameoftheuser로 관심을 끌게 했나봐요. 문장에 <b>@OdooBot을 써서 날"
+"와우 당신 정말 타고났군요! <br/>누군가가 @nameoftheuser로 관심을 끌게 했나봐요. 문장에 <b>@Bot을 써서 날"
 " 꼬시려 하네요</b>."
 
 #. module: mail_bot
@@ -280,13 +280,13 @@ msgstr ""
 #, python-format
 msgid ""
 "Yep, I am here! 🎉 <br/>You finished the tour, you can <b>close this chat "
-"window</b>. Enjoy discovering Odoo."
+"window</b>. Enjoy discovering Cnmx."
 msgstr "네, 여기 있습니다! 🎉 <br/>투어를 마쳤으니 이 <b>채팅창을 닫으셔도 됩니다</b>. 오두 발견을 즐기세요."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
 #, python-format
-msgid "Yep, OdooBot is in the place!"
+msgid "Yep, CnmxBot is in the place!"
 msgstr "엡 오두봇은 그 자리에 있어요!"
 
 #. module: mail_bot

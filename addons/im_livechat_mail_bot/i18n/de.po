@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* im_livechat_mail_bot
 # 
 # Translators:
 # Martin Trigaux, 2019
-# Johannes Croe <jcr@odoo.com>, 2019
+# Johannes Croe <jcr>, 2019
 # Chris Egal <sodaswed@web.de>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: Cnmx Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:16+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
 "Last-Translator: Chris Egal <sodaswed@web.de>, 2019\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -27,10 +27,10 @@ msgstr ""
 msgid ""
 "Good, you can customize canned responses in the live chat "
 "application.<br/><br/><b>It's the end of this overview</b>, enjoy "
-"discovering Odoo!"
+"discovering Cnmx!"
 msgstr ""
 "Gut, Sie können Antwortvorlagen in der Livechat app personalisieren.<br/>\n"
-"<br/><b>Das ist das Ende des Rundgangs</b>, viel spass dabei, Odoo zu entdecken!"
+"<br/><b>Das ist das Ende des Rundgangs</b>, viel spass dabei, Cnmx zu entdecken!"
 
 #. module: im_livechat_mail_bot
 #: model:ir.model,name:im_livechat_mail_bot.model_mail_bot
@@ -49,8 +49,8 @@ msgstr ""
 
 #. module: im_livechat_mail_bot
 #: model:ir.model.fields,field_description:im_livechat_mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "OdooBot Status"
+msgid "CnmxBot Status"
+msgstr "CnmxBot Status"
 
 #. module: im_livechat_mail_bot
 #: model:ir.model.fields.selection,name:im_livechat_mail_bot.selection__res_users__odoobot_state__onboarding_canned

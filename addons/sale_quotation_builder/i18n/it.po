@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* sale_quotation_builder
 # 
@@ -7,18 +7,18 @@
 # Lorenzo Battistini <lb@takobi.online>, 2019
 # Simone Bernini <simone@aperturelabs.it>, 2019
 # Paolo Valier, 2019
-# Léonie Bouchat <lbo@odoo.com>, 2019
+# Léonie Bouchat <lbo>, 2019
 # mymage <stefano.consolaro@mymage.it>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: Cnmx Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:17+0000\n"
 "PO-Revision-Date: 2019-08-26 09:14+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language-Team: Italian (https://www.transifex.com/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -303,13 +303,13 @@ msgstr "Descrizione Sito Web"
 #. module: sale_quotation_builder
 #: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
 msgid ""
-"You can <strong>set a description per product</strong>. Odoo will\n"
+"You can <strong>set a description per product</strong>. Cnmx will\n"
 "                        automatically create a quotation using the descriptions\n"
 "                        of all products in the proposal. The table of content\n"
 "                        on the left is generated automatically using the styles you\n"
 "                        used in your description (heading 1, heading 2, ...)"
 msgstr ""
-"È possibile <strong>configurare una descrizione per prodotto</strong>. Odoo creerà\n"
+"È possibile <strong>configurare una descrizione per prodotto</strong>. Cnmx creerà\n"
 "                        automaticamente un preventivo utilizzando le descrizioni\n"
 "                        di tutti i prodotti della proposta. Il sommario\n"
 "                        a sinistra viene generato automaticamente con gli stili\n"

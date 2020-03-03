@@ -1,9 +1,9 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing
 # 
 # Translators:
-# Romica Paun <roa@odoo.com>, 2019
+# Romica Paun <roa>, 2019
 # Giovanni Perteghella <giovanni@perteghella.org>, 2019
 # Cesare Cugnasco <cesare.cugnasco@gmail.com>, 2019
 # Lorenzo Battistini <lb@takobi.online>, 2019
@@ -11,23 +11,23 @@
 # Simone Bernini <simone@aperturelabs.it>, 2019
 # Giacomo Grasso <giacomo.grasso.82@gmail.com>, 2019
 # Christian <chris@effeci.info>, 2019
-# Cécile Collart <cco@odoo.com>, 2019
-# Léonie Bouchat <lbo@odoo.com>, 2019
+# Cécile Collart <cco>, 2019
+# Léonie Bouchat <lbo>, 2019
 # mymage <stefano.consolaro@mymage.it>, 2019
 # Francesco Garganese <francesco.garganese@aeromnia.aero>, 2019
 # Paolo Valier, 2019
-# Davide Speranza <dsp@odoo.com>, 2019
+# Davide Speranza <dsp>, 2019
 # Martin Trigaux, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 09:02+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2020\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language-Team: Italian (https://www.transifex.com/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1669,8 +1669,8 @@ msgstr "IN MENO SUL TUO PROSSIMO ORDINE!"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.layout
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Cnmx"
+msgstr "Cnmx"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image_text
@@ -2162,9 +2162,9 @@ msgstr ""
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
-msgid "That way, Odoo evolves much faster than any other solution."
+msgid "That way, Cnmx evolves much faster than any other solution."
 msgstr ""
-"In questo modo, Odoo evolve molto più velocemente di qualsiasi altra "
+"In questo modo, Cnmx evolve molto più velocemente di qualsiasi altra "
 "soluzione. "
 
 #. module: mass_mailing
@@ -2186,20 +2186,20 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of developers and\n"
+"The open source model of Cnmx has allowed us to leverage thousands of developers and\n"
 "                                business experts to build hundreds of apps in just a few years."
 msgstr ""
-"Il modello open source di Odoo ci ha permesso di mobilisare migliaia di sviluppatori e\n"
+"Il modello open source di Cnmx ci ha permesso di mobilisare migliaia di sviluppatori e\n"
 "                                esperti commerciali per creare centinaia di applicazioni in pochi anni. "
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_text_image
 msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of "
+"The open source model of Cnmx has allowed us to leverage thousands of "
 "developers and business experts to build hundreds of apps in just a few "
 "years."
 msgstr ""
-"Il modello open source di Odoo ci ha permesso di mobilisare migliaia di "
+"Il modello open source di Cnmx ci ha permesso di mobilisare migliaia di "
 "sviluppatori e esperti commerciali per creare centinaia di applicazioni in "
 "pochi anni. "
 
@@ -2357,10 +2357,10 @@ msgstr "Aggiornare tema"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"Usability improvements made on Odoo will automatically apply to all\n"
+"Usability improvements made on Cnmx will automatically apply to all\n"
 "                                of our fully integrated apps."
 msgstr ""
-"I miglioramenti di utilizzo apportati da Odoo saranno applicati automaticamente\n"
+"I miglioramenti di utilizzo apportati da Cnmx saranno applicati automaticamente\n"
 "                                a tutte le applicazioni integrate."
 
 #. module: mass_mailing
@@ -2378,7 +2378,7 @@ msgstr ""
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__mass_mailing_outgoing_mail_server
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid ""
-"Use a specific mail server in priority. Otherwise Odoo relies on the first "
+"Use a specific mail server in priority. Otherwise Cnmx relies on the first "
 "outgoing mail server available (based on their sequencing) as it does for "
 "normal mails."
 msgstr ""
@@ -2437,14 +2437,14 @@ msgstr "Quando vuoi inviare le e-mail?"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"With strong technical foundations, Odoo's framework is unique.\n"
+"With strong technical foundations, Cnmx's framework is unique.\n"
 "                                It provides top notch usability that scales across all apps."
 msgstr ""
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image
 msgid ""
-"With strong technical foundations, Odoo's framework is unique. It provides "
+"With strong technical foundations, Cnmx's framework is unique. It provides "
 "<strong>top notch usability that scales across all apps</strong>."
 msgstr ""
 
@@ -2480,14 +2480,14 @@ msgstr "Non sei iscritto ad alcuna mailing list."
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_mailing_action_mail
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"                send emails<br> to any contact saved in other Odoo apps."
+"                send emails<br> to any contact saved in other Cnmx apps."
 msgstr ""
 
 #. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_lists
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"            send emails<br> to any contact saved in other Odoo apps."
+"            send emails<br> to any contact saved in other Cnmx apps."
 msgstr ""
 
 #. module: mass_mailing

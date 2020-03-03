@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Cnmx. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Indonesian - Accounting',
     'version': '1.0',
     'category': 'Localization',
     'description': """
-This is the latest Indonesian Odoo localisation necessary to run Odoo accounting for SMEs with:
+This is the latest Indonesian Cnmx localisation necessary to run Cnmx accounting for SMEs with:
 =================================================================================================
     - generic Indonesian chart of accounts
     - tax structure""",

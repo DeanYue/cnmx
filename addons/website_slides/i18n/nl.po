@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Cnmx Server.
 # This file contains the translation of the following modules:
 # 	* website_slides
 # 
@@ -7,19 +7,19 @@
 # Cas Vissers <casvissers@brahoo.nl>, 2019
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2019
 # Thijs van Oers <thijsvanoers@yahoo.com>, 2019
-# Charles Vervaecke <cvk@odoo.com>, 2019
+# Charles Vervaecke <cvk>, 2019
 # Martin Trigaux, 2019
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2019
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2020
+# Erwin van der Ploeg <erwin@experts.nl>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Cnmx Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:34+0000\n"
 "PO-Revision-Date: 2019-08-26 09:16+0000\n"
-"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2020\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Erwin van der Ploeg <erwin@experts.nl>, 2020\n"
+"Language-Team: Dutch (https://www.transifex.com/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2836,8 +2836,8 @@ msgstr "Aantal vragen"
 #. module: website_slides
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_1_4
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
-msgid "Odoo • Image and Text"
-msgstr "Odoo + afbeelding en tekst"
+msgid "Cnmx • Image and Text"
+msgstr "Cnmx + afbeelding en tekst"
 
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_channel__enroll__invite
@@ -4395,23 +4395,23 @@ msgstr "via e-mail."
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "e.g. How to grow your business with Odoo?"
-msgstr "bijv. Hoe jouw onderneming doen groeien met Odoo?"
+msgid "e.g. How to grow your business with Cnmx?"
+msgstr "bijv. Hoe jouw onderneming doen groeien met Cnmx?"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid ""
-"e.g. In this video, we'll give you the keys on how Odoo can help you to grow"
+"e.g. In this video, we'll give you the keys on how Cnmx can help you to grow"
 " your business. At the end, we'll propose you a quiz to test your knowledge."
 msgstr ""
 "bijv. In deze video, geven we u de sleutels om uw bedrijf te doen groeien "
-"met Odoo. Aan het einde, zullen we u een quiz voorstellen om uw kennis te "
+"met Cnmx. Aan het einde, zullen we u een quiz voorstellen om uw kennis te "
 "testen."
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "e.g. https://www.odoo.com"
-msgstr "bijvoorbeeld https://www.odoo.com"
+msgid "e.g. https://www.cnmx.com"
+msgstr "bijvoorbeeld https://www.cnmx.com"
 
 #. module: website_slides
 #: model:ir.ui.menu,name:website_slides.website_slides_menu_root
