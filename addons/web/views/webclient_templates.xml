@@ -486,7 +486,7 @@
             <a target="_blank"
                 t-attf-href="http://www.odoo.com?utm_source=db&amp;utm_medium=#{_utm_medium}"
                 class="badge badge-light">
-                <img alt="Odoo"
+                <img alt="Cnmx"
                         src="/web/static/src/img/odoo_logo_tiny.png"
                         style="height: 1em; vertical-align: baseline;"/>
             </a>
@@ -932,7 +932,7 @@
         -->
         <t t-if="not debug">
             <script>
-                // Use Odoo PDFJS Loader, to avoid dynamic assets loading
+                // Use Cnmx PDFJS Loader, to avoid dynamic assets loading
                 PDFJS.workerSrc = '/web/static/lib/pdfjs/worker_loader_by_odoo.js';
                 PDFJS.disableWorker = true;
             </script>

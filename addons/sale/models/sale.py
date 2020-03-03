@@ -171,6 +171,11 @@ class SaleOrder(models.Model):
         states={'draft': [('readonly', False)], 'sent': [('readonly', False)]},
         required=True, change_default=True, index=True, tracking=1,
         domain="['|', ('company_id', '=', False), ('company_id', '=', company_id)]",)
+    partner_contact_id = fields.Many2one(
+        'res.partner', string='Contact Person', readonly=True,
+        states={'draft': [('readonly', False)], 'sent': [('readonly', False)]},
+        required=True, change_default=True, index=True, tracking=1,
+        domain="['|', ('company_id', '=', False), ('company_id', '=', company_id)]",)
     partner_invoice_id = fields.Many2one(
         'res.partner', string='Invoice Address',
         readonly=True, required=True,
@@ -358,6 +363,7 @@ class SaleOrder(models.Model):
         if not self.partner_id:
             self.update({
                 'partner_invoice_id': False,
+                'partner_contact_id': False,
                 'partner_shipping_id': False,
                 'fiscal_position_id': False,
             })
@@ -368,6 +374,7 @@ class SaleOrder(models.Model):
         values = {
             'pricelist_id': self.partner_id.property_product_pricelist and self.partner_id.property_product_pricelist.id or False,
             'payment_term_id': self.partner_id.property_payment_term_id and self.partner_id.property_payment_term_id.id or False,
+            'partner_contact_id': addr['contact'],
             'partner_invoice_id': addr['invoice'],
             'partner_shipping_id': addr['delivery'],
         }

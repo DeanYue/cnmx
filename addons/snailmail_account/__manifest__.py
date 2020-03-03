@@ -13,5 +13,5 @@ Allows users to send invoices by post
         'views/assets.xml',
         'wizard/account_invoice_send_views.xml',
     ],
-    'auto_install': True,
+    'auto_install': False,
 }

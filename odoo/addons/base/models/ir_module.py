@@ -283,8 +283,7 @@ class Module(models.Model):
         ('AGPL-3', 'Affero GPL-3'),
         ('LGPL-3', 'LGPL Version 3'),
         ('Other OSI approved licence', 'Other OSI Approved License'),
-        ('OEEL-1', 'Odoo Enterprise Edition License v1.0'),
-        ('OPL-1', 'Odoo Proprietary License v1.0'),
+        ('MXEL-1', 'Cnmx Enterprise Edition License v1.0'),
         ('Other proprietary', 'Other Proprietary')
     ], string='License', default='LGPL-3', readonly=True)
     menus_by_module = fields.Text(string='Menus', compute='_get_views', store=True)
@@ -293,7 +292,6 @@ class Module(models.Model):
     application = fields.Boolean('Application', readonly=True)
     icon = fields.Char('Icon URL')
     icon_image = fields.Binary(string='Icon', compute='_get_icon_image')
-    to_buy = fields.Boolean('Odoo Enterprise Module', default=False)
 
     _sql_constraints = [
         ('name_uniq', 'UNIQUE (name)', 'The name of the module must be unique!'),
@@ -678,8 +676,7 @@ class Module(models.Model):
             'auto_install': terp.get('auto_install', False) is not False,
             'icon': terp.get('icon', False),
             'summary': terp.get('summary', ''),
-            'url': terp.get('url') or terp.get('live_test_url', ''),
-            'to_buy': False
+            'url': terp.get('url') or terp.get('live_test_url', '')
         }
 
     @api.model

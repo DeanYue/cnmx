@@ -21,5 +21,5 @@ Allows users to send documents by post
     'qweb': [
         'static/src/xml/thread.xml',
     ],
-    'auto_install': True,
+    'auto_install': False,
 }

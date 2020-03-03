@@ -13638,7 +13638,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_website
 msgid "Enterprise website builder"
-msgstr "该模块可迅速帮助企业建立官方网站，具有树立企业品牌形象、提升企业信誉、品牌推广、产品展示、传播企业文化、扩展销售渠道等功效。"
+msgstr "企业级网站构建工具"
 
 #. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_R
@@ -17905,7 +17905,7 @@ msgstr "管理线上招聘流程"
 #. module: base
 #: model:ir.module.module,summary:base.module_stock
 msgid "Manage your stock and logistics activities"
-msgstr "基本进销存中的存的功能模块：用于管理您的仓库库存管理等。"
+msgstr "管理您的库存和物流活动"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_manufacturing
@@ -19496,7 +19496,7 @@ msgstr "Cnmx 企业版授权协议 v1.0"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_module__to_buy
 msgid "Cnmx Enterprise Module"
-msgstr "Cnmx 企业版专属模块"
+msgstr "明象授权协议 v1.0"
 
 #. module: base
 #: model:ir.module.module,description:base.module_mail
@@ -21439,7 +21439,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_project
 msgid "Organize and schedule your projects "
-msgstr "该模块能有效帮助您的项目管理以及项目计划安排等。"
+msgstr "组织管理您的项目"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_note
@@ -26104,7 +26104,7 @@ msgstr "跟踪帮助工单"
 #. module: base
 #: model:ir.module.module,summary:base.module_crm
 msgid "Track leads and close opportunities"
-msgstr "CRM模块：用于客户关系管理，将客户价值最大化。"
+msgstr "跟进线索，管理商机"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_recruitment

@@ -169,7 +169,11 @@ msgstr "不確定您的動作。請按\"/\"等待。選擇「幫助」並點選�
 msgid ""
 "Cnmx will not have the permission to send native notifications on this "
 "device."
+<<<<<<< HEAD
 msgstr "明象 沒有權限在該設備上發送本地通知。"
+=======
+msgstr "明象沒有權限在該設備上發送本地通知。"
+>>>>>>> 2db15f39bf9e73650f8ee508d31df90961caae32
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__cnmxbot_state
@@ -263,8 +267,8 @@ msgstr "使用者"
 #, python-format
 msgid ""
 "Wow you are a natural!<br/>Ping someone to grab its attention with "
-"@nameoftheuser. <b>Try to ping me using @Bot</b> in a sentence."
-msgstr "就是您了!<br/>使用@nameoftheuser來讓聯絡人可以醒目看到訊息. <b>試著用@Bot</b> 來呼叫我!"
+"@nameoftheuser. <b>Try to ping me using @CnmxBot</b> in a sentence."
+msgstr "就是您了!<br/>使用@nameoftheuser來讓聯絡人可以醒目看到訊息. <b>試著用@CnmxBot</b> 來呼叫我!"
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
